@@ -3,7 +3,7 @@ import './globals.css';
 import { dmSans } from './fonts';
 
 export const metadata: Metadata = {
-    metadataBase: new URL(`${process.env.NEXT_PUBLIC_BASE_URL}`),
+    metadataBase: new URL(`https://dalail-khairat-demo.vercel.app`),
     keywords: ['Dalail Khairat'],
     title: {
         default: 'Dalail Khairat',
@@ -13,7 +13,7 @@ export const metadata: Metadata = {
     openGraph: {
         title: 'Dalail Khairat',
         description: 'Dalail Khairat d',
-        url: process.env.NEXT_PUBLIC_BASE_URL,
+        url: `https://dalail-khairat-demo.vercel.app`,
         siteName: 'Dalail Khairat',
         locale: 'id_ID',
         type: 'website',

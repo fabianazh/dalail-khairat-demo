@@ -2,8 +2,7 @@
 import type { MetadataRoute } from 'next';
 
 export default function sitemap(): MetadataRoute.Sitemap {
-    const baseUrl =
-        process.env.NEXT_PUBLIC_BASE_URL || 'https://this-is-peru.vercel.app';
+    const baseUrl = 'https://dalail-khairat-demo.vercel.app';
 
     // const galleriesData = galleries.map((gallery) => ({
     //     url: `${baseUrl}/gallery/${gallery.id}`,

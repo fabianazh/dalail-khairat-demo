@@ -40,7 +40,7 @@ export async function generateMetadata({
                 'Kelompok Peru adalah kelompok mahasiswa yang penuh semangat dan tekad untuk meraih kesuksesan bersama. Sebagai bagian dari MABIM (Masa Bimbingan) Universitas Nusa Putra, kelompok kami terbentuk dari berbagai latar belakang dan keahlian, namun disatukan oleh tujuan yang sama: belajar, berkolaborasi, dan saling mendukung dalam perjalanan akademik dan kehidupan kampus.',
             keywords: `Galeri Kelompok Peru`,
             robots: 'index, follow',
-            canonical: `${process.env.NEXT_PUBLIC_BASE_URL}/${surahId}`,
+            canonical: `https://dalail-khairat-demo.vercel.app/${surahId}`,
             openGraph: {
                 title: `${surah?.namaLatin} | Galeri Kelompok Peru`,
                 description:
