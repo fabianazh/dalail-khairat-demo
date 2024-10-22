@@ -1,7 +1,6 @@
 'use client';
 
 import { AnimatePresence, motion } from 'framer-motion';
-import { perspectiveItemVariant } from '@/constants/variant';
 import Divider from '../Other/Divider';
 
 export default function NavModal({
@@ -49,20 +48,21 @@ export default function NavModal({
                 }}
                 animate={isOpen ? 'open' : 'closed'}
                 initial="closed"
+                exit="closed"
                 className={`fixed bottom-0 lg:bottom-auto flex justify-center lg:top-5 lg:right-5 z-50 h-fit w-full lg:w-auto`}
             >
                 <AnimatePresence>
                     {isOpen && (
-                        <div className="px-8 lg:px-6 flex flex-col gap-6 lg:gap-10 bg-stone-100 rounded-b-none lg:rounded-b-xl rounded-xl py-8 w-full lg:w-96">
+                        <div className="px-4 lg:px-6 flex flex-col gap-6 bg-stone-100 rounded-b-none lg:rounded-b-xl rounded-xl py-8 w-full lg:w-96">
                             {/* Visibility Settings */}
-                            <div className="border-box flex flex-col gap-4 lg:gap-3">
+                            <div className="border-box flex flex-col gap-2 lg:gap-3">
                                 <motion.span
                                     // variants={perspectiveItemVariant}
                                     // custom={1}
                                     animate="enter"
                                     exit="exit"
                                     initial="initial"
-                                    className={`text-xl lg:text-xl font-black`}
+                                    className={`text-lg lg:text-xl font-semibold`}
                                 >
                                     Visibilitas
                                 </motion.span>
@@ -71,50 +71,68 @@ export default function NavModal({
                                         <span className="font-medium text-base">
                                             Bacaan Latin
                                         </span>
-                                        {/* Toggle Switch for Bacaan Latin */}
-                                        <div className="">
-                                            <input
-                                                type="checkbox"
-                                                checked={showLatin}
-                                                onChange={() =>
-                                                    setShowLatin(!showLatin)
-                                                }
-                                                className="toggle-checkbox"
-                                            />
-                                        </div>
+                                        {/* Toggle Switch */}
+                                        <label
+                                            htmlFor="latinText"
+                                            className="w-auto flex items-center cursor-pointer select-none text-black dark:text-white"
+                                        >
+                                            <div className="relative">
+                                                <input
+                                                    type="checkbox"
+                                                    id="latinText"
+                                                    className="peer sr-only"
+                                                    checked={showLatin}
+                                                    onChange={() =>
+                                                        setShowLatin(!showLatin)
+                                                    }
+                                                />
+                                                <div className="block h-6 rounded-full bg-gray-200 w-10"></div>
+                                                <div className="absolute w-4 h-4 transition bg-stone-400 rounded-full dot left-1 top-1 peer-checked:translate-x-full peer-checked:bg-green-500"></div>
+                                            </div>
+                                        </label>
+                                        {/* End Toggle Switch */}
                                     </div>
                                     <Divider />
                                     <div className="w-full flex justify-between items-center py-3">
                                         <span className="font-medium text-base">
                                             Terjemahan
                                         </span>
-                                        {/* Toggle Switch for Terjemahan */}
-                                        <div className="">
-                                            <input
-                                                type="checkbox"
-                                                checked={showTranslation}
-                                                onChange={() =>
-                                                    setShowTranslation(
-                                                        !showTranslation
-                                                    )
-                                                }
-                                                className="toggle-checkbox"
-                                            />
-                                        </div>
+                                        {/* Toggle Switch */}
+                                        <label
+                                            htmlFor="translationText"
+                                            className="w-auto flex items-center cursor-pointer select-none text-black dark:text-white"
+                                        >
+                                            <div className="relative">
+                                                <input
+                                                    type="checkbox"
+                                                    id="translationText"
+                                                    className="peer sr-only"
+                                                    checked={showTranslation}
+                                                    onChange={() =>
+                                                        setShowTranslation(
+                                                            !showTranslation
+                                                        )
+                                                    }
+                                                />
+                                                <div className="block h-6 rounded-full bg-gray-200 w-10"></div>
+                                                <div className="absolute w-4 h-4 transition bg-stone-400 rounded-full dot left-1 top-1 peer-checked:translate-x-full peer-checked:bg-green-500"></div>
+                                            </div>
+                                        </label>
+                                        {/* End Toggle Switch */}
                                     </div>
                                 </div>
                             </div>
                             {/* End Visibility Settings */}
 
                             {/* Font Size Settings */}
-                            <div className="flex flex-col gap-4 lg:gap-3">
+                            <div className="flex flex-col gap-2 lg:gap-3">
                                 <motion.span
                                     // variants={perspectiveItemVariant}
                                     // custom={2}
                                     animate="enter"
                                     exit="exit"
                                     initial="initial"
-                                    className={`text-xl lg:text-xl font-black`}
+                                    className={`text-lg lg:text-xl font-semibold`}
                                 >
                                     Ukuran Teks
                                 </motion.span>
@@ -126,8 +144,8 @@ export default function NavModal({
                                         </span>
                                         <input
                                             type="range"
-                                            min="20"
-                                            max="40"
+                                            min="25"
+                                            max="45"
                                             value={arabFontSize}
                                             onChange={(e) =>
                                                 setArabFontSize(

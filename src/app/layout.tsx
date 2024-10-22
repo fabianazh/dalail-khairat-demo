@@ -1,6 +1,6 @@
 import type { Metadata } from 'next';
 import './globals.css';
-import { dmSans } from './fonts';
+import { poppins } from './fonts';
 
 export const metadata: Metadata = {
     metadataBase: new URL(`https://dalail-khairat-demo.vercel.app`),
@@ -38,7 +38,7 @@ export default function RootLayout({
 }>) {
     return (
         <html lang="en">
-            <body className={dmSans.className}>{children}</body>
+            <body className={poppins.className}>{children}</body>
         </html>
     );
 }

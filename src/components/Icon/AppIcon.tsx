@@ -1,4 +1,4 @@
-import { montserrat } from '@/app/fonts';
+import { poppins } from '@/app/fonts';
 import Link from 'next/link';
 
 export default function AppIcon({ size = 'sm' }: { size?: 'sm' | 'lg' }) {
@@ -6,9 +6,9 @@ export default function AppIcon({ size = 'sm' }: { size?: 'sm' | 'lg' }) {
         <>
             <Link
                 href={`https://this-is-peru.vercel.app`}
-                className={`text-black font-extrabold w-fit flex ${
+                className={`text-black font-semibold w-fit flex ${
                     size === 'sm' ? 'text-base' : 'text-xl'
-                } ${montserrat.className}`}
+                } ${poppins.className}`}
             >
                 Dalail<span className="text-green-500"> Khairat</span>.
             </Link>

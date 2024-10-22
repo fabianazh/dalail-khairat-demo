@@ -90,50 +90,52 @@ export default function Hero() {
                             )}
                         </AnimatePresence>
                     </div>
-                    {surah?.ayat.map((ayat, index: number) => (
-                        <div key={index}>
-                            <span
-                                className="block text-end"
-                                style={{
-                                    fontSize: `${arabFontSize}px`,
-                                }}
-                            >
-                                {ayat.teksArab}
-                            </span>
-                            <AnimatePresence>
-                                {showLatin && (
-                                    <motion.span
-                                        className="font-bold block"
-                                        style={{
-                                            fontSize: `${latinFontSize}px`,
-                                        }}
-                                        initial={{ opacity: 0 }}
-                                        animate={{ opacity: 1 }}
-                                        exit={{ opacity: 0 }}
-                                        transition={{ duration: 0.5 }}
-                                    >
-                                        {ayat.teksLatin}
-                                    </motion.span>
-                                )}
-                            </AnimatePresence>
-                            <AnimatePresence>
-                                {showTranslation && (
-                                    <motion.span
-                                        className="font-medium text-stone-700"
-                                        style={{
-                                            fontSize: `${latinFontSize}px`,
-                                        }}
-                                        initial={{ opacity: 0 }}
-                                        animate={{ opacity: 1 }}
-                                        exit={{ opacity: 0 }}
-                                        transition={{ duration: 0.5 }}
-                                    >
-                                        {ayat.teksIndonesia}
-                                    </motion.span>
-                                )}
-                            </AnimatePresence>
-                        </div>
-                    ))}
+                    <div className="w-full flex flex-col gap-2">
+                        {surah?.ayat.map((ayat, index: number) => (
+                            <div key={index}>
+                                <span
+                                    className="block text-end"
+                                    style={{
+                                        fontSize: `${arabFontSize}px`,
+                                    }}
+                                >
+                                    {ayat.teksArab}
+                                </span>
+                                <AnimatePresence>
+                                    {showLatin && (
+                                        <motion.span
+                                            className="font-semibold block"
+                                            style={{
+                                                fontSize: `${latinFontSize}px`,
+                                            }}
+                                            initial={{ opacity: 0 }}
+                                            animate={{ opacity: 1 }}
+                                            exit={{ opacity: 0 }}
+                                            transition={{ duration: 0.5 }}
+                                        >
+                                            {ayat?.nomorAyat} . {ayat.teksLatin}
+                                        </motion.span>
+                                    )}
+                                </AnimatePresence>
+                                <AnimatePresence>
+                                    {showTranslation && (
+                                        <motion.span
+                                            className="font-medium text-stone-700"
+                                            style={{
+                                                fontSize: `${latinFontSize}px`,
+                                            }}
+                                            initial={{ opacity: 0 }}
+                                            animate={{ opacity: 1 }}
+                                            exit={{ opacity: 0 }}
+                                            transition={{ duration: 0.5 }}
+                                        >
+                                            {ayat.teksIndonesia}
+                                        </motion.span>
+                                    )}
+                                </AnimatePresence>
+                            </div>
+                        ))}
+                    </div>
                 </section>
             </main>
         </>
