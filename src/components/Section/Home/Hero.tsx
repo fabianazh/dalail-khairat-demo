@@ -11,22 +11,34 @@ export default function Hero() {
     const defaultLatinFontSize = 15;
     const defaultShowLatin = true;
     const defaultShowTranslation = false;
-    const [arabFontSize, setArabFontSize] = useState<number>(
-        Number(localStorage.getItem('arabFontSize')) ?? defaultArabFontSize
+    const [arabFontSize, setArabFontSize] =
+        useState<number>(defaultArabFontSize);
+    const [latinFontSize, setLatinFontSize] =
+        useState<number>(defaultLatinFontSize);
+    const [showLatin, setShowLatin] = useState<boolean>(defaultShowLatin);
+    const [showTranslation, setShowTranslation] = useState<boolean>(
+        defaultShowTranslation
     );
-    const [latinFontSize, setLatinFontSize] = useState<number>(
-        Number(localStorage.getItem('latinFontSize')) ?? defaultLatinFontSize
-    );
-    const [showLatin, setShowLatin] = useState<boolean>(() => {
-        const storedShowLatin =
-            localStorage.getItem('showLatin') === 'true' ? true : false;
-        return storedShowLatin ?? defaultShowLatin;
-    });
-    const [showTranslation, setShowTranslation] = useState<boolean>(() => {
-        const storedShowTranslation =
-            localStorage.getItem('showTranslation') === 'true' ? true : false;
-        return storedShowTranslation ?? defaultShowTranslation;
-    });
+
+    useEffect(() => {
+        const storedArabFontSize = localStorage.getItem('arabFontSize');
+        const storedLatinFontSize = localStorage.getItem('latinFontSize');
+        const storedShowLatin = localStorage.getItem('showLatin');
+        const storedShowTranslation = localStorage.getItem('showTranslation');
+
+        if (storedArabFontSize) {
+            setArabFontSize(Number(storedArabFontSize));
+        }
+        if (storedLatinFontSize) {
+            setLatinFontSize(Number(storedLatinFontSize));
+        }
+        if (storedShowLatin !== null) {
+            setShowLatin(storedShowLatin === 'true');
+        }
+        if (storedShowTranslation !== null) {
+            setShowTranslation(storedShowTranslation === 'true');
+        }
+    }, []);
 
     async function saveSettings() {
         localStorage.setItem('arabFontSize', arabFontSize.toString());
@@ -82,7 +94,7 @@ export default function Hero() {
                                     initial={{ opacity: 0 }}
                                     animate={{ opacity: 1 }}
                                     exit={{ opacity: 0 }}
-                                    transition={{ duration: 0.5 }}
+                                    transition={{ duration: 0.2 }}
                                     className="font-medium"
                                     style={{
                                         fontSize: `${latinFontSize}px`,
@@ -98,7 +110,7 @@ export default function Hero() {
                                     initial={{ opacity: 0 }}
                                     animate={{ opacity: 1 }}
                                     exit={{ opacity: 0 }}
-                                    transition={{ duration: 0.5 }}
+                                    transition={{ duration: 0.2 }}
                                     className="font-medium"
                                     style={{
                                         fontSize: `${latinFontSize}px`,
@@ -130,7 +142,7 @@ export default function Hero() {
                                             initial={{ opacity: 0 }}
                                             animate={{ opacity: 1 }}
                                             exit={{ opacity: 0 }}
-                                            transition={{ duration: 0.5 }}
+                                            transition={{ duration: 0.2 }}
                                         >
                                             {ayat?.nomorAyat} . {ayat.teksLatin}
                                         </motion.span>
@@ -146,7 +158,7 @@ export default function Hero() {
                                             initial={{ opacity: 0 }}
                                             animate={{ opacity: 1 }}
                                             exit={{ opacity: 0 }}
-                                            transition={{ duration: 0.5 }}
+                                            transition={{ duration: 0.2 }}
                                         >
                                             {ayat.teksIndonesia}
                                         </motion.span>
