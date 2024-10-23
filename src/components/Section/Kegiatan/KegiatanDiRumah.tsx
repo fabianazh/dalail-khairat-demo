@@ -18,8 +18,8 @@ export default function KegiatanDiRumah() {
                         Siapkan fisik dengan membiasakan berolahraga secara
                         teratur dengan berjalan kaki minimal 25-30 menit,
                         siapkan mental dan spiritual dengan memperbanyak ibadah
-                        dan berdo'a serta luruskan niat ibadah haji semata-mata
-                        ikhlas karena Allah.{' '}
+                        dan berdo&apos;a serta luruskan niat ibadah haji
+                        semata-mata ikhlas karena Allah.{' '}
                     </List>
                     <List index="2">
                         Dari Maskapai jamaah akan mendapatkan 2 koper dan 1 tas
@@ -111,13 +111,14 @@ export default function KegiatanDiRumah() {
                     </Arabic>
                     <Text type="latin">
                         Allāhu lā ilāha illā huw(a), al-ḥayyul-qayyūm(u), lā
-                        ta'khużuhū sinatuw wa lā naum(un), lahū mā fis-samāwāti
-                        wa mā fil-arḍ(i), man żal-lażī yasyfa&apops;u
-                        &apops;indahū illā bi'iżnih(ī), ya&apops;lamu mā baina
-                        aidīhim wa mā khalfahum, wa lā yuḥīṭūna bisyai'im min
-                        &apops;ilmihī illā bimā syā'(a), wasi&apops;a
-                        kursiyyuhus-samāwāti wal-arḍ(a), wa lā ya'ūduhū 8
-                        ḥifẓuhumā, wa huwal- &apops;aliyyul-&apops;aẓīm(u).
+                        ta&apos;khużuhū sinatuw wa lā naum(un), lahū mā
+                        fis-samāwāti wa mā fil-arḍ(i), man żal-lażī
+                        yasyfa&apops;u &apops;indahū illā bi&apos;iżnih(ī),
+                        ya&apops;lamu mā baina aidīhim wa mā khalfahum, wa lā
+                        yuḥīṭūna bisyai&apos;im min &apops;ilmihī illā bimā
+                        syā'(a), wasi&apops;a kursiyyuhus-samāwāti wal-arḍ(a),
+                        wa lā ya&apos;ūduhū 8 ḥifẓuhumā, wa huwal-
+                        &apops;aliyyul-&apops;aẓīm(u).
                     </Text>
                     <Text type="translate">
                         Allah, tidak ada tuhan selain Dia, Yang Mahahidup lagi

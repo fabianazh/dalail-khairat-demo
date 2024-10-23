@@ -14,13 +14,12 @@ export default function Arabic({
     const { arabFontSize } = useSettings();
     const [mounted, setMounted] = useState(false);
 
-    // Ensure this component only renders after hydration
     useEffect(() => {
         setMounted(true);
     }, []);
 
     if (!mounted) {
-        return null; // Don't render anything until after hydration
+        return null;
     }
     return (
         <>
