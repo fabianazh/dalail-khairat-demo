@@ -4,17 +4,17 @@ import { poppins } from './fonts';
 
 export const metadata: Metadata = {
     metadataBase: new URL(`https://dalail-khairat-demo.vercel.app`),
-    keywords: ['Dalail Khairat'],
+    keywords: ['KBIHU Al-Muhajirin'],
     title: {
-        default: 'Dalail Khairat',
-        template: '%s | Dalail Khairat',
+        default: 'KBIHU Al-Muhajirin',
+        template: '%s | KBIHU Al-Muhajirin',
     },
-    description: 'Dalail Khairat d',
+    description: 'KBIHU Al-Muhajirin d',
     openGraph: {
-        title: 'Dalail Khairat',
-        description: 'Dalail Khairat d',
+        title: 'KBIHU Al-Muhajirin',
+        description: 'KBIHU Al-Muhajirin d',
         url: `https://dalail-khairat-demo.vercel.app`,
-        siteName: 'Dalail Khairat',
+        siteName: 'KBIHU Al-Muhajirin',
         locale: 'id_ID',
         type: 'website',
     },

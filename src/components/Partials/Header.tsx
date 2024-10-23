@@ -1,54 +1,15 @@
 'use client';
 
-// import Navbar from '@/components/Partials/Navbar'
 import { useEffect, useState } from 'react';
 import { AnimatePresence, motion } from 'framer-motion';
 import NavButton from '@/components/Partials/NavButton';
-import AppIcon from '@/components/Icon/AppIcon';
-import Navbar from './Navbar';
 import NavModal from './NavModal';
+import Link from 'next/link';
+import { FaArrowLeft } from 'react-icons/fa';
+import { HiOutlineDotsVertical } from 'react-icons/hi';
 
-export default function Header({
-    arabFontSize,
-    setArabFontSize,
-    latinFontSize,
-    setLatinFontSize,
-    showLatin,
-    setShowLatin,
-    showTranslation,
-    setShowTranslation,
-    saveSettings,
-    resetSettings,
-}: {
-    arabFontSize: number;
-    setArabFontSize: (value: number) => void;
-    latinFontSize: number;
-    setLatinFontSize: (value: number) => void;
-    showLatin: boolean;
-    setShowLatin: (value: boolean) => void;
-    showTranslation: boolean;
-    setShowTranslation: (value: boolean) => void;
-    saveSettings: () => void;
-    resetSettings: () => void;
-}) {
+export default function Header() {
     const [isOpen, setIsOpen] = useState<boolean>(false);
-    const [isScrolled, setIsScrolled] = useState<boolean>(false);
-
-    useEffect(() => {
-        const handleScroll = () => {
-            if (window.scrollY > 50) {
-                setIsScrolled(true);
-            } else {
-                setIsScrolled(false);
-            }
-        };
-
-        window.addEventListener('scroll', handleScroll);
-
-        return () => {
-            window.removeEventListener('scroll', handleScroll);
-        };
-    }, []);
 
     return (
         <>
@@ -83,46 +44,30 @@ export default function Header({
                         ></motion.div>
                         {/* End Overlay */}
                         {/* Navbar Modal */}
-                        <NavModal
-                            isOpen={isOpen}
-                            arabFontSize={arabFontSize}
-                            setArabFontSize={setArabFontSize}
-                            latinFontSize={latinFontSize}
-                            setLatinFontSize={setLatinFontSize}
-                            showLatin={showLatin}
-                            setShowLatin={setShowLatin}
-                            showTranslation={showTranslation}
-                            setShowTranslation={setShowTranslation}
-                            saveSettings={saveSettings}
-                            resetSettings={resetSettings}
-                            setIsOpen={setIsOpen}
-                        />
+                        <NavModal isOpen={isOpen} setIsOpen={setIsOpen} />
                         {/* Navbar Modal */}
                     </>
                 )}
             </AnimatePresence>
             {/* Header */}
             <motion.header
-                className={`w-full h-fit fixed top-0 left-0 z-30 transition-all duration-200 py-4 px-5 lg:px-14 flex items-center justify-between ${
-                    isScrolled
-                        ? 'bg-white/80 backdrop-blur shadow-sm'
-                        : 'bg-transparent'
-                }`}
+                className={`w-full h-fit relative top-0 left-0 z-30 transition-all duration-200 py-4 px-5 flex items-center justify-between bg-green-600`}
             >
                 {/* Logo and Name */}
-                <AppIcon />
+                <Link
+                    href="/"
+                    className="w-fit flex h-fit items-center gap-2 text-white"
+                >
+                    <FaArrowLeft className="text-sm" />
+                    <span className="text-sm">Kembali</span>
+                </Link>
                 {/* End Logo and Name */}
-                {/* Navbar */}
-                <NavButton
-                    isOpen={isOpen}
-                    setIsOpen={setIsOpen}
-                    containerClassName="flex"
+                {/* Navbar Button */}
+                <HiOutlineDotsVertical
+                    onClick={() => setIsOpen(!isOpen)}
+                    className="text-white cursor-pointer"
                 />
-                {/* End Navbar */}
-
-                {/* Nav Button */}
-                {/* <NavButton isOpen={isOpen} setIsOpen={setIsOpen} /> */}
-                {/* End Nav Button */}
+                {/* End Navbar Button */}
             </motion.header>
             {/* End Header */}
         </>

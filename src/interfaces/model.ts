@@ -34,3 +34,9 @@ interface Surah {
     } | null;
     suratSebelumnya: boolean | null;
 }
+
+interface NavItem {
+    title: string;
+    subtitle: string;
+    link: string;
+}

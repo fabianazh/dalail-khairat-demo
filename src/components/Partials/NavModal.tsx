@@ -2,34 +2,28 @@
 
 import { AnimatePresence, motion } from 'framer-motion';
 import Divider from '@/components/Other/Divider';
+import { useSettings } from '@/context/SettingsContext';
 
 export default function NavModal({
     isOpen,
-    arabFontSize,
-    setArabFontSize,
-    latinFontSize,
-    setLatinFontSize,
-    showLatin,
-    setShowLatin,
-    showTranslation,
-    setShowTranslation,
-    saveSettings,
-    resetSettings,
     setIsOpen,
 }: {
     isOpen: boolean;
-    arabFontSize: number;
-    setArabFontSize: (value: number) => void;
-    latinFontSize: number;
-    setLatinFontSize: (value: number) => void;
-    showLatin: boolean;
-    setShowLatin: (value: boolean) => void;
-    showTranslation: boolean;
-    setShowTranslation: (value: boolean) => void;
-    saveSettings: () => void;
-    resetSettings: () => void;
     setIsOpen: (isOpen: boolean) => void;
 }) {
+    const {
+        arabFontSize,
+        setArabFontSize,
+        latinFontSize,
+        setLatinFontSize,
+        showLatin,
+        setShowLatin,
+        showTranslation,
+        setShowTranslation,
+        saveSettings,
+        resetSettings,
+    } = useSettings();
+
     return (
         <>
             {/* Nav Container */}
