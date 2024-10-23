@@ -116,8 +116,8 @@ export default function KegiatanDiRumah() {
                         yasyfa&apops;u &apops;indahū illā bi&apos;iżnih(ī),
                         ya&apops;lamu mā baina aidīhim wa mā khalfahum, wa lā
                         yuḥīṭūna bisyai&apos;im min &apops;ilmihī illā bimā
-                        syā'(a), wasi&apops;a kursiyyuhus-samāwāti wal-arḍ(a),
-                        wa lā ya&apos;ūduhū 8 ḥifẓuhumā, wa huwal-
+                        syā&apos;(a), wasi&apops;a kursiyyuhus-samāwāti
+                        wal-arḍ(a), wa lā ya&apos;ūduhū 8 ḥifẓuhumā, wa huwal-
                         &apops;aliyyul-&apops;aẓīm(u).
                     </Text>
                     <Text type="translate">
