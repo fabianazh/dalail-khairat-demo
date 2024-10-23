@@ -7,30 +7,47 @@ import { useEffect, useState } from 'react';
 
 export default function Hero() {
     const surah = surahService.getSurahDetail(1);
-    const [arabFontSize, setArabFontSize] = useState<number>(25);
-    const [latinFontSize, setLatinFontSize] = useState<number>(15);
-    const [showLatin, setShowLatin] = useState<boolean>(true);
-    const [showTranslation, setShowTranslation] = useState<boolean>(false);
+    const defaultArabFontSize = 25;
+    const defaultLatinFontSize = 15;
+    const defaultShowLatin = true;
+    const defaultShowTranslation = false;
+    const [arabFontSize, setArabFontSize] = useState<number>(
+        Number(localStorage.getItem('arabFontSize')) ?? defaultArabFontSize
+    );
+    const [latinFontSize, setLatinFontSize] = useState<number>(
+        Number(localStorage.getItem('latinFontSize')) ?? defaultLatinFontSize
+    );
+    const [showLatin, setShowLatin] = useState<boolean>(() => {
+        const storedShowLatin =
+            localStorage.getItem('showLatin') === 'true' ? true : false;
+        return storedShowLatin ?? defaultShowLatin;
+    });
+    const [showTranslation, setShowTranslation] = useState<boolean>(() => {
+        const storedShowTranslation =
+            localStorage.getItem('showTranslation') === 'true' ? true : false;
+        return storedShowTranslation ?? defaultShowTranslation;
+    });
 
-    useEffect(() => {
-        const storedArabFontSize = localStorage.getItem('arabFontSize');
-        const storedLatinFontSize = localStorage.getItem('latinFontSize');
-        const storedShowLatin = localStorage.getItem('showLatin');
-        const storedShowTranslation = localStorage.getItem('showTranslation');
-
-        if (storedArabFontSize) setArabFontSize(Number(storedArabFontSize));
-        if (storedLatinFontSize) setLatinFontSize(Number(storedLatinFontSize));
-        if (storedShowLatin) setShowLatin(storedShowLatin === 'true');
-        if (storedShowTranslation)
-            setShowTranslation(storedShowTranslation === 'true');
-    }, []);
-
-    useEffect(() => {
+    async function saveSettings() {
         localStorage.setItem('arabFontSize', arabFontSize.toString());
         localStorage.setItem('latinFontSize', latinFontSize.toString());
         localStorage.setItem('showLatin', showLatin.toString());
         localStorage.setItem('showTranslation', showTranslation.toString());
-    }, [arabFontSize, latinFontSize, showLatin, showTranslation]);
+    }
+
+    async function resetSettings() {
+        setArabFontSize(25);
+        setLatinFontSize(15);
+        setShowLatin(true);
+        setShowTranslation(false);
+        localStorage.setItem('arabFontSize', defaultArabFontSize.toString());
+        localStorage.setItem('latinFontSize', defaultLatinFontSize.toString());
+        localStorage.setItem('showLatin', defaultShowLatin.toString());
+        localStorage.setItem(
+            'showTranslation',
+            defaultShowTranslation.toString()
+        );
+    }
 
     return (
         <>
@@ -43,6 +60,8 @@ export default function Hero() {
                 setShowLatin={setShowLatin}
                 showTranslation={showTranslation}
                 setShowTranslation={setShowTranslation}
+                saveSettings={saveSettings}
+                resetSettings={resetSettings}
             />
 
             <main>

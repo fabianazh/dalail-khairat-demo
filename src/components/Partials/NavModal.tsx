@@ -1,7 +1,7 @@
 'use client';
 
 import { AnimatePresence, motion } from 'framer-motion';
-import Divider from '../Other/Divider';
+import Divider from '@/components/Other/Divider';
 
 export default function NavModal({
     isOpen,
@@ -13,6 +13,9 @@ export default function NavModal({
     setShowLatin,
     showTranslation,
     setShowTranslation,
+    saveSettings,
+    resetSettings,
+    setIsOpen,
 }: {
     isOpen: boolean;
     arabFontSize: number;
@@ -23,6 +26,9 @@ export default function NavModal({
     setShowLatin: (value: boolean) => void;
     showTranslation: boolean;
     setShowTranslation: (value: boolean) => void;
+    saveSettings: () => void;
+    resetSettings: () => void;
+    setIsOpen: (isOpen: boolean) => void;
 }) {
     return (
         <>
@@ -31,7 +37,7 @@ export default function NavModal({
                 variants={{
                     open: {
                         opacity: 1,
-                        y: 0,
+                        y: 'var(--nav-y-open, 0px)',
                         transition: {
                             y: { duration: 0.3, ease: 'easeOut' },
                             opacity: { duration: 0.4 },
@@ -39,7 +45,7 @@ export default function NavModal({
                     },
                     closed: {
                         opacity: 0,
-                        y: '60px',
+                        y: 'var(--nav-y-closed)',
                         transition: {
                             y: { duration: 0.2, ease: 'easeOut' },
                             opacity: { duration: 0.4 },
@@ -49,7 +55,7 @@ export default function NavModal({
                 animate={isOpen ? 'open' : 'closed'}
                 initial="closed"
                 exit="closed"
-                className={`fixed bottom-0 lg:bottom-auto flex justify-center lg:top-5 lg:right-5 z-50 h-fit w-full lg:w-auto`}
+                className={`fixed bottom-0 lg:bottom-auto flex justify-center lg:top-5 lg:right-5 z-50 h-fit w-full lg:w-auto [--nav-y-closed:60px] [--nav-y-open:0px] lg:[--nav-y-closed:0px]`}
             >
                 <AnimatePresence>
                     {isOpen && (
@@ -68,7 +74,7 @@ export default function NavModal({
                                 </motion.span>
                                 <div className="w-full flex flex-col bg-white rounded-xl shadow-sm overflow-hidden px-3">
                                     <div className="w-full flex justify-between items-center py-3">
-                                        <span className="font-medium text-base">
+                                        <span className="font-medium text-sm lg:text-sm">
                                             Bacaan Latin
                                         </span>
                                         {/* Toggle Switch */}
@@ -94,7 +100,7 @@ export default function NavModal({
                                     </div>
                                     <Divider />
                                     <div className="w-full flex justify-between items-center py-3">
-                                        <span className="font-medium text-base">
+                                        <span className="font-medium text-sm lg:text-sm">
                                             Terjemahan
                                         </span>
                                         {/* Toggle Switch */}
@@ -136,49 +142,80 @@ export default function NavModal({
                                 >
                                     Ukuran Teks
                                 </motion.span>
-                                <div className="w-full flex flex-col bg-white rounded-xl shadow-sm overflow-hidden px-3 py-1">
+                                <div className="w-full flex flex-col bg-white rounded-xl shadow-sm overflow-hidden px-3 py-1 divide-y-2">
                                     {/* Ukuran Teks Arab */}
-                                    <div className="w-full flex justify-between items-center py-3 gap-2">
-                                        <span className="font-medium text-base">
+                                    <div className="w-full flex flex-col py-3">
+                                        <span className="font-medium text-sm lg:text-sm">
                                             Ukuran Teks Arab
                                         </span>
-                                        <input
-                                            type="range"
-                                            min="25"
-                                            max="45"
-                                            value={arabFontSize}
-                                            onChange={(e) =>
-                                                setArabFontSize(
-                                                    Number(e.target.value)
-                                                )
-                                            }
-                                            className="w-1/2"
-                                        />
-                                        <span>{arabFontSize}px</span>
+                                        <div className="w-full flex justify-between items-center gap-1">
+                                            <input
+                                                type="range"
+                                                min="18"
+                                                max="45"
+                                                value={arabFontSize}
+                                                onChange={(e) =>
+                                                    setArabFontSize(
+                                                        Number(e.target.value)
+                                                    )
+                                                }
+                                                className="w-10/12"
+                                            />
+                                            <span>{arabFontSize}px</span>
+                                        </div>
                                     </div>
-                                    <Divider />
                                     {/* Ukuran Teks Latin */}
-                                    <div className="w-full flex justify-between items-center py-3 gap-2">
-                                        <span className="font-medium text-base">
+                                    <div className="w-full flex flex-col py-3">
+                                        <span className="font-medium text-sm lg:text-sm">
                                             Ukuran Teks Latin
                                         </span>
-                                        <input
-                                            type="range"
-                                            min="14"
-                                            max="25"
-                                            value={latinFontSize}
-                                            onChange={(e) =>
-                                                setLatinFontSize(
-                                                    Number(e.target.value)
-                                                )
-                                            }
-                                            className="w-1/2"
-                                        />
-                                        <span>{latinFontSize}px</span>
+                                        <div className="w-full flex justify-between items-center gap-1">
+                                            <input
+                                                type="range"
+                                                min="10"
+                                                max="25"
+                                                value={latinFontSize}
+                                                onChange={(e) =>
+                                                    setLatinFontSize(
+                                                        Number(e.target.value)
+                                                    )
+                                                }
+                                                className="w-10/12"
+                                            />
+                                            <span>{latinFontSize}px</span>
+                                        </div>
                                     </div>
                                 </div>
                             </div>
                             {/* End Font Size Settings */}
+                            {/* Action Buttons */}
+                            <div className="w-full grid grid-cols-2 justify-between gap-2">
+                                <button
+                                    type="button"
+                                    onClick={() => {
+                                        setIsOpen(false);
+                                        resetSettings();
+                                    }}
+                                    className="grid place-items-center py-2 rounded-md shadow-sm cursor-pointer bg-stone-300/80"
+                                >
+                                    <span className="text-sm font-medium">
+                                        Reset
+                                    </span>
+                                </button>
+                                <button
+                                    type="button"
+                                    onClick={() => {
+                                        setIsOpen(false);
+                                        saveSettings();
+                                    }}
+                                    className="grid place-items-center py-2 rounded-md shadow-sm cursor-pointer bg-green-500"
+                                >
+                                    <span className="text-sm font-medium text-white">
+                                        Simpan
+                                    </span>
+                                </button>
+                            </div>
+                            {/* End Action Buttons */}
                         </div>
                     )}
                 </AnimatePresence>

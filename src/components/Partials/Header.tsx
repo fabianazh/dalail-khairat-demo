@@ -17,6 +17,8 @@ export default function Header({
     setShowLatin,
     showTranslation,
     setShowTranslation,
+    saveSettings,
+    resetSettings,
 }: {
     arabFontSize: number;
     setArabFontSize: (value: number) => void;
@@ -26,6 +28,8 @@ export default function Header({
     setShowLatin: (value: boolean) => void;
     showTranslation: boolean;
     setShowTranslation: (value: boolean) => void;
+    saveSettings: () => void;
+    resetSettings: () => void;
 }) {
     const [isOpen, setIsOpen] = useState<boolean>(false);
     const [isScrolled, setIsScrolled] = useState<boolean>(false);
@@ -89,6 +93,9 @@ export default function Header({
                             setShowLatin={setShowLatin}
                             showTranslation={showTranslation}
                             setShowTranslation={setShowTranslation}
+                            saveSettings={saveSettings}
+                            resetSettings={resetSettings}
+                            setIsOpen={setIsOpen}
                         />
                         {/* Navbar Modal */}
                     </>
