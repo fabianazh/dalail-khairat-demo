@@ -24,11 +24,11 @@ export default function Text({
                 }}
             >
                 {type === 'translate' && (
-                    <span className="font-semibold">Artinya, "</span>
+                    <span className="font-semibold">Artinya, &quot;</span>
                 )}
                 {children}{' '}
                 {type === 'translate' && (
-                    <span className="font-semibold">"</span>
+                    <span className="font-semibold">&quot;</span>
                 )}
             </span>
         </>
