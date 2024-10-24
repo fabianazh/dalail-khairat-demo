@@ -3,19 +3,23 @@
 import { roboto } from "@/app/fonts";
 import { useSettings } from "@/context/SettingsContext";
 
-export default function Text({
+export default function Latin({
     className,
     children,
 }: {
     className?: string;
     children: React.ReactNode;
 }) {
-    const { latinFontSize } = useSettings();
+    const { latinFontSize, showLatin } = useSettings();
+
+    if (showLatin === false) {
+        return;
+    }
 
     return (
         <>
             <span
-                className={`block ${roboto.className} ${className}`}
+                className={`block font-semibold ${roboto.className} ${className}`}
                 style={{
                     fontSize: `${latinFontSize}px`,
                 }}

@@ -1,12 +1,12 @@
-'use client';
+"use client";
 
-import { useEffect, useState } from 'react';
-import { AnimatePresence, motion } from 'framer-motion';
-import NavButton from '@/components/Partials/NavButton';
-import NavModal from './NavModal';
-import Link from 'next/link';
-import { FaArrowLeft } from 'react-icons/fa';
-import { HiOutlineDotsVertical } from 'react-icons/hi';
+import { useEffect, useState } from "react";
+import { AnimatePresence, motion } from "framer-motion";
+import NavButton from "@/components/Partials/NavButton";
+import NavModal from "./NavModal";
+import Link from "next/link";
+import { FaArrowLeft } from "react-icons/fa";
+import { HiOutlineDotsVertical } from "react-icons/hi";
 
 export default function Header() {
     const [isOpen, setIsOpen] = useState<boolean>(false);
@@ -51,7 +51,7 @@ export default function Header() {
             </AnimatePresence>
             {/* Header */}
             <motion.header
-                className={`w-full h-fit relative top-0 left-0 z-30 transition-all duration-200 py-4 px-5 flex items-center justify-between bg-green-600`}
+                className={`w-full h-fit fixed top-0 left-0 z-30 transition-all duration-200 py-4 px-5 flex items-center justify-between bg-green-600`}
             >
                 {/* Logo and Name */}
                 <Link

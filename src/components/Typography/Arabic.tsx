@@ -1,8 +1,8 @@
-'use client';
+"use client";
 
-import { useSettings } from '@/context/SettingsContext';
-import { amiri } from '@/app/fonts';
-import { useEffect, useState } from 'react';
+import { useSettings } from "@/context/SettingsContext";
+import { qalam } from "@/app/fonts";
+import { useEffect, useState } from "react";
 
 export default function Arabic({
     className,
@@ -24,9 +24,10 @@ export default function Arabic({
     return (
         <>
             <span
-                className={`block text-end ${className} ${amiri.className}`}
+                className={`block text-end font-medium ${className} ${qalam.className}`}
                 style={{
-                    fontSize: `${arabFontSize}px`,
+                    fontSize: `${arabFontSize + 3}px`,
+                    lineHeight: "1.8",
                 }}
             >
                 {children}

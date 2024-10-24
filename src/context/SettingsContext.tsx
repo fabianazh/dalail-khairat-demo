@@ -1,4 +1,4 @@
-'use client';
+"use client";
 
 import {
     createContext,
@@ -6,7 +6,7 @@ import {
     useState,
     useEffect,
     ReactNode,
-} from 'react';
+} from "react";
 
 interface SettingsContextType {
     arabFontSize: number;
@@ -22,7 +22,7 @@ interface SettingsContextType {
 }
 
 const defaultSettings = {
-    arabFontSize: 25,
+    arabFontSize: 29,
     latinFontSize: 17,
     showLatin: true,
     showTranslation: false,
@@ -35,7 +35,7 @@ const SettingsContext = createContext<SettingsContextType | undefined>(
 export function useSettings() {
     const context = useContext(SettingsContext);
     if (!context) {
-        throw new Error('useSettings must be used within a SettingsProvider');
+        throw new Error("useSettings must be used within a SettingsProvider");
     }
     return context;
 }
@@ -55,23 +55,23 @@ export function SettingsProvider({ children }: { children: ReactNode }) {
     );
 
     useEffect(() => {
-        const storedArabFontSize = localStorage.getItem('arabFontSize');
-        const storedLatinFontSize = localStorage.getItem('latinFontSize');
-        const storedShowLatin = localStorage.getItem('showLatin');
-        const storedShowTranslation = localStorage.getItem('showTranslation');
+        const storedArabFontSize = localStorage.getItem("arabFontSize");
+        const storedLatinFontSize = localStorage.getItem("latinFontSize");
+        const storedShowLatin = localStorage.getItem("showLatin");
+        const storedShowTranslation = localStorage.getItem("showTranslation");
 
         if (storedArabFontSize) setArabFontSize(Number(storedArabFontSize));
         if (storedLatinFontSize) setLatinFontSize(Number(storedLatinFontSize));
-        if (storedShowLatin !== null) setShowLatin(storedShowLatin === 'true');
+        if (storedShowLatin !== null) setShowLatin(storedShowLatin === "true");
         if (storedShowTranslation !== null)
-            setShowTranslation(storedShowTranslation === 'true');
+            setShowTranslation(storedShowTranslation === "true");
     }, []);
 
     const saveSettings = () => {
-        localStorage.setItem('arabFontSize', arabFontSize.toString());
-        localStorage.setItem('latinFontSize', latinFontSize.toString());
-        localStorage.setItem('showLatin', showLatin.toString());
-        localStorage.setItem('showTranslation', showTranslation.toString());
+        localStorage.setItem("arabFontSize", arabFontSize.toString());
+        localStorage.setItem("latinFontSize", latinFontSize.toString());
+        localStorage.setItem("showLatin", showLatin.toString());
+        localStorage.setItem("showTranslation", showTranslation.toString());
     };
 
     const resetSettings = () => {
@@ -80,16 +80,16 @@ export function SettingsProvider({ children }: { children: ReactNode }) {
         setShowLatin(defaultSettings.showLatin);
         setShowTranslation(defaultSettings.showTranslation);
         localStorage.setItem(
-            'arabFontSize',
+            "arabFontSize",
             defaultSettings.arabFontSize.toString()
         );
         localStorage.setItem(
-            'latinFontSize',
+            "latinFontSize",
             defaultSettings.latinFontSize.toString()
         );
-        localStorage.setItem('showLatin', defaultSettings.showLatin.toString());
+        localStorage.setItem("showLatin", defaultSettings.showLatin.toString());
         localStorage.setItem(
-            'showTranslation',
+            "showTranslation",
             defaultSettings.showTranslation.toString()
         );
     };

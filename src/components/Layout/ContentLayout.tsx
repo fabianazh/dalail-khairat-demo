@@ -1,7 +1,7 @@
-'use client';
+"use client";
 
-import { SettingsProvider } from '@/context/SettingsContext';
-import Header from '@/components/Partials/Header';
+import { SettingsProvider } from "@/context/SettingsContext";
+import Header from "@/components/Partials/Header";
 
 export default function ContentLayout({
     children,
@@ -11,7 +11,7 @@ export default function ContentLayout({
     return (
         <SettingsProvider>
             <Header />
-            <main className="w-full min-h-screen px-4 py-6 lg:px-32">
+            <main className="w-full min-h-screen px-4 pt-20 pb-6 lg:px-32">
                 {children}
             </main>
         </SettingsProvider>

@@ -2,7 +2,7 @@ import { navItems } from '@/constants/component';
 import Link from 'next/link';
 import { IoMdArrowForward } from 'react-icons/io';
 
-export default function List() {
+export default function PageList() {
     return (
         <>
             <section
