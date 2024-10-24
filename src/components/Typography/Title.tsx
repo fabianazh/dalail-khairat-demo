@@ -31,7 +31,7 @@ export default function Title({
 
     switch (size) {
         case "sm":
-            fontSize = 2;
+            fontSize = 1;
             break;
         default:
             fontSize = 4;

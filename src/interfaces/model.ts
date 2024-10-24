@@ -7,11 +7,11 @@ interface Surah {
     arti: string;
     deskripsi: string;
     audioFull: {
-        '01': string;
-        '02': string;
-        '03': string;
-        '04': string;
-        '05': string;
+        "01": string;
+        "02": string;
+        "03": string;
+        "04": string;
+        "05": string;
     };
     ayat: {
         nomorAyat: number;
@@ -19,11 +19,11 @@ interface Surah {
         teksLatin: string;
         teksIndonesia: string;
         audio: {
-            '01': string;
-            '02': string;
-            '03': string;
-            '04': string;
-            '05': string;
+            "01": string;
+            "02": string;
+            "03": string;
+            "04": string;
+            "05": string;
         };
     }[];
     suratSelanjutnya: {
@@ -39,4 +39,31 @@ interface NavItem {
     title: string;
     subtitle: string;
     link: string;
+}
+
+interface Activity {
+    id: string;
+    title: string;
+    data: {
+        index?: string;
+        text?: string;
+        content?: {
+            index?: string;
+            text?: string;
+            arab?: {
+                title?: string;
+                arab?: string;
+                latin?: string;
+                translate?: string;
+                source?: string;
+            };
+        }[];
+        arab?: {
+            title?: string;
+            arab?: string;
+            latin?: string;
+            translate?: string;
+            source?: string;
+        };
+    }[];
 }

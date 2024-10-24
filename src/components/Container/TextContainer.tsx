@@ -5,7 +5,7 @@ import Title from "@/components/Typography/Title";
 import Translate from "@/components/Typography/Translate";
 import { roboto } from "@/app/fonts";
 
-export default function List({
+export default function TextContainer({
     className,
     contents,
 }: {
@@ -78,7 +78,7 @@ export default function List({
                                 )}
                                 {content.arab && (
                                     <>
-                                        <div className="w-full flex flex-col gap-3 py-2.5">
+                                        <div className="w-full flex flex-col gap-3 py-1.5">
                                             <Title placeItem="left" size="sm">
                                                 {content.arab.title}
                                             </Title>
