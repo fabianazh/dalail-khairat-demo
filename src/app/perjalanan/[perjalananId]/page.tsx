@@ -1,4 +1,4 @@
-import Perjalanan from "@/components/Section/Content/Perjalanan";
+import Perjalanan from "@/components/Section/Content/Trip";
 import { tripService } from "@/services/tripService";
 
 export async function generateStaticParams() {
@@ -38,7 +38,16 @@ export async function generateMetadata({
         return {
             title: `${trip?.title} | KBIHU Al-Muhajirin Purwakarta`,
             description: "KBIHU Al-Muhajirin PURWAKARTA",
-            keywords: `KBIHU Al-Muhajirin Purwakarta`,
+            keywords: [
+                "KBIHU Al-Muhajirin Purwakarta",
+                "KBIHU Al-Muhajirin",
+                "KBIHU",
+                "Panduan Manasik",
+                "Panduan Umrah",
+                "Panduan Haji",
+                "Panduan Umrah & Haji",
+                "Panduan Perjalanan Umrah & Haji",
+            ],
             robots: "index, follow",
             canonical: `${process.env.NEXT_PUBLIC_BASE_URL}/perjalanan/${perjalananId}`,
             openGraph: {

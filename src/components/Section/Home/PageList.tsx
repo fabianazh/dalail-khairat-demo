@@ -1,6 +1,6 @@
-import { navItems } from '@/constants/component';
-import Link from 'next/link';
-import { IoMdArrowForward } from 'react-icons/io';
+import { navItems } from "@/constants/component";
+import Link from "next/link";
+import { IoMdArrowForward } from "react-icons/io";
 
 export default function PageList() {
     return (

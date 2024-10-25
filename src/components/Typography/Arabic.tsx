@@ -24,7 +24,7 @@ export default function Arabic({
     return (
         <>
             <span
-                className={`block text-end font-medium ${className} ${qalam.className}`}
+                className={`arab block text-end font-medium ${className} ${qalam.className}`}
                 style={{
                     fontSize: `${arabFontSize + 3}px`,
                     lineHeight: "1.8",

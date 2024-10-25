@@ -1,4 +1,4 @@
-import Kegiatan from "@/components/Section/Content/Kegiatan";
+import Kegiatan from "@/components/Section/Content/Activity";
 import { activityService } from "@/services/activityService";
 
 export async function generateStaticParams() {
@@ -38,7 +38,16 @@ export async function generateMetadata({
         return {
             title: `${activity?.title} | KBIHU Al-Muhajirin Purwakarta`,
             description: "KBIHU Al-Muhajirin PURWAKARTA",
-            keywords: `KBIHU Al-Muhajirin Purwakarta`,
+            keywords: [
+                "KBIHU Al-Muhajirin Purwakarta",
+                "KBIHU Al-Muhajirin",
+                "KBIHU",
+                "Panduan Manasik",
+                "Panduan Umrah",
+                "Panduan Haji",
+                "Panduan Umrah & Haji",
+                "Panduan Kegiatan Umrah & Haji",
+            ],
             robots: "index, follow",
             canonical: `${process.env.NEXT_PUBLIC_BASE_URL}/kegiatan/${kegiatanId}`,
             openGraph: {

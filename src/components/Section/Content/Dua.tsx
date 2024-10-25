@@ -4,7 +4,7 @@ import TextContainer from "@/components/Container/TextContainer";
 import Title from "@/components/Typography/Title";
 import { activityService } from "@/services/activityService";
 
-export default function Kegiatan({ kegiatanId }: { kegiatanId: string }) {
+export default function Dua({ kegiatanId }: { kegiatanId: string }) {
     const activity = activityService.getActivityDetail(kegiatanId);
 
     return (

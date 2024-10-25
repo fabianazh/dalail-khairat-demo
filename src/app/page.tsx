@@ -1,10 +1,10 @@
-import Hero from '@/components/Section/Home/Hero';
-import PageList from '@/components/Section/Home/PageList';
+import Hero from "@/components/Section/Home/Hero";
+import PageList from "@/components/Section/Home/PageList";
 
 export async function generateMetadata() {
     return {
-        title: 'KBIHU Al-Muhajirin',
-        description: 'KBIHU Al-Muhajirin',
+        title: "KBIHU Al-Muhajirin Purwakarta",
+        description: "KBIHU Al-Muhajirin Purwakarta",
     };
 }
 

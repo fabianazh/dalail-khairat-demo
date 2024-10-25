@@ -4,7 +4,7 @@ import TextContainer from "@/components/Container/TextContainer";
 import Title from "@/components/Typography/Title";
 import { tripService } from "@/services/tripService";
 
-export default function Perjalanan({ perjalananId }: { perjalananId: string }) {
+export default function Trip({ perjalananId }: { perjalananId: string }) {
     const trip = tripService.getTripDetail(perjalananId);
 
     return (
