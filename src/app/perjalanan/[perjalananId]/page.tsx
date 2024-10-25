@@ -1,11 +1,11 @@
-import Kegiatan from "@/components/Section/Content/Kegiatan";
-import { activityService } from "@/services/activityService";
+import Perjalanan from "@/components/Section/Content/Perjalanan";
+import { tripService } from "@/services/tripService";
 
 export async function generateStaticParams() {
-    const activity = activityService.getAllActivity();
+    const trip = tripService.getAllTrip();
 
-    return activity.map((item: TextContent) => ({
-        kegiatanId: item.id,
+    return trip.map((item: TextContent) => ({
+        perjalananId: item.id,
     }));
 }
 
@@ -13,15 +13,15 @@ export async function generateMetadata({
     params,
 }: {
     params: {
-        kegiatanId: string;
+        perjalananId: string;
     };
 }) {
-    const { kegiatanId } = params;
+    const { perjalananId } = params;
     try {
-        const activity: TextContent | undefined | null =
-            activityService.getActivityDetail(kegiatanId);
+        const trip: TextContent | undefined | null =
+            tripService.getTripDetail(perjalananId);
 
-        if (activity === undefined || activity === null) {
+        if (trip === undefined || trip === null) {
             return {
                 title: "Halaman tidak dapat ditemukan!",
                 description:
@@ -36,13 +36,13 @@ export async function generateMetadata({
             };
         }
         return {
-            title: `${activity?.title} | KBIHU Al-Muhajirin Purwakarta`,
+            title: `${trip?.title} | KBIHU Al-Muhajirin Purwakarta`,
             description: "KBIHU Al-Muhajirin PURWAKARTA",
             keywords: `KBIHU Al-Muhajirin Purwakarta`,
             robots: "index, follow",
-            canonical: `${process.env.NEXT_PUBLIC_BASE_URL}/kegiatan/${kegiatanId}`,
+            canonical: `${process.env.NEXT_PUBLIC_BASE_URL}/perjalanan/${perjalananId}`,
             openGraph: {
-                title: `${activity?.title} | KBIHU Al-Muhajirin Purwakarta`,
+                title: `${trip?.title} | KBIHU Al-Muhajirin Purwakarta`,
                 description: "KBIHU Al-Muhajirin PURWAKARTA",
                 images: [],
             },
@@ -63,15 +63,15 @@ export async function generateMetadata({
     }
 }
 
-export default function KegiatanPage({
+export default function PerjalananDiRumahPage({
     params,
 }: {
-    params: { kegiatanId: string };
+    params: { perjalananId: string };
 }) {
-    const { kegiatanId } = params;
+    const { perjalananId } = params;
     return (
         <>
-            <Kegiatan kegiatanId={kegiatanId} />
+            <Perjalanan perjalananId={perjalananId} />
         </>
     );
 }

@@ -2,14 +2,13 @@
 
 import { roboto } from "@/app/fonts";
 import { useSettings } from "@/context/SettingsContext";
-import DOMPurify from "dompurify";
 
-export default function Text({
+export default function Note({
     className,
-    text,
+    children,
 }: {
     className?: string;
-    text: string;
+    children: React.ReactNode;
 }) {
     const { latinFontSize } = useSettings();
 
@@ -20,8 +19,10 @@ export default function Text({
                 style={{
                     fontSize: `${latinFontSize}px`,
                 }}
-                dangerouslySetInnerHTML={{ __html: text }}
-            ></span>
+            >
+                <span className="font-semibold">Catatan: </span>
+                {children}{" "}
+            </span>
         </>
     );
 }

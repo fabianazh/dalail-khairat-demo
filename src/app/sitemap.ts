@@ -1,11 +1,18 @@
-import { activities } from "@/constants/model";
+import { activities } from "@/constants/model/activities";
+import { trips } from "@/constants/model/trips";
 import type { MetadataRoute } from "next";
 
 export default function sitemap(): MetadataRoute.Sitemap {
-    const baseUrl = "https://dalail-khairat-demo.vercel.app";
+    const baseUrl = `${process.env.NEXT_PUBLIC_BASE_URL}`;
 
-    const activitiesData = activities.map((activity: Activity) => ({
+    const activitiesData = activities.map((activity: TextContent) => ({
         url: `${baseUrl}/kegiatan/${activity.id}`,
+        lastModified: new Date(),
+        priority: 0.9,
+    }));
+
+    const tripsData = trips.map((trip: TextContent) => ({
+        url: `${baseUrl}/perjalanan/${trip.id}`,
         lastModified: new Date(),
         priority: 0.9,
     }));
@@ -18,5 +25,6 @@ export default function sitemap(): MetadataRoute.Sitemap {
             priority: 1,
         },
         ...activitiesData,
+        ...tripsData,
     ];
 }

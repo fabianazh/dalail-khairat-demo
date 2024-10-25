@@ -41,23 +41,18 @@ interface NavItem {
     link: string;
 }
 
-interface Activity {
+interface TextContent {
     id: string;
     title: string;
-    data: {
+    data: TextData[];
+}
+
+interface TextData {
+    index?: string;
+    text?: string;
+    content?: {
         index?: string;
         text?: string;
-        content?: {
-            index?: string;
-            text?: string;
-            arab?: {
-                title?: string;
-                arab?: string;
-                latin?: string;
-                translate?: string;
-                source?: string;
-            };
-        }[];
         arab?: {
             title?: string;
             arab?: string;
@@ -66,4 +61,14 @@ interface Activity {
             source?: string;
         };
     }[];
+    arab?: {
+        title?: string;
+        arab?: string;
+        latin?: string;
+        translate?: string;
+        source?: string;
+    };
+    note?: {
+        text?: string;
+    };
 }
