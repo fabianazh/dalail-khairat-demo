@@ -57,7 +57,7 @@ export const guides: TextContent[] = [
         ],
     },
     {
-        id: "panduan-qasar-dan-jamak-salat",
+        id: "panduan-qasar-dan-jamak-shalat",
         title: "PANDUAN QASAR DAN JAMAK SALAT",
         data: [
             {
