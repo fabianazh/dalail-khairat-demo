@@ -1,4 +1,4 @@
-import Perjalanan from "@/components/Section/Content/Trip";
+import Trip from "@/components/Section/Content/Trip";
 import { tripService } from "@/services/tripService";
 
 export async function generateStaticParams() {
@@ -72,7 +72,7 @@ export async function generateMetadata({
     }
 }
 
-export default function PerjalananDiRumahPage({
+export default function TripPage({
     params,
 }: {
     params: { perjalananId: string };
@@ -80,7 +80,7 @@ export default function PerjalananDiRumahPage({
     const { perjalananId } = params;
     return (
         <>
-            <Perjalanan perjalananId={perjalananId} />
+            <Trip perjalananId={perjalananId} />
         </>
     );
 }

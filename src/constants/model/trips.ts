@@ -141,4 +141,37 @@ export const trips: TextContent[] = [
             },
         ],
     },
+    {
+        id: "perjalanan-ke-muzdalifah-dan-kegiatannya",
+        title: "Perjalanan Ke Muzdalifah Dan Kegiatannya",
+        data: [
+            {
+                index: "1",
+                text: "Setelah mendapat giliran berangkat ke Muzdalifah, para jamaah mulai keluar tenda arafah untuk naik bus menuju Muzdalifah, bus yang disiapkan hanya 5 bus perkloter.",
+            },
+            {
+                index: "2",
+                text: "Jarak Arafah ke Muzdalifah 10 KM kalau perjalanan normal bisa ditempuh 20-30 menit, tapi karena crowdid bisa berjam-jam.",
+            },
+            {
+                index: "3",
+                text: "Telah sampai Muzdalifah lalu berdoa:",
+                arab: {
+                    arab: "اَللّٰهُمَّ إِنَّ هَذِهِ مُزْدَلِفَةُ جُمِعَتْ فِيْهَا أَلْسِنَةٌ مُخْتَلِفَةٌ، أَسْأَلُكَ حَوَائِجَ مُتَنَوِّعَةً فَاجْعَلْنِيْ مِمَّنْ دَعَاكَ فَاسْتَجَبْتَ لَهُ وَتَوَكَّلَ عَلَيْكَ فَكَفَّيْتَهُ يَا أَرْحَمَ الرَّاحِمِيْنَ.",
+                    audio: "",
+                    latin: "Allâhumma inna hâdzihi muzdalifatu jumi‘at fîhâ alsinatun mukhtalifatun, tas’aluka hawâija mutanawwi‘atan faj’alnî mimman da‘âka fastajabta lahu wa tawakkala ‘alaika fakaffaitahu yâ arḫamar râḫimîn.",
+                    translate:
+                        "Ya Allah, sesungguhnya di Muzdalifah ini telah berkumpul bermacam-macam bahasa yang memohon kepada-Mu berbagai hajat yang beraneka ragam. Maka, masukkanlah aku ke dalam golongan orang yang berdoa lalu Engkau kabulkan, golongan orang yang berserah diri pada-Mu lalu Engkau lindungi dia, wahai Tuhan yang Maha Pengasih dari segala yang pengasih.",
+                },
+            },
+            {
+                index: "4",
+                text: "Di Muzdalifah kegiatannya adalah Mabit, waktunya dimulai dari tengah malam. Wajib mabit di sana meskipun sejenak, apabila belum memiliki batu untuk melempar jumrah maka bisa mengambil di Muzdalifah.",
+            },
+            {
+                index: "5",
+                text: "Setelah lewat tengah malam, jamaah mulai bergerak menuju Mina.",
+            },
+        ],
+    },
 ];

@@ -21,6 +21,11 @@ export default function TextContainer({
                 {contents.map((content: TextData) => (
                     <>
                         <li key={content.index} className="flex flex-col gap-1">
+                            {content.title && (
+                                <Title placeItem="center" size="sm">
+                                    {content.title}
+                                </Title>
+                            )}
                             {content.text && (
                                 <div className="w-full flex gap-1.5">
                                     {content.index && (
@@ -32,6 +37,7 @@ export default function TextContainer({
                                     <Text text={`${content.text}`} />
                                 </div>
                             )}
+                            {content.desc && <Text text={`${content.desc}`} />}
                             {content.arab && (
                                 <>
                                     <div className="w-full flex flex-col gap-3 py-1.5">

@@ -48,8 +48,10 @@ interface TextContent {
 }
 
 interface TextData {
+    title?: string;
     index?: string;
     text?: string;
+    desc?: string;
     content?: {
         index?: string;
         text?: string;
@@ -73,4 +75,13 @@ interface TextData {
     note?: {
         text?: string;
     };
+}
+
+interface TabContent {
+    id: string;
+    title: string;
+    tab: {
+        label: string;
+        data: TextData[];
+    }[];
 }

@@ -1,19 +1,19 @@
 "use client";
 
-import TextContainer from "@/components/Container/TextContainer";
+import TabContainer from "@/components/Container/TabContainer";
 import Title from "@/components/Typography/Title";
-import { activityService } from "@/services/activityService";
+import { duaService } from "@/services/duaService";
 
-export default function Dua({ kegiatanId }: { kegiatanId: string }) {
-    const activity = activityService.getActivityDetail(kegiatanId);
+export default function Dua({ doaId }: { doaId: string }) {
+    const dua = duaService.getDuaDetail(doaId);
 
     return (
         <>
             <section className="w-full py-4 text-center h-fit">
-                <Title>{activity?.title}</Title>
+                <Title>{dua?.title}</Title>
             </section>
             <section>
-                <TextContainer contents={activity?.data ?? []} />
+                <TabContainer contents={dua?.tab ?? []} />
             </section>
         </>
     );

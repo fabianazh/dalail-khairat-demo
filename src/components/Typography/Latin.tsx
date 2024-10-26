@@ -19,7 +19,7 @@ export default function Latin({
     return (
         <>
             <span
-                className={`block font-semibold ${roboto.className} ${className}`}
+                className={`block font-semibold italic ${roboto.className} ${className}`}
                 style={{
                     fontSize: `${latinFontSize}px`,
                 }}

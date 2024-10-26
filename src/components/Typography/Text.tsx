@@ -2,7 +2,6 @@
 
 import { roboto } from "@/app/fonts";
 import { useSettings } from "@/context/SettingsContext";
-// import DOMPurify from "dompurify";
 
 export default function Text({
     className,

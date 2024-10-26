@@ -1,11 +1,11 @@
-import Actiity from "@/components/Section/Content/Activity";
-import { activityService } from "@/services/activityService";
+import Dua from "@/components/Section/Content/Dua";
+import { duaService } from "@/services/duaService";
 
 export async function generateStaticParams() {
-    const activity = activityService.getAllActivity();
+    const dua = duaService.getAllDua();
 
-    return activity.map((item: TextContent) => ({
-        kegiatanId: item.id,
+    return dua.map((item: TabContent) => ({
+        doaId: item.id,
     }));
 }
 
@@ -13,15 +13,15 @@ export async function generateMetadata({
     params,
 }: {
     params: {
-        kegiatanId: string;
+        doaId: string;
     };
 }) {
-    const { kegiatanId } = params;
+    const { doaId } = params;
     try {
-        const activity: TextContent | undefined | null =
-            activityService.getActivityDetail(kegiatanId);
+        const dua: TabContent | undefined | null =
+            duaService.getDuaDetail(doaId);
 
-        if (activity === undefined || activity === null) {
+        if (dua === undefined || dua === null) {
             return {
                 title: "Halaman tidak dapat ditemukan!",
                 description:
@@ -36,7 +36,7 @@ export async function generateMetadata({
             };
         }
         return {
-            title: `${activity?.title} | KBIHU Al-Muhajirin Purwakarta`,
+            title: `${dua?.title} | KBIHU Al-Muhajirin Purwakarta`,
             description: "KBIHU Al-Muhajirin PURWAKARTA",
             keywords: [
                 "KBIHU Al-Muhajirin Purwakarta",
@@ -46,12 +46,12 @@ export async function generateMetadata({
                 "Panduan Umrah",
                 "Panduan Haji",
                 "Panduan Umrah & Haji",
-                "Panduan Kegiatan Umrah & Haji",
+                "Panduan Doa Umrah & Haji",
             ],
             robots: "index, follow",
-            canonical: `${process.env.NEXT_PUBLIC_BASE_URL}/kegiatan/${kegiatanId}`,
+            canonical: `${process.env.NEXT_PUBLIC_BASE_URL}/doa/${doaId}`,
             openGraph: {
-                title: `${activity?.title} | KBIHU Al-Muhajirin Purwakarta`,
+                title: `${dua?.title} | KBIHU Al-Muhajirin Purwakarta`,
                 description: "KBIHU Al-Muhajirin PURWAKARTA",
                 images: [],
             },
@@ -72,15 +72,11 @@ export async function generateMetadata({
     }
 }
 
-export default function ActivityPage({
-    params,
-}: {
-    params: { kegiatanId: string };
-}) {
-    const { kegiatanId } = params;
+export default function DoaPage({ params }: { params: { doaId: string } }) {
+    const { doaId } = params;
     return (
         <>
-            <Actiity kegiatanId={kegiatanId} />
+            <Dua doaId={doaId} />
         </>
     );
 }

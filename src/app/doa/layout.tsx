@@ -1,9 +1,9 @@
-import TextLayout from "@/components/Layout/TextLayout";
+import TabLayout from "@/components/Layout/TabLayout";
 
 export default function Layout({ children }: { children: React.ReactNode }) {
     return (
         <>
-            <TextLayout>{children}</TextLayout>
+            <TabLayout>{children}</TabLayout>
         </>
     );
 }

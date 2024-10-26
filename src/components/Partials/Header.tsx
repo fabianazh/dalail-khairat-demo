@@ -52,7 +52,7 @@ export default function Header() {
             </AnimatePresence>
             {/* Header */}
             <motion.header
-                className={`w-full h-fit fixed top-0 left-0 z-30 transition-all duration-200 py-4 px-5 flex items-center justify-between bg-[#12823b]`}
+                className={`w-full h-14 fixed top-0 left-0 z-30 transition-all duration-200 px-5 lg:px-8 flex items-center justify-between bg-[#12823b]`}
             >
                 {/* Logo and Name */}
                 <Link
