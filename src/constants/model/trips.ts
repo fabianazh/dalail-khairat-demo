@@ -75,9 +75,9 @@ export const trips: TextContent[] = [
                 },
             },
             {
-                note: {
-                    text: "Solat sunnat ihram dilaksanakan sebanyak dua rakaat. Setelah al Fatihah membaca surat Al-kafirun di rakaat pertama dan surat Al-Ikhlas di rakaat kedua.",
-                },
+                notes: [
+                    "Solat sunnat ihram dilaksanakan sebanyak dua rakaat. Setelah al Fatihah membaca surat Al-kafirun di rakaat pertama dan surat Al-Ikhlas di rakaat kedua.",
+                ],
             },
             {
                 index: "7",
@@ -100,7 +100,7 @@ export const trips: TextContent[] = [
             },
             {
                 index: "8",
-                text: "Lalu naik bus dengan tertib yang sudah disiapkan oleh maktab, untuk 10 rombongan hanya disiapkan 5-7 bus maka kursi bus perioritaskan untuk jamaah lansia atau jamaah perempuan ikhlaskan apabila tidak kebagian duduk. Di bus jamaah terus bertalbiyah.",
+                text: "Lalu naik bus dengan tertib yang sudah disiapkan oleh maktab, untuk 10 rombongan hanya disiapkan 5-7 bus maka kursi bus prioritaskan untuk jamaah lansia atau jamaah perempuan ikhlaskan apabila tidak kebagian duduk. Di bus jamaah terus bertalbiyah.",
             },
             {
                 index: "9",
@@ -171,6 +171,250 @@ export const trips: TextContent[] = [
             {
                 index: "5",
                 text: "Setelah lewat tengah malam, jamaah mulai bergerak menuju Mina.",
+            },
+        ],
+    },
+    {
+        id: "perjalanan-ke-mina-dan-kegiatannya",
+        title: "Perjalanan Ke Mina dan Kegiatannya",
+        data: [
+            {
+                index: "1",
+                text: "Naik bus dengan tertib, yang duduk di bus prioritaskan lansia dan ibu-ibu.",
+            },
+            {
+                index: "2",
+                arab: {
+                    title: "Setelah sampai Mina berdoa:",
+                    arab: "اَللّٰهُمَّ هَذَا مِنَى فَامْنُنْ عَلَيَّ بِمَا مَنَنْتَ بِهِ عَلَى أَوْلِيَائِكَ وَأَهْلِ طَاعَتِكَ.",
+                    audio: "",
+                    latin: "Allâhumma hadzâ minâ famnun ‘alayya bimâ mananta bihi ‘alâ awliyâika wa ahli thâ‘atika.",
+                    translate:
+                        "Ya Allah, tempat ini adalah di Mina, anugerahkanlah kepadaku apa yang Engkau telah anugerahkan kepada orang-orang yang selalu dekat dan taat kepada-Mu.",
+                },
+            },
+            {
+                index: "3",
+                text: "Lalu simpan barang bawaan di tenda Mina yang sudah disiapkan.",
+            },
+            {
+                index: "4",
+                text: "Apabila sampai Mina sebelum subuh tanggal 10 Dzulhijah, siapkan batu 7 butir langsung bisa pergi ke untuk melempar Jumrah Aqabah. Tetapi kalau ke Mina sesudah subuh silahkan istirahat di Mina nanti bada Dzuhur berangkat ke untuk melempar jumrah aqabah, bawa Alat Perlindungan Diri (APD) seperti payung, semprotan air dan bawa air minum.",
+            },
+            {
+                index: "5",
+                text: "Sesampai di ada 3 tugu yaitu tugu 1 jumratul ula, tugu 2 jumratul wustho, tugu 3. Pada tanggal 10 Dzulhijah ini kita hanya melempar tugu yang ke-3 yaitu",
+            },
+            {
+                index: "6",
+                arab: {
+                    title: "Setiap kali lemparan batu, bacalah do’a:",
+                    arab: "بِسْمِ اللّٰهِ، اَللّٰهُ أَكْبَرُ رَجْمًا لِلشَّيَاطِيْنِ وَرِضًا لِلرَّحْمَنِ.",
+                    audio: "",
+                    latin: "Bismillâhi wallâhu akbar, rajman lisysyayâthîni wa ridhan lirraḫmâni.",
+                    translate:
+                        "Dengan menyebut nama Allah, Allah Mahabesar. Laknat bagi setan dan keridhaan bagi Allah yang Maha Pengasih.",
+                },
+            },
+            {
+                index: "7",
+                arab: {
+                    title: "Setelah selesai melempar jumrah lalu berdoa:",
+                    arab: "اَللّٰهُمَّ اجْعَلْ حَجًّا مَبْرُوْرًا وَسَعْيًا مَشْكُوْرًا.",
+                    audio: "",
+                    latin: "Allâhumma-j‘al hajjan mabrûran wa sa‘yan masykûran",
+                    translate:
+                        "Ya Allah, jadikanlah hajiku ini diterima dan usahaku dibalas pahala.",
+                },
+            },
+            {
+                index: "8",
+                arab: {
+                    title: "Sesudah itu gunting rambut minimal tiga helai dengan berdo’a:",
+                    arab: "اَللّٰهُ أَكْبَرُ، اَللّٰهُ أَكْبَرُ، اَللّٰهُ أَكْبَرُ كَبِيْرًا، وَالْحَمْدُ لِلّٰهِ عَلَى مَا هَدَانَا، وَالْحَمْدُ لِلّٰهِ عَلَى مَا أَنْعَمَنَا بِهِ عَلَيْنَا. اَللّٰهُمَّ هَذِهِ نَاصِيَتِيْ فَتَقَبَّلْ مِنِّيْ وَاغْفِرْ ذُنُوْبِيْ. اَللّٰهُمَّ اغْفِرْ لِلْمُحَلِّقِيْنَ وَالمُقَصِّرِيْنَ يَا وَاسِعَ المَغْفِرَةِ. اَللّٰهُمَّ اثْبُتْ لِيْ بِكُلِّ شَعْرَةٍ حَسَنَةً وَامْحُ عَنِّيْ بِهَا سَيِّئَةً، وَارْفَعْ لِيْ بِهَا عِنْدَكَ دَرَجَةً.",
+                    audio: "",
+                    latin: "Allāhu akbar, Allāhu akbar, Allāhu akbar. Wal hamdulillāhi ‘alā mā hadānā wal hamdulillāhi ‘alā mā an’amanā bihi ‘alainā. Allāhumma hādzihi nāshiyatī fataqabbal minnī, waghfir dzhunubī. Allāhummaghfir lil-muhalliqīna wal muqasshirīna yā wāsi’al maghfirah. Allāhummatsbut lī bikulli sya’ratin hasanatan wamhu ‘annī bihā sayyi’atan, warfa’lī bihā ‘indaka darajatan.",
+                    translate:
+                        "Allah Maha Besar, Allah Maha Besar, Allah Maha Besar. Segala puji bagi Allah yang telah memberi petunjuk kepada kita dan segala puji Bagi Allah tentang apa-apa yang telah Allah karuniakan kepada kami. Ya Allah ini ubun-ubunku, maka terimalah dariku (amal perbuatanku) dan ampunilah dosa-dosaku. Ya Allah ampunilah orang-orang yang mencukur dan memendekkan rambutnya wahai Tuhan yang Maha Luas ampunan-Nya. Ya Allah tetapkanlah untuk diriku setiap helai rambut kebajikan dan hapuskanlah untukku dengan setiap helai rambut kejelekan. Dan angkatlah derajatku disisimu.",
+                },
+            },
+            {
+                index: "9",
+                text: "Setelah memotong rambut, maka jamaah haji resmi telah <b>bertahallul yang pertama (tahallul awal)</b>, artinya ia telah terlepas dari larangan-larang ihram selain menikah atau menikahkan dan berhubungan badan.",
+            },
+            {
+                index: "10",
+                text: "Setelah dicukur, kembali ke tenda Mina.",
+            },
+            {
+                index: "11",
+                text: "Sampai di tenda Mina, bagi jamaah laki-laki dianjurkan untuk digundul sebagai penyempurna cukur sebelumnya setelah aqabah, lalu mandi dan ganti pakaian dengan pakaian biasa.",
+            },
+            {
+                index: "12",
+                text: "Selanjutnya istirahat, shalat Dzuhur, Ashar, Maghrib dan Isya jangan lupa baca quran, dzikir dan wirid serta ikuti pengajian.",
+            },
+            {
+                index: "13",
+                text: "Malamnya kita mabit di Mina untuk persiapan besok melempar 3 jumrah yaitu tiga tugu, jumratul ula, wustho dan, aqabah.",
+            },
+            {
+                index: "14",
+                text: "Pada tanggal 11 Dzulhijah (jadwal ditentukan oleh PPIH Arab Saudi), siapkan batu 21 butir untuk melempar jumrah, untuk jamaah yang udzur bisa membadalkan (mewakilkan ke jamaah yang lain yang berangkat).",
+            },
+            {
+                index: "15",
+                text: "Sesampai di secara berurutan melempar jumratul ula, lalu jumratul wusto dan. Lalu kembali ke tenda Mina.",
+            },
+            {
+                index: "16",
+                text: "Malamnya mabit di Mina untuk persiapan besok tanggal 12 Dzulhijah untuk melempar 3 jumrah lagi yaitu tiga tugu, jumaratul ula, wustho dan aqabah.",
+            },
+            {
+                index: "17",
+                text: "Apabila akan mengambil nafar awal maka maka siap-siap bereskan barang untuk pulang ke mekah, wajib meninggalkan Mina sebelum waktu maghrib. Jika akan mengambil nafar tsani, maka lalukan persiapan untuk melempar jumrah lagi pada tanggal 13 Dzulhijah.",
+            },
+            {
+                index: "18",
+                text: "Selanjutnya pulang ke Mekah naik bus dengan tertib tempat duduk di bus prioritaskan untuk lansia dan ibu-ibu.",
+            },
+        ],
+    },
+    {
+        id: "perjalanan-ke-madinah",
+        title: "Perjalanan ke Madinah",
+        data: [
+            {
+                index: "1",
+                text: "Semua jamaah memasukan barang bawaan jamaah ke koper besar dikunci gembok dan disimpan didepan kamarnya masing-masing.",
+            },
+            {
+                index: "2",
+                text: "Setelah ada jadwal pemberangkatan ke Madinah Jamaah berkumpul di loby.",
+            },
+            {
+                index: "3",
+                text: "Jamaah naik ke bus perombongan lalu diabsen, untuk lansia diprioritaskan naik bus lebih awal didampingi oleh jamaah yang mendampingi.",
+            },
+            {
+                index: "4",
+                text: "Selama perjalanan ke madinah di bus masing-masing dipimpin oleh karomnya untuk banyak dzikir dan membaca",
+            },
+            {
+                index: "5",
+                arab: {
+                    title: "Saat memasuki batas kota Madinah, bacalah do’a:",
+                    arab: "اَللّٰهُمَّ هٰذَا حَرَمُ رَسُوْلِكَ فَاجْعَلْهُ وِقَايَةً لِيْ مِنَ النَّارِ وَأَمَانًا مِنَ الْعَذَابِ وَسُوْءِ الْحِسَابِ. وَافْتَحْ لِي أَبْوَابَ رَحْمَتِكَ، وَارْزُقْنِي فِي زِيَارَةِ نَبِيِّكَ مَا رَزَقْتَهُ أَوْلِيَاءَكَ وَأَهْلَ طَاعَتِكَ، وَاغْفِرْ لِي وَارْحَمْنِي يَا خَيْرَ مَسْؤُوْلٍ",
+                    audio: "",
+                    latin: "Allāhumma hādzā haramu nabiyyika, faj‘alhu lī wiqāyatan Mina n nāri, wa amānan Mina l ‘adzābi wa sū’il hisābi, waftah lī abwāba rahmatika, warzuqnī fī ziyārati nabiyyika mā razaqtahū awliyā’aka wa ahla thā‘atika, waghfir lī, warhamnī, yā khayra mas’ūl.",
+                    translate:
+                        "Ya Allah, negri ini adalah tanah haram Rasul-Mu Muhammad saw., maka jadikanlah penjaga bagiku dari neraka, aman dari siksa dan buruknya hisab. bukakan bagiku pintu rahmat-Mu, karuniakan aku dalam menziarahi nabi-Mu anugerah yang Kauberikan kepada para wali-Mu dan hamba-Mu yang taat, ampunilah aku, berikan rahmat-Mu padaku, wahai sebaik-baik zat yang diminta.",
+                },
+            },
+            {
+                index: "6",
+                text: "Setelah sampai kota Madinah karom masing-masing lebih awal turun untuk pembagian kunci kamar berserta petugas haji (Ketua kloter).",
+            },
+            {
+                index: "7",
+                text: "Setelah kunci kamar hotel siap, jamaah turun secara tertib.",
+            },
+            {
+                index: "8",
+                text: "prioritaskan jamaah lansia supaya lebih awal didampingi oleh jamaah yang mendampingi.",
+            },
+            {
+                index: "9",
+                text: "Jamaah memasuki kamar hotel sesuai dengan yang telah ditentukan, bagi jamaah lansia diusahakan bersama.",
+            },
+            {
+                index: "10",
+                text: "Koper besar akan diantarkan ke lantai kamar yang dihuni oleh jamaah.",
+            },
+            {
+                desc: "Semua koper besar dimasukan ke kamar masing-masing, bagi kopernya yang tercecer bisa menghubungi pembimbing atau petugas.",
+            },
+        ],
+    },
+    {
+        id: "kepulangan-dari-hotel-madinah-ke-bandara-muhammad-bin-abdul-aziz-madinah",
+        title: "Kepulangan dari Hotel Madinah Ke bandara Muhammad bin Abdul Aziz Madinah",
+        data: [
+            {
+                index: "1",
+                text: "Kegiatan di Madinah selesai siap-siap untuk perpulangan. Pastikan agar kegiatan arbain (salat 40 waktu berjama’ah) di Madinah telah selesai.",
+            },
+            {
+                index: "2",
+                text: "Jamaah memasukan barang-barang ke koper besar tidak boleh melebihi 30 kg.",
+            },
+            {
+                index: "3",
+                text: "Koper yang sudah diisi disimpan depan hotel untuk penimbangan oleh petugas.",
+            },
+            {
+                index: "4",
+                text: "Koper yang sudah ditimbang akan dimasukan ke mobil pengangkut koper ke bandara Madinah.",
+            },
+            {
+                index: "5",
+                text: "Jamaah berkumpul di loby hotel sesuai dengan jadwal yang sudah disosialisasikan oleh petugas.",
+            },
+            {
+                index: "5",
+                text: "Jamaah memasuki bus masing-masing perombongan dan di absen setelah komplit semua bus melaju menuju bandara.",
+            },
+            {
+                arab: {
+                    title: "Saat meninggalkan kota Madinah, bacalah do’a:",
+                    arab: "اَللّٰهُمَّ لَا تَجْعَلْ هَذَا آخِرَ العَهْدِ بِحَرَمِ رَسُوْلِكَ وَيَسِّرْ لِيَ العَوْدَ إِلَى الحَرَمَيْنِ سَبِيْلًا سَهْلَةً بِمَنِّكَ وَفَضْلِكَ وَارْزُقْنِيَ العَفْوَ وَالعَافِيَةَ فِي الدُّنْيَا وَالآخِرَةِ وَرُدَّنَا سَالِمِيْنَ غَانِمِيْنَ إِلَى أَوْطَانِنَا آمِنِيْنَ",
+                    audio: "",
+                    latin: "Allāhumma lā taj‘al ākhiral ‘ahdi bi harami rasūlika. Wa yassir liyal ‘awda ill haramayni sabīlan sahlatan bi mannika wa fadhlika. Warzuqniyal ‘afwa wal ‘āfiyata fid duniya wal ākhirah. Wa ruddanā sālimīna ghānimīn ilā awthāninā āminīn.",
+                    translate:
+                        "Ya Allah, jangan jadikan ini akhir kesempatan pertemuanku dengan tanah haram rasul-Mu. Mudahkanlah aku untuk kembali ke dua tanah suci ini [Makkah dan Madinah] dengan mudah dan ringan dengan anugerah dan kemurahan-Mu. Anugerahkanlah aku ampunan dan afiat di dunia dan akhirat. Dan kembalikanlah kami ke tanah air kami dalam keadan selamat, meraih banyak pahala, dan aman,",
+                },
+            },
+            {
+                title: "Bandara Madinah",
+            },
+            {
+                index: "1",
+                title: "Jamaah turun dengan tertib dari Bus perioritaskan jamaah.",
+            },
+            {
+                index: "2",
+                title: "Jamaah membawa koper tenteng masing-masing bagi jamaah lansia koper tentengnya dibantu oleh jamaah yang kuat.",
+            },
+            {
+                index: "3",
+                title: "Semua jamaah masuk ke Bandara Madinah dengan tertib dan satu persatu barang bawaannya ditimbang dan memasuki pemeriksaan.",
+            },
+            {
+                index: "4",
+                title: "Dipastikan benda logam seperti sabuk, id card dan benda logam lainnya di lepas dan disimpan dibaqi supaya melewati pemeriksaan.",
+            },
+            {
+                index: "5",
+                title: "Setelah melewati pemeriksaan jamaah menunggu di gate bandara yang sudah ditentukan untuk naik pesawat.",
+            },
+            {
+                index: "6",
+                title: "Jamaah satu persatu memasuki pesawat dengan tertib perioritaskan jamaah lansia untuk masuk pesawat lebih.",
+            },
+            {
+                arab: {
+                    title: "Saat akan tiba di tanah air, bacalah do’a berikut:",
+                    arab: "اَللّٰهُمَّ اجْعَلْ لَنَا بِهَا قَرَارًا أَوْ رِزْقًا حَسَنًا، اَللّٰهُمَّ ارْزُقْنَا جَنَاهَا وَأَعِذْنَا مِنْ وَبَاهَا وَحَبِّبْنَا إِلَى أَهْلِهَا وَحَبِّبْ صَالِحِيْ أَهْلِهَا إِلَيْنَا",
+                    audio: "",
+                    latin: "Allāhummaj‘al lanā bihā qarārā, aw rizqan hasanā.  Allāhummarzuqnā janāhā, wa a‘idznā min wabāhā, wa habbibnā ilā ahlihā, wa habbib shālihī ahlihā ilaynā.",
+                    translate:
+                        "Ya Allah, jadikanlah Tanah Air ini sebagai tempat tinggal atau rezeki yang baik bagi kami. Ya Allah, karuniakanlah kepada kami hasil tanaman negeri ini; lindungi kami dari wabahnya; tanamkan rasa cinta di hati kami terhadap penduduknya; dan tanamkan rasa cinta di hati penduduknya yang saleh terhadap kami.",
+                },
+            },
+            {
+                notes: [
+                    "SOP di pesawat, SOP di Bandara Indonesia dan menuju Debarkasi sesuai dengan SOP pemberangkatan.",
+                ],
             },
         ],
     },

@@ -41,12 +41,6 @@ interface NavItem {
     link: string;
 }
 
-interface TextContent {
-    id: string;
-    title: string;
-    data: TextData[];
-}
-
 interface TextData {
     title?: string;
     index?: string;
@@ -72,9 +66,13 @@ interface TextData {
         source?: string;
         audio?: string;
     };
-    note?: {
-        text?: string;
-    };
+    notes?: string[];
+}
+
+interface TextContent {
+    id: string;
+    title: string;
+    data: TextData[];
 }
 
 interface TabContent {

@@ -5,7 +5,8 @@ import Title from "@/components/Typography/Title";
 import { activityService } from "@/services/activityService";
 
 export default function Activity({ kegiatanId }: { kegiatanId: string }) {
-    const activity = activityService.getActivityDetail(kegiatanId);
+    const activity: TextContent | null | undefined =
+        activityService.getActivityDetail(kegiatanId);
 
     return (
         <>

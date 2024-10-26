@@ -268,9 +268,9 @@ export const activities: TextContent[] = [
                 },
             },
             {
-                note: {
-                    text: "Solat sunnat ihram dilaksanakan sebanyak dua rakaat. Setelah al Fatihah membaca surat Al-kafirun di rakaat pertama dan surat Al-Ikhlas di rakaat kedua.",
-                },
+                notes: [
+                    "Solat sunnat ihram dilaksanakan sebanyak dua rakaat. Setelah al Fatihah membaca surat Al-kafirun di rakaat pertama dan surat Al-Ikhlas di rakaat kedua.",
+                ],
             },
             {
                 index: "9",
@@ -413,9 +413,9 @@ export const activities: TextContent[] = [
                 text: "Setelah keluar bandara Jeddah, lalu kita naik bus sesuai karom masing-masing menuju Mekah",
             },
             {
-                note: {
-                    text: "Ketika naik bus apabila tidak Bersama karom dan karunya atau pasangannya jangan khawatir karena semua bus akan nyampai ke pemondokan yang sama.",
-                },
+                notes: [
+                    "Ketika naik bus apabila tidak Bersama karom dan karunya atau pasangannya jangan khawatir karena semua bus akan nyampai ke pemondokan yang sama.",
+                ],
             },
         ],
     },
@@ -463,6 +463,167 @@ export const activities: TextContent[] = [
                     latin: "Allâhumma zid hâdzal baita tasyrîfan wa ta’dhîman wa takrîman wa mahabatan, wa zid man syarafâhu, wa ‘adh-dhomahu wa karromahu mimman hajjahu awi’tamarahu, tasyrîfan wa ta’dhîman wa takrîman wa birran.",
                     translate:
                         "Ya Allah, tambahkanlah kemuliaan, keangungan, kehormatan dan wibawa pada Bait (Ka'bah) ini. Dan tambahklan pula pada orang-orang yang memuliakan, mengagungkan dan menghormatinya di antara mereka yang berhaji atau yang berumrah dengan kemuliaan, keagunggan, kehormatan, dan kebaikan.",
+                },
+            },
+        ],
+    },
+    {
+        id: "kegiatan-di-tenda-arafah",
+        title: "Kegiatan Di Tenda Arafah",
+        data: [
+            {
+                index: "1",
+                text: "Semua jamaah memasuki tenda Arafah yang sudah disiapkan posisi jamaah laki-laki di depan jamaah perempuan di belakang (pakai hijab) menghadap ke kiblat.",
+            },
+            {
+                index: "2",
+                text: "Aktivitas jamaah yaitu sholat, dzikir baca al Quran dan menginap di tenda arafah menunggu waktu tergelincir matahari pada tanggal 9 Dzulhijah untuk wukuf di arafah.",
+            },
+            {
+                index: "3",
+                text: "Prosesi wukuf di Arafah diawali dengan khutbah Arafah, lalu adzan dzuhur dilanjutkan iqomah. Jamaah melaksanakan shalat Dzuhur dan Ashar secara jamak taqdim, selesai shalat dzuhur iqomat lagi lanjut shalat ashar.",
+            },
+            {
+                index: "4",
+                text: "Niat shalat dzuhur dan ashar secara jamak taqdim dan qashar (<b>Lihat Lampiran Panduan Jamak-Qashar</b>).",
+            },
+            {
+                arab: {
+                    title: "Selanjutnya jamaah membaca do’a wuquf:",
+                    arab: "اَللّٰهُمَّ لَكَ الْحَمْدُ كَالَّذِيْ تَقُوْلُ وَخَيْرًا مِمَّا نَقُوْلُ. اَللّٰهُمَّ لَكَ صَلَاتِيْ وَنُسُكِيْ وَمَحْيَايَ وَمَمَاتِيْ وَإِلَيْكَ مَاٰبِيْ، وَلَكَ رَبِّيْ تُرَاثِيْ. اَللّٰهُمَّ إِنِّيْ أَعُوْذُ بِكَ مِنْ عَذَابِ الْقَــبْرِ وَوَسْوَاسِ الصَّدْرِ، وَشَتَاتِ الْأَمْرِ. اَللّٰهُمَّ إِنِّيْ أَعُوْذُ بِكَ مِنْ شَرِّ مَا تَجِيْءُ بِهِ الرِّيْحُ.",
+                    audio: "",
+                    latin: "Allâhumma lakal ḫamdu kalladzî taqûlu wa khairan mimmâ naqûlu. Allâhumma laka shalâtî wa nusukî wa maḫyâyâ wa mamâtî wa ilaika ma-âbî, wa laka rabbî turâtsî. Allâhumma innî a‘ûdzubika min ‘adzâbil qabri wa waswâsish-shadri, wasyatâtil amri. Allâhumma innî a‘ûdzubika min syarri mâ ta jî’u bihirrîḫ.",
+                    translate:
+                        "Ya Allah, segala puji bagi-Mu seperti Engkau memuji (diri-Mu) dan pujian terbaik yang kami ucapkan. Ya Allah, bagi-Mu shalatku, ibadahku, hidupku, dan matiku, dan kepada-Mu tempat kembaliku dan kepada-Mulah pemeliharaan apa yang aku tinggalkan. Ya Allah, aku berlindung pa da-Mu dari siksa kubur dan keragu-raguan dalam hati serta kesulitan-kesulitan dalam segala urusan. Ya Allah, aku berlindung pada-Mu dari kejahatan yang diembuskan oleh angin.",
+                },
+            },
+            {
+                arab: {
+                    title: "Selanjutnya jamaah membaca tahlil 1000x kali",
+                    arab: "لَا إِلٰهَ إِلَّا اللّٰهُ وَحْدَهُ لَا شَرِيْكَ لَهُ، لَهُ الْمُلْكُ، وَلَهُ الْحَمْدُ، وَهُوَ عَلَى كُلِّ شَيْءٍ قَدِيْرٌ",
+                    audio: "",
+                    latin: "Lā ilāha illāllāhu wahdahu lā syarika lah, lahul mulku wa lahul hamdu wa huwa 'alā kulli syay'in qadīr.",
+                    translate:
+                        "Tidak ada Tuhan yang berhak disembah selain Allah Yang Maha Esa, tidak ada sekutu bagi-Nya, milik-Nya segala kekuasaan dan bagi-Nya segala pujian, dan Dialah Yang Mahakuasa atas segala sesuatu.",
+                },
+            },
+            {
+                arab: {
+                    title: "Membaca tasbih 100x",
+                    arab: "سُبْحَانَ اللّٰهِ والْحَمْدُ لِلّٰهِ وَلَا اِلٰهَ اِلَّا اللّٰهُ وَ اللّٰهُ اَكْبَرُ",
+                    audio: "",
+                    latin: "Subhānallāhi, wal hamdu lillāhi, wa lā ilāha illallāhu, wallāhu akbar",
+                    translate:
+                        "Maha suci Allah, segala puji bagi Allah, tidak ada satu Tuhan pun yang disembah kecuali Allah, dan Allah Maha Besar.",
+                },
+            },
+            {
+                arab: {
+                    title: "Membaca Al-Quran surat al-Hasyr",
+                    arab: "﴿سَبَّحَ لِلّٰهِ مَا فِى السَّمٰوٰتِ وَمَا فِى الْاَرْضِۚ وَهُوَ الْعَزِيْزُ الْحَكِيْمُ ١ هُوَ الَّذِيْٓ اَخْرَجَ الَّذِيْنَ كَفَرُوْا مِنْ اَهْلِ الْكِتٰبِ مِنْ دِيَارِهِمْ لِاَوَّلِ الْحَشْرِۗ مَا ظَنَنْتُمْ اَنْ يَّخْرُجُوْا وَظَنُّوْٓا اَنَّهُمْ مَّانِعَتُهُمْ حُصُوْنُهُمْ مِّنَ اللّٰهِ فَاَتٰىهُمُ اللّٰهُ مِنْ حَيْثُ لَمْ يَحْتَسِبُوْا وَقَذَفَ فِيْ قُلُوْبِهِمُ الرُّعْبَ يُخْرِبُوْنَ بُيُوْتَهُمْ بِاَيْدِيْهِمْ وَاَيْدِى الْمُؤْمِنِيْنَۙ فَاعْتَبِرُوْا يٰٓاُولِى الْاَبْصَارِ ٢ وَلَوْلَآ اَنْ كَتَبَ اللّٰهُ عَلَيْهِمُ الْجَلَاۤءَ لَعَذَّبَهُمْ فِى الدُّنْيَاۗ وَلَهُمْ فِى الْاٰخِرَةِ عَذَابُ النَّارِ ٣ ذٰلِكَ بِاَنَّهُمْ شَاۤقُّوا اللّٰهَ وَرَسُوْلَهٗ ۖوَمَنْ يُّشَاۤقِّ اللّٰهَ فَاِنَّ اللّٰهَ شَدِيْدُ الْعِقَابِ ٤ مَا قَطَعْتُمْ مِّنْ لِّيْنَةٍ اَوْ تَرَكْتُمُوْهَا قَاۤىِٕمَةً عَلٰٓى اُصُوْلِهَا فَبِاِذْنِ اللّٰهِ وَلِيُخْزِيَ الْفٰسِقِيْنَ ٥ وَمَآ اَفَاۤءَ اللّٰهُ عَلٰى رَسُوْلِهٖ مِنْهُمْ فَمَآ اَوْجَفْتُمْ عَلَيْهِ مِنْ خَيْلٍ وَّلَا رِكَابٍ وَّلٰكِنَّ اللّٰهَ يُسَلِّطُ رُسُلَهٗ عَلٰى مَنْ يَّشَاۤءُۗ وَاللّٰهُ عَلٰى كُلِّ شَيْءٍ قَدِيْرٌ ٦ مَآ اَفَاۤءَ اللّٰهُ عَلٰى رَسُوْلِهٖ مِنْ اَهْلِ الْقُرٰى فَلِلّٰهِ وَلِلرَّسُوْلِ وَلِذِى الْقُرْبٰى وَالْيَتٰمٰى وَالْمَسٰكِيْنِ وَابْنِ السَّبِيْلِۙ كَيْ لَا يَكُوْنَ دُوْلَةً ۢ بَيْنَ الْاَغْنِيَاۤءِ مِنْكُمْۗ وَمَآ اٰتٰىكُمُ الرَّسُوْلُ فَخُذُوْهُ وَمَا نَهٰىكُمْ عَنْهُ فَانْتَهُوْاۚ وَاتَّقُوا اللّٰهَ ۗاِنَّ اللّٰهَ شَدِيْدُ الْعِقَابِۘ ٧ لِلْفُقَرَاۤءِ الْمُهٰجِرِيْنَ الَّذِيْنَ اُخْرِجُوْا مِنْ دِيَارِهِمْ وَاَمْوَالِهِمْ يَبْتَغُوْنَ فَضْلًا مِّنَ اللّٰهِ وَرِضْوَانًا وَّيَنْصُرُوْنَ اللّٰهَ وَرَسُوْلَهٗ ۗ اُولٰۤىِٕكَ هُمُ الصّٰدِقُوْنَۚ ٨ وَالَّذِيْنَ تَبَوَّءُو الدَّارَ وَالْاِيْمَانَ مِنْ قَبْلِهِمْ يُحِبُّوْنَ مَنْ هَاجَرَ اِلَيْهِمْ وَلَا يَجِدُوْنَ فِيْ صُدُوْرِهِمْ حَاجَةً مِّمَّآ اُوْتُوْا وَيُؤْثِرُوْنَ عَلٰٓى اَنْفُسِهِمْ وَلَوْ كَانَ بِهِمْ خَصَاصَةٌ ۗوَمَنْ يُّوْقَ شُحَّ نَفْسِهٖ فَاُولٰۤىِٕكَ هُمُ الْمُفْلِحُوْنَۚ ٩ وَالَّذِيْنَ جَاۤءُوْ مِنْۢ بَعْدِهِمْ يَقُوْلُوْنَ رَبَّنَا اغْفِرْ لَنَا وَلِاِخْوَانِنَا الَّذِيْنَ سَبَقُوْنَا بِالْاِيْمَانِ وَلَا تَجْعَلْ فِيْ قُلُوْبِنَا غِلًّا لِّلَّذِيْنَ اٰمَنُوْا رَبَّنَآ اِنَّكَ رَءُوْفٌ رَّحِيْمٌ ࣖ ١٠ ۞ اَلَمْ تَرَ اِلَى الَّذِيْنَ نَافَقُوْا يَقُوْلُوْنَ لِاِخْوَانِهِمُ الَّذِيْنَ كَفَرُوْا مِنْ اَهْلِ الْكِتٰبِ لَىِٕنْ اُخْرِجْتُمْ لَنَخْرُجَنَّ مَعَكُمْ وَلَا نُطِيْعُ فِيْكُمْ اَحَدًا اَبَدًاۙ وَّاِنْ قُوْتِلْتُمْ لَنَنْصُرَنَّكُمْۗ وَاللّٰهُ يَشْهَدُ اِنَّهُمْ لَكٰذِبُوْنَ ١١ لَىِٕنْ اُخْرِجُوْا لَا يَخْرُجُوْنَ مَعَهُمْۚ وَلَىِٕنْ قُوْتِلُوْا لَا يَنْصُرُوْنَهُمْۚ وَلَىِٕنْ نَّصَرُوْهُمْ لَيُوَلُّنَّ الْاَدْبَارَۙ ثُمَّ لَا يُنْصَرُوْنَ ١٢ لَاَنْتُمْ اَشَدُّ رَهْبَةً فِيْ صُدُوْرِهِمْ مِّنَ اللّٰهِ ۗذٰلِكَ بِاَنَّهُمْ قَوْمٌ لَّا يَفْقَهُوْنَ ١٣ لَا يُقَاتِلُوْنَكُمْ جَمِيْعًا اِلَّا فِيْ قُرًى مُّحَصَّنَةٍ اَوْ مِنْ وَّرَاۤءِ جُدُرٍۗ بَأْسُهُمْ بَيْنَهُمْ شَدِيْدٌ ۗ تَحْسَبُهُمْ جَمِيْعًا وَّقُلُوْبُهُمْ شَتّٰىۗ ذٰلِكَ بِاَنَّهُمْ قَوْمٌ لَّا يَعْقِلُوْنَۚ ١٤ كَمَثَلِ الَّذِيْنَ مِنْ قَبْلِهِمْ قَرِيْبًا ذَاقُوْا وَبَالَ اَمْرِهِمْۚ وَلَهُمْ عَذَابٌ اَلِيْمٌۚ ١٥ كَمَثَلِ الشَّيْطٰنِ اِذْ قَالَ لِلْاِنْسَانِ اكْفُرْۚ فَلَمَّا كَفَرَ قَالَ اِنِّيْ بَرِيْۤءٌ مِّنْكَ اِنِّيْٓ اَخَافُ اللّٰهَ رَبَّ الْعٰلَمِيْنَ ١٦ فَكَانَ عَاقِبَتَهُمَآ اَنَّهُمَا فِى النَّارِ خٰلِدَيْنِ فِيْهَاۗ وَذٰلِكَ جَزٰۤؤُا الظّٰلِمِيْنَ ࣖ ١٧ يٰٓاَيُّهَا الَّذِيْنَ اٰمَنُوا اتَّقُوا اللّٰهَ وَلْتَنْظُرْ نَفْسٌ مَّا قَدَّمَتْ لِغَدٍۚ وَاتَّقُوا اللّٰهَ ۗاِنَّ اللّٰهَ خَبِيْرٌ ۢبِمَا تَعْمَلُوْنَ ١٨ وَلَا تَكُوْنُوْا كَالَّذِيْنَ نَسُوا اللّٰهَ فَاَنْسٰىهُمْ اَنْفُسَهُمْۗ اُولٰۤىِٕكَ هُمُ الْفٰسِقُوْنَ ١٩ لَا يَسْتَوِيْٓ اَصْحٰبُ النَّارِ وَاَصْحٰبُ الْجَنَّةِۗ اَصْحٰبُ الْجَنَّةِ هُمُ الْفَاۤىِٕزُوْنَ ٢٠ لَوْ اَنْزَلْنَا هٰذَا الْقُرْاٰنَ عَلٰى جَبَلٍ لَّرَاَيْتَهٗ خَاشِعًا مُّتَصَدِّعًا مِّنْ خَشْيَةِ اللّٰهِ ۗوَتِلْكَ الْاَمْثَالُ نَضْرِبُهَا لِلنَّاسِ لَعَلَّهُمْ يَتَفَكَّرُوْنَ ٢١ هُوَ اللّٰهُ الَّذِيْ لَآ اِلٰهَ اِلَّا هُوَۚ عَالِمُ الْغَيْبِ وَالشَّهَادَةِۚ هُوَ الرَّحْمٰنُ الرَّحِيْمُ ٢٢ هُوَ اللّٰهُ الَّذِيْ لَآ اِلٰهَ اِلَّا هُوَ ۚ اَلْمَلِكُ الْقُدُّوْسُ السَّلٰمُ الْمُؤْمِنُ الْمُهَيْمِنُ الْعَزِيْزُ الْجَبَّارُ الْمُتَكَبِّرُۗ سُبْحٰنَ اللّٰهِ عَمَّا يُشْرِكُوْنَ ٢٣ هُوَ اللّٰهُ الْخَالِقُ الْبَارِئُ الْمُصَوِّرُ لَهُ الْاَسْمَاۤءُ الْحُسْنٰىۗ يُسَبِّحُ لَهٗ مَا فِى السَّمٰوٰتِ وَالْاَرْضِۚ وَهُوَ الْعَزِيْزُ الْحَكِيْمُ ࣖ ٢٤ ﴾",
+                    audio: "",
+                },
+            },
+            {
+                arab: {
+                    title: "Membaca Al-Quran surat al-Ikhlas 1000x",
+                    arab: "﴿قُلْ هُوَ اللّٰهُ اَحَدٌۚ ١ اَللّٰهُ الصَّمَدُۚ ٢ لَمْ يَلِدْ وَلَمْ يُوْلَدْۙ ٣ وَلَمْ يَكُنْ لَّهٗ كُفُوًا اَحَدٌ ࣖ ٤ ﴾",
+                    audio: "",
+                    latin: "Qul huwallāhu aḥad(un). Allāhuṣ-ṣamad(u). Lam yalid wa lam yūlad. Wa lam yakul lahū kufuwan aḥad(un).",
+                    translate:
+                        "Katakanlah (Nabi Muhammad), “Dialah Allah Yang Maha Esa. Allah tempat meminta segala sesuatu. Dia tidak beranak dan tidak pula diperanakkan, serta tidak ada sesuatu pun yang setara dengan-Nya.",
+                },
+            },
+            {
+                arab: {
+                    title: "Membaca Al-Quran surat al-Fatihah 100x",
+                    arab: "﴿ بِسْمِ اللّٰهِ الرَّحْمٰنِ الرَّحِيْمِ ١ اَلْحَمْدُ لِلّٰهِ رَبِّ الْعٰلَمِيْنَۙ ٢ الرَّحْمٰنِ الرَّحِيْمِۙ ٣ مٰلِكِ يَوْمِ الدِّيْنِۗ ٤ اِيَّاكَ نَعْبُدُ وَاِيَّاكَ نَسْتَعِيْنُۗ ٥ اِهْدِنَا الصِّرَاطَ الْمُسْتَقِيْمَۙ ٦ صِرَاطَ الَّذِيْنَ اَنْعَمْتَ عَلَيْهِمْ ەۙ غَيْرِ الْمَغْضُوْبِ عَلَيْهِمْ وَلَا الضَّاۤلِّيْنَ ࣖ ٧ ﴾",
+                    audio: "",
+                    latin: "Bismillāhir-raḥmānir-raḥīm(i). Al-ḥamdu lillāhi rabbil-‘ālamīn(a). Ar-raḥmānir-raḥīm(i). Māliki yaumid-dīn(i). Iyyāka na‘budu wa iyyāka nasta‘īn(u), Ihdinaṣ-ṣirāṭal-mustaqīm(a). Ṣirāṭal-lażīna an‘amta ‘alaihim, gairil-magḍūbi ‘alaihim wa laḍ-ḍāllīn(a).",
+                    translate:
+                        "Dengan nama Allah Yang Maha Pengasih lagi Maha Penyayang. Segala puji bagi Allah, Tuhan semesta alam. Yang Maha Pengasih lagi Maha Penyayang, Pemilik hari Pembalasan. Hanya kepada Engkaulah kami menyembah dan hanya kepada Engkaulah kami memohon pertolongan.  Bimbinglah kami ke jalan yang lurus, (yaitu) jalan orang-orang yang telah Engkau beri nikmat, bukan (jalan) mereka yang dimurkai dan bukan (pula jalan) orang-orang yang sesat.",
+                },
+            },
+            {
+                arab: {
+                    title: "Membaca sholawat ibrahimyyah 100x dengan redaksi berikut:",
+                    arab: "اَللّٰهُمَّ صَلِّ عَلَى سَيِّدِنَا مُحَمَّدٍ، وَعَلَى آلِ سَيِّدِنَا مُحَمَّدٍ، كَمَا صَلَّيْتَ عَلَى سَيِّدِنَا إِبْرَاهِيْمَ وَعَلَى آلِ سَيِّدِنَا إِبْرَاهِيْمَ، وَبَارِكْ عَلَى سَيِّدِنَا مُحَمَّدٍ وَعَلَى آلِ سَيِّدِنَا مُحَمَّدٍ كما بَاركْتَ عَلَى سَيِّدِنَا إبْرَاهِيمَ وَعَلَى آلِ سَيِّدِنَا إِبْرَاهِيْمَ فِي الْعَالَمِيْنَ إِنَّكَ حَمِيْدٌ مَجِيْدٌ",
+                    audio: "",
+                    latin: "Allāhumma shalli ‘alā sayyidinā Muhammad wa ’alā `āli sayyidinā Muhammad, kamā shallaita ‘alā sayyidinā Ibrāhīma wa ’alā `āli sayyidinā Ibrahim. wabārik ‘alā āli sayyidinaa Muhammadin kamā bārakta ’alaa sayyidinā Ibrāhima wa ‘alā `āli sayyidinā Ibrāhim, fil ‘ālamīna innaka hamīdun majīd.",
+                    translate:
+                        "Ya Allah, limpahkanlah rahmat kepada Nabi Muhammad dan kepada keluarga Nabi Muhammad, sebagaimana telah Engkau limpahkan rahmat kepada Nabi Ibrahim dan keluarga Nabi Ibrahim. Limpahkan pula keberkahan bagi Nabi Muhammad dan bagi keluarga Nabi Muhammad, sebagaimana telah Engkau limpahkan keberkahan bagi Nabi Ibrahim dan bagi keluarga Nabi Ibrahim. Sesungguhnya di alam semesta Engkau Maha Terpuji dan Maha Agung.",
+                },
+            },
+            {
+                desc: "Apabila waktu maghrib masih di tenda Arafah karena belum dapat antrian ke Muzdalifah maka shalat Maghrib dan Isya secara jamak taqdim Maghrib dan Isya.",
+            },
+        ],
+    },
+    {
+        id: "kegiatan-di-mekah-setelah-armuza",
+        title: "Kegiatan Di Mekah Setelah Armuza",
+        data: [
+            {
+                index: "1",
+                text: "Jamaah istirahat di hotel persiapan untuk melaksanakan thawaf fadhah.",
+            },
+            {
+                notes: [
+                    "Jamaah tidak mendapat konsumsi makan 3 hari pasca armuzna.",
+                    "Bus shalawat yang membawa jamaah ke masjidil harom-pun tidak ada.",
+                    "Untuk ke masjidil harom bisa jalan kaki atau naik taksi akan tetapi ongkos taksi sangat mahal.",
+                ],
+            },
+            {
+                index: "2",
+                text: "Di depan masjid ada tempat wudlu bagi yang batal, wudlu dulu dan bersihkan sandalnya, Pastikan sandal kita bersih dan suci, masukan ke kantong plastik lalu masukan ke tas tenteng.",
+            },
+            {
+                index: "3",
+                text: "Masuk masjid mulai kaki kanan dan berdoa masuk masjid.",
+            },
+            {
+                index: "4",
+                text: "Lalu semua turun ke pelataran ka'bah lalu berdoa melihat kabah.",
+            },
+            {
+                index: "5",
+                text: "Thawaf di mulai dari rukun hajar aswad memutari kabah 7 putaran.",
+            },
+            {
+                index: "6",
+                text: "Selesai thawaf jamaah ke belakang maqam ibrahim untuk shalat sunat thawaf.",
+            },
+            {
+                index: "7",
+                text: "Selesai thawaf, laksanakan Sai sebanyak 7x lintasan.",
+            },
+            {
+                index: "8",
+                text: "Selesai sai, maka kita telah resmi bertahalul kedua (tsani) dan selesailah sudah pelaksanaan ibadah haji.",
+            },
+            {
+                desc: "Setelah 30 hari di Makkah sebelum ke Madinah lakukan <b>thawaf wada</b>. Berikut bacaan do’anya:",
+            },
+            {
+                arab: {
+                    title: "Do’a Ini Dibaca Untuk Setiap Putaran:",
+                    arab: "بِسْمِ اللّٰهِ  اللّٰهُ أَكْبَرُ، سُبْحَانَ اللّٰهِ، وَاَلْحَمْدُ لِلّٰهِ، وَلَا إِلٰهَ إِلَّا اللّٰهُ، وَاللّٰهُ أَكْبَرُ، وَلَا حَوْلَ وَلَا قُوَّةَ إِلَّا بِاللّٰهِ الْعَلِيِّ الْعَظِيْمِ. وَالصَّلَاةُ وَالسَّلَامُ عَلَى رَسُوْلِ اللّٰهِ صَلَّى اللّٰهُ عَلَيْهِ وَسَلَّمَ .اَللّٰهُمَّ إِيْمَانًا بِكَ وَتَصْدِيقًا بِكِتَابِكَ، وَوَفَاءً بِعَهْدِكَ وَاتِّبَاعًا لِسُنَّةِ نَبِيِّكَ مُحَمَّدٍ صَلَّى اللّٰهُ عَلَيْهِ وَسَلَّمَ . ﴿ إِنَّ الَّذِي فَرَضَ عَلَيْكَ الْقُرْآنَ لَرَادُّكَ إِلَى مَعَادٍ ﴾ يَا مُعِيْدُ أَعِدْنِيْ، يَا سَمِيْعُ أَسْمِعْنِيْ، يَا جَبَّارُ اُجْبُرْنِيْ، يَا سَتَّارُ اُسْتُرْنِيْ، يَا رَحْمٰنُ اِرْحَمْنِيْ، يَا رَدَّادُ اُرْدُدْنِيْ إِلَى بَيْتِكَ هٰذَا، وَارْزُقْنِيَ الْعَوْدَةَ ثُمَّ الْعَوْدَ كَرَّاتٍ بَعْدَ مَرَّاتٍ، تَائِبُوْنَ عَابِدُوْنَ سَائِحُوْنَ لِرَبِّنَا حَامِدُوْنَ. صَدَقَ اللّٰهُ وَعْدَهُ، وَنَصَرَ عَبْدَهُ، وَهَزَمَ الْأَحْزَابَ وَحْدَهُ. اَللّٰهُمَّ احْفَظْنِيْ عَنْ يَمِيْنِيْ وَعَنْ يَسَارِيْ، وَمِنْ قُدَّامِيْ وَمِنْ وَرَاءِ ظَهْرِيْ، وَمِنْ فَوْقِيْ وَمِنْ تَحْتِيْ حَتَّى تُوَصِّلَنِيْ إِلَى أَهْلِيْ وَبَلَدِي. اَللّٰهُمَّ هَوِّنْ عَلَيْنَا السَّفَرَ وَاطْوِ لَنَا بُعْدَ الْأَرْضِ، اَللّٰهُمَّ اصْحَبْنَا فِى سَفَرِنَا وَاخْلُفْنَا فِى أَهْلِنَا يَا أَرْحَمَ الرَّاحِمِيْنَ، وَ يَا رَبَّ العَالَمِيْنَ.",
+                    audio: "",
+                    latin: "Bismillāhi Allāhu akbar, subhānallāhi wal hamdu lillāhi walā ilāha illallāhu wallāhu akbar, walā haula walā quwwata illā billāhil 'aliyyil 'azhīmi. Wash-shalātu was-salāmu 'alaā rasūlillāhi shallallāhu 'alaihi wa-sallama. Allāhumma īmanan bika wa tashdīqan bikitābika wawafā-`an bi'ahdika wattibā'an lisunnati nabiyyika Muhammadin shallallāhu 'alaihi wasallama. Innal ladzī faradha 'alaikal qur-āna larādduka ilā ma'ādin. Yā mu'īdu a'idnī yā samī'u asmi'nī yā jabbāru ujburnī yā sattāru usturnī yā rahmānu irhamnī yā raddādu urdudnī ilā baitika hādzā warzuqnil 'audata tsummal 'auda karrātin ba'da marrātin tā'ibūna 'ābidūna sā-ihūna lirabbinā hāmidūna shadaqallāhu wa'dahu wa nashara 'abdahu wa hazamal ahzāba wahdahu. Allāhummah-fazhnī 'an yamīnī wa 'an yasārī wamin quddāmī wamin warā-i zhahrī wamin fauqī wamin tahtī hattā tuwashshilanī ilā ahlī wabaladī. Allāhumma hawwin 'alainās safara wathwi lanā bu'dal ardhi. Allāhummash-habnā fī safarinā wakhlufnā fī ahlinā yā arhamar rāhimīna wa yā rabbal 'ālamīn.",
+                    translate:
+                        "Dengan nama Allah, Allah Maha Besar, Maha Suci Allah dan segala puji hanya kepada Allah tidak ada Tuhan selain Allah Yang Maha Besar, tidak daya (untuk memperoleh manfaat) dan tiada kekuatan (untuk menolak kesulitan) kecuali dengan pertolongan dari Allah Yang Maha Tinggi lagi Maha Besar. Shalawat dan salam bagi junjungan Rasulullah Saw. Ya Allah, aku datang kemari karena iman kepada-Mu, membenarkan kitab-Mu, memenuhi janji-Mu dan karena menuruti sunnah Nabi-Mu Muhammad Saw. Sesungguhnya Tuhan yang menurunkan al-Qur’an kepadamu niscaya memulangkanmu ke tempat kembali, wahai Tuhan yang Kuasa mengembalikan, kembalikan aku ke tempatku, wahai Tuhan yang Maha Mendengar, dengarlah (kabulkanlah) permohonanku wahai Tuhan Yang Maha Memperbaiki, perbaikilah aku, wahai Tuhan Yang Maha Pelindung, tutupilah aibku, wahai Tuhan Yang Maha Kasih Sayang, sayangilah aku, wahai Tuhan Yang Maha Kuasa Mengembalikan, kembalikanlah aku ke Ka’bah ini dan berilah aku rizqi untuk mengulanginya berkali-kali, dalam keadaan bertaubat dan beribadat, berlayar menuju Tuhan kami sambil memuji, Allah Maha menepati janji-Nya membantu hamba-hamba-Nya, yang menghancurkan sendiri musuh-musuh-Nya. Ya Allah, peliharalah aku dari kanan, kiri, depan dan belakang, dari sebelah atas dan bawah sampai Engkau mengembalikan aku kepada keluarga dan tanah airku. Ya Allah, mundahkanlah perjalanan kami, lipatkan bumi untuk kami. Ya Allah sertailah kami dalam perjalanan, dan gantilah kedudukan kami dalam keluarga yang ditinggal, wahai Tuhan Yang Maha Pengasih melebihi segala pengasih, wahai Tuhan Yang Memelihara seluruh alam",
+                },
+            },
+            {
+                title: "Do’a Sesudah Thawaf Wada’",
+                desc: "Sesudah selesai thawaf wada’ kemudian dianjurkan berdiri di Multazam yaitu antara Hajar Aswad dan pintu Ka’bah, lalu membaca do’a sebagai berikut:",
+                arab: {
+                    arab: "اَللّٰهُمَّ إِنَّ البَيْتَ بَيْتُكَ، وَالْعَبْدَ عَبْدُكَ، وَابْنُ عَبْدِكَ وَابْنُ أَمَتِكَ، حَمَلْتَنِيْ عَلَى مَا سَخَّرْتَ لِىْ مِنْ خَلْقِكَ حَتَّى سَيَّرْتَنِيْ إِلَى بِلَادِكَ، وَبَلَّغْتَنِيْ بِنِعْمَتِكَ حَتَّى أَعَنْتَنِيْ عَلَى قَضَاءِ مَنَاسِكِكَ. فَإِنْ كُنْتَ رَضِيْتَ عَنِّيْ فَازْدَدْ عَنِّيْ رِضًا، وَإلَّا فَمُنَّ الْآنَ عَلَيَّ قَبْلَ تَبَاعُدِيْ عَنْ بَيْتِكَ. هٰذَا أَوَانُ انْصِرَافِيْ إِنْ أَذَنْتَ لِيْ غَيْرَ مُسْتَبْدَلٍ بِكَ وَلاَ بِبَيْتِكَ وَلاَ رَاغِبًا عَنْكَ وَلاَ عَن بَيْتكَ. اَللّٰهُمَّ اصْحِبْنِيْ بِالْعَافِيَةِ فِيْ بَدَنِيْ وَالْعِصْمَةَ فِي دِيْنِيْ، وَأَحْسِنْ مُنْقَلَبِيْ وَارْزُقْنِيْ طَاعَتَكَ مَا أَبْقَيْتَنِي. وَاجْمَعْ لِيْ خَيْرَ الدُّنْيَا وَالآخِرَةِ إنَّكَ عَلَى كُلِّ شَيْءٍ قَدِيْرٌ. اَللّٰهُمَّ لاَ تَجْعَلْ هٰذَا آخِرَ الْعَهْدِ بِبَيْتِكَ الحَرَامِ، وَإِنْ جَعَلْتَهُ آخِرَ العَهْدِ فَعَوِّضْنِيْ عَنْهُ الْجَنَّةَ بِرَحْمَتِكَ يَا أَرْحَمَ الرَّاحِمِيْنَ. آمِيْنَ يَا رَبَّ الْعَالَمِيْنَ.",
+                    audio: "",
+                    latin: "Allāhumma innal bayta baytuka, wal ‘abdu abduka, wabnu ‘abdika wabnu amatika, hamaltanī alā mā sakhkharta lī min khalqika hattā sayyartanī fī bilādika wa ballaghtanī bi ni‘matika hattā a‘antanī ‘alā qadhā’i manāsikika, fa in kunta radhīta ‘annī fazdad ‘annī ridha, wa illā fa munnal āna qabla an yan’ā ‘an baytika dārī, hādzā awānu inshirāfī, in ādzanta lī ghayra mustabdilin bika wa lā bi baytika, wa lā rāghibin ‘anka wa lā ‘an baytika.   Allāḥumma fa ashhibnīl ‘āfiyata fī badanī wal ‘ishmata fī dīnī, wa ahsin munqalabī, warzuqnī thā‘ataka mā abqaytanī, wajma‘ lī khayrayil ākhirati wad duniyā, innaka ‘alā kulli syay‘in qadīr. Allāhumma lā taj’al hādzā akhirol ‘ahdi bibaitikal harōmi, wa-in ja’altahū ākhirol ‘ahdi fa’awwidhnī anhul jannta. Birohmatika yā arhamar rāhimīn, āmīn yā Robbal ‘ālamīn.",
+                    translate:
+                        "Ya Allah, rumah ini adalah rumah-Mu, aku ini hamba-Mu anak hamba-Mu yang lelaki dan anak hamba-Mu yang perempuan. Engkau telah membawa aku di dalam hal yang Engkau sendiri memudahkan untukku sehingga Engkau jalankan aku negeri-Mu ini Engkau telah menyampaikan aku dengan nikmat-Mu juga, sehingga Engkau menolong aku untuk menunaikan ibadah haji. Kalau Engkau rela padaku, maka tambahkanlah keridahaan itu padaku, maka tambahkanlah keridhaan itu padaku. Jika tidak maka tuntaskan sekarang sebelum aku jauh dari rumah-Mu ini. Sekarang sudah waktunya aku pulang, jika Engkau izinkan aku dengan tidak menukar sesuatu dengan Engkau (Dzat-Mu) ataupun rumah-Mu tidak benci pada-Mu dan tidak juga benci pada rumah-Mu. Ya Allah, berikanlah aku ini dengan afiat pada tubuhku, tetap menjaga agamaku, baik kepulanganku, dan berilah aku taat setia pada-Mu selama-lamanya selama Engkau membiarkan aku hidup dan kumpulkanlah bagiku kebajikan dunia dan akhirat. Sesungguhnya Engkau Maha Kuasa atas segala sesuatu. Ya Allah, janganlah Engkau jadikan waktu ini masa terakhir bagiku dengan rumah-Mu. Sekiranya Engkau jadikan bagiku masa terakhir, maka gantilah surga untukku, dengan rahmat-Mu, wahai Tuhan yang Maha Pengasih dari segala yang pengasih. Amin, wahai Tuhan Pemelihara seru sekalian alam.",
                 },
             },
         ],

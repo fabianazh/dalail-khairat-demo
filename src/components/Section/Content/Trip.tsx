@@ -5,7 +5,8 @@ import Title from "@/components/Typography/Title";
 import { tripService } from "@/services/tripService";
 
 export default function Trip({ perjalananId }: { perjalananId: string }) {
-    const trip = tripService.getTripDetail(perjalananId);
+    const trip: TextContent | null | undefined =
+        tripService.getTripDetail(perjalananId);
 
     return (
         <>

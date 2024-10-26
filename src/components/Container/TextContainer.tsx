@@ -59,9 +59,9 @@ export default function TextContainer({
                                     </div>
                                 </>
                             )}
-                            {content.note && (
+                            {content.notes && (
                                 <>
-                                    <Note>{content.note.text}</Note>
+                                    <Note notes={content.notes}></Note>
                                 </>
                             )}
                             <ul className="flex flex-col gap-1.5">

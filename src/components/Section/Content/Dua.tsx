@@ -5,7 +5,7 @@ import Title from "@/components/Typography/Title";
 import { duaService } from "@/services/duaService";
 
 export default function Dua({ doaId }: { doaId: string }) {
-    const dua = duaService.getDuaDetail(doaId);
+    const dua: TabContent | null | undefined = duaService.getDuaDetail(doaId);
 
     return (
         <>
