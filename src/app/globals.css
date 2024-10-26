@@ -15,8 +15,8 @@
 }
 
 @layer utilities {
-    .main {
-        --s: 78px; /* control the size*/
+    .background {
+        --s: 78px;
         --c1: #12823b;
         --c2: #119243;
 

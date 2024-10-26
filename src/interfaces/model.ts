@@ -59,6 +59,7 @@ interface TextData {
             latin?: string;
             translate?: string;
             source?: string;
+            audio?: string;
         };
     }[];
     arab?: {
@@ -67,6 +68,7 @@ interface TextData {
         latin?: string;
         translate?: string;
         source?: string;
+        audio?: string;
     };
     note?: {
         text?: string;

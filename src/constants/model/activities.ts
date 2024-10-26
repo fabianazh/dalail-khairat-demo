@@ -60,6 +60,7 @@ export const activities: TextContent[] = [
                 text: "Sebelum berangkat, laksanakan sholat sunat safar 2 rakaat dengan lafadz niat:",
                 arab: {
                     arab: "أُصَلِّي سُنَّةَ السَّفَرِ رَكْعَتَيْنِ لِلّٰهِ تَعَالَى",
+                    audio: "",
                     latin: "Ushalliî sunnatas safari rak'ataini lillâhi ta'âla",
                     translate:
                         "Saya niat shalat sunnah perjalanan dua rakaat karena Allah ta'âla.",
@@ -83,6 +84,7 @@ export const activities: TextContent[] = [
                 arab: {
                     title: "Ayat Kursi:",
                     arab: "اَللّٰهُ لَآ اِلٰهَ اِلَّا هُوَۚ اَلْحَيُّ الْقَيُّوْمُ ەۚ لَا تَأْخُذُهٗ سِنَةٌ وَّلَا نَوْمٌۗ لَهٗ مَا فِى السَّمٰوٰتِ وَمَا فِى الْاَرْضِۗ مَنْ ذَا الَّذِيْ يَشْفَعُ عِنْدَهٗٓ اِلَّا بِاِذْنِهٖۗ يَعْلَمُ مَا بَيْنَ اَيْدِيْهِمْ وَمَا خَلْفَهُمْۚ وَلَا يُحِيْطُوْنَ بِشَيْءٍ مِّنْ عِلْمِهٖٓ اِلَّا بِمَا شَاۤءَۚ وَسِعَ كُرْسِيُّهُ السَّمٰوٰتِ وَالْاَرْضَۚ وَلَا يَـُٔوْدُهٗ حِفْظُهُمَاۚ وَهُوَ الْعَلِيُّ الْعَظِيْمُ ٢٥٥",
+                    audio: "",
                     latin: "Allāhu lā ilāha illā huw(a), al-ḥayyul-qayyūm(u), lā ta'khużuhū sinatuw wa lā naum(un), lahū mā fis-samāwāti wa mā fil-arḍ(i), man żal-lażī yasyfa'u 'indahū illā bi'iżnih(ī), ya'lamu mā baina aidīhim wa mā khalfahum, wa lā yuḥīṭūna bisyai'im min 'ilmihī illā bimā syā'(a), wasi'a kursiyyuhus-samāwāti wal-arḍ(a), wa lā ya'ūduhū ḥifẓuhumā, wa huwal-'aliyyul-'aẓīm(u).",
                     translate:
                         "Allah, tidak ada tuhan selain Dia, Yang Mahahidup lagi terus-menerus mengurus (makhluk-Nya). Dia tidak dilanda oleh kantuk dan tidak (pula) oleh tidur. Milik-Nyalah apa yang ada di langit dan apa yang ada di bumi. Tidak ada yang dapat memberi syafaat di sisi-Nya tanpa izin-Nya. Dia mengetahui apa yang ada di hadapan mereka dan apa yang ada di belakang mereka. Mereka tidak mengetahui sesuatu apa pun dari ilmu-Nya, kecuali apa yang Dia kehendaki. Kursi-Nya (ilmu dan kekuasaan-Nya) meliputi langit dan bumi. Dia tidak merasa berat memelihara keduanya. Dialah yang Mahatinggi lagi Mahaagung.",
@@ -92,6 +94,7 @@ export const activities: TextContent[] = [
                 arab: {
                     title: "Qs. Quraisy:",
                     arab: "لِاِيْلٰفِ قُرَيْشٍۙ ١ اٖلٰفِهِمْ رِحْلَةَ الشِّتَاۤءِ وَالصَّيْفِۚ ٢ فَلْيَعْبُدُوْا رَبَّ هٰذَا الْبَيْتِۙ ٣ الَّذِيْٓ اَطْعَمَهُمْ مِّنْ جُوْعٍ ەۙ وَّاٰمَنَهُمْ مِّنْ خَوْفٍ ࣖ ٤",
+                    audio: "",
                     latin: "Li'īlāfi quraisy(in). ´lāfihim riḥlatasy-syitā'i waṣ-ṣaif(i). Falya‘budū rabba hāżal-bait(i). Allażī aṭ‘amahum min jū‘(in), wa āmanahum min khauf(in).",
                     translate:
                         "Disebabkan oleh kebiasaan orang-orang Quraisy, (yaitu) kebiasaan mereka bepergian pada musim dingin dan musim panas (sehingga mendapatkan banyak keuntungan), maka hendaklah mereka menyembah Tuhan (pemilik) rumah ini (Ka‘bah)  yang telah memberi mereka makanan untuk menghilangkan lapar dan mengamankan mereka dari rasa takut.",
@@ -102,6 +105,7 @@ export const activities: TextContent[] = [
                 arab: {
                     title: "Lalu Bacalah Doa berikut:",
                     arab: "اَلْحَمْدُ لِلّٰهِ الَّذِيْ هَدَانِيْ بِالْإِسْلَامِ، وَأَرْشَدَنِيْ إلَى أَدَاءِ مَنَاسِكِيْ حَاجًا بِبَيْتِهِ وَمُعْتَمِرًا بِمَشَاعِرِهِ . اَللّٰهُمَّ صَلِّ عَلَى النَّبِيِّ الأُمِّيِّ وَعَلَى آلِهِ وَأَصْحَابِهِ أَجْمَعِيْنَ. اَللّٰهُمَّ إِلَيْكَ تَوَجَّهْتُ، وَبِكَ اعْتَصَمْتُ. اَللّٰهُمَّ اكْفِنِي مَا هَمَّنِيْ وَمَا لَا أَهْتَمُّ لَهُ، اَللّٰهُمَّ زَوِّدْنِي التَّقْوَى، وَاغْفِرْ لِي ذَنْبِي.",
+                    audio: "",
                     latin: "Alhamdulillāhilladzī hadānī lil islām, wa arsyadanī ilā adāi manāsikī hājan bibaitihi wa mu’tamiran bimasyāri’ihī. Allāhumma shali ‘ala-n nabiyyi-l ummiyyi wa ‘alā ālihi wa ashābihī ajma’īn. Allāhumma ilaika tawajjahtu, wa bika’tashamtu. Allāhummakfinī mā hammanī wa mā lā ahtammu lahu. Allāhumma zawdnit taqwā waghfirlī dzanbī.",
                     translate:
                         "Segala puji bagi Allah yang telah memberi petunjuk kepadaku dengan Islam dan memberi bimbingan kepadaku untuk menunaikan manasik hajiku di rumah-Nya, dan mengerjakan umrah di tempat lambang-lambang keagungan-Nya (Masya'ir) Ya Allah berikanlah shalawat atas Nabi yang tidak bisa baca dan tulis (ummi) dan atas keluarga dan para sahabatnya sekalian. Ya Allah kepada-Mu aku menghadap dan denganmu aku berpegang teguh. Ya Allah lindungilah aku dari sesuatu yang menyusahkan dan sesuatu yang tidak saya perlukan. Ya Allah bekalilah aku dengan taqwa dan ampunilah dosaku.",
@@ -123,6 +127,7 @@ export const activities: TextContent[] = [
                 arab: {
                     title: "Do’a keluar rumah:",
                     arab: "بِسْمِ اللّٰهِ آمَنْتُ بِاللّٰهِ.  بِسْمِ اللّٰهِ تَوَجَّهْتُ لِلّٰهِ. بِسْمِ اللّٰهِ اعْتَصَمْتُ بِاللّٰهِ. بِسْمِ اللّٰهِ تَوَكَّلْتُ عَلَى اللّٰهِ، وَلَا حَوْلَ وَلاَ قُوَّةَ إِلَّا بِاللّٰهِ الْعَلِيِّ الْعَظِيْمِ.",
+                    audio: "",
                     latin: "Bismillāhi āmantu billāh. Bismillāhi tawajjahtu lillāh. Bismillāhi’ tashamtu billāh. Bismillāhi tawakkaltu ‘alallāhi lā haula walā quwwata illā billāhil-‘aliyyil-‘azīm.",
                     translate:
                         "Dengan nama Allah aku beriman kepada Allah. Dengan nama Allah aku hadapkan hatiku kepada Allah. Dengan nama Allah aku berlindung kepada Allah. Dengan nama Allah aku berserah diri kepada Allah, tiada daya upaya dan tiada kekuatan melainkan atas izin Allah Yang Maha Luhur dan Maha Agung.",
@@ -132,6 +137,7 @@ export const activities: TextContent[] = [
                 arab: {
                     title: "Ketika hendak naik kendaraan bacalah:",
                     arab: "بِسْمِ اللّٰهِ الرَّحْمٰنِ الرَّحِيْمِ",
+                    audio: "",
                     latin: "Bismillâhir rahmânir rahīm",
                     translate:
                         "Dengan menyebut nama Allah yang maha pengasih lagi maha penyayang.",
@@ -141,6 +147,7 @@ export const activities: TextContent[] = [
                 arab: {
                     title: "Ketika telah duduk di kendaraan:",
                     arab: "بِسْمِ اللّٰهِ مَجْرٰ۪ىهَا وَمُرْسٰىهَا ۗاِنَّ رَبِّيْ لَغَفُوْرٌ رَّحِيْمٌ. وَمَا قَدَرُوا اللّٰهَ حَقَّ قَدْرِهٖۖ وَالْاَرْضُ جَمِيْعًا قَبْضَتُهٗ يَوْمَ الْقِيٰمَةِ وَالسَّمٰوٰتُ مَطْوِيّٰتٌۢ بِيَمِيْنِهٖۗ سُبْحٰنَهٗ وَتَعٰلٰى عَمَّا يُشْرِكُوْنَ.",
+                    audio: "",
                     latin: "Bismillâhi majrêhâ wa mursâhâ, inna rabbî laghafûrur raḫîm. Wa mâ qadarullâha ḫaqqa qadrihî wal-ardlu jamî‘ang qabdlatuhû yaumal-qiyâmati was-samâwâtu mathwiyyâtum biyamînih, sub-ḫânahû wa ta‘âlâ ‘ammâ yusyrikûn.",
                     translate:
                         "Dengan nama Allah di waktu berangkat dan berlabuh, sesungguhnya Tuhanku benar-benar Maha Pengampun Lagi Maha Penyayang. Dan mereka tidak mengagungkan Allah dengan pengagungan yang semestinya, padahal bumi seluruhnya dalam genggaman-Nya pada hari kiamat, dan langit digulung dengan kekuasaan-Nya. Maha Suci Allah dan Maha Tinggi Dia dari apa yang mereka persekutukan.",
@@ -150,6 +157,7 @@ export const activities: TextContent[] = [
                 arab: {
                     title: "Ketika kendaraan mulai bergerak:",
                     arab: "بِسْمِ اللّٰهِ الرَّحْمٰنِ الرَّحِيْمِ،  اللّٰهُ أَكْبَرُ، اللّٰهُ أَكْبَرُ، اللّٰهُ أَكْبَرُ. سُبْحَانَ الَّذِي سَخَّرَ لَنَا هٰذَا وَمَا كُنَّا لَهُ مُقْرِنِيْنَ، وَإِنَّا إلَى رَبِّنَا لَمُنْقَلِبُوْنَ . اَللّٰهُمَّ إِنَّا نَسْأَلُكَ فِي سَفَرِنَا هٰذَا الْبِرَّ وَالتَّقْوَى، وَمِنَ العَمَلِ مَا تَرْضَى، اَللّٰهُمَّ هَوِّنْ عَلَيْنَا سَفَرَنَا هٰذَا، وَاطْوِ عَنَّا بُعْدَهُ. اَللّٰهُمَّ أَنْتَ الصَّاحِبُ فِي السَّفَرِ وَالْخَلِيْفَةُ فِي الْأَهْلِ . اَللّٰهُمَّ إِنَّا نَعُوْذُ بِكَ مِنْ وَعْثَاءِ السَّفَرِ، وَكَآبَةِ الْمَنْظَرِ، وَسُوْءِ الْمُنْقَلَبِ فِي الْمَالِ وَالْأَهْلِ وَالْوَلَدِ.",
+                    audio: "",
                     latin: "Allāhu Akbar, Allāhu Akbar, Allāhu Akbar. Subhānalladzī sakkhoro lanā hādzā wa mā kunnā lahū muqrinīn, wa innā ilā robbinā lamunqolibūn, allāhumma innā nas'aluka fī safarinā hādzal birro wat taqwā wa Mina l 'amali mā tardhō, allāhumma hawwin 'alainā safaronā hādzā wathwi 'annā bu'dahū, allāhumma antas shōhibu fis-safari wal kholīfatu fil ahli, allāhumma innā na'udzubika min wa'tsāis safari wa ka`ābatil mandzhori wa sū`il munqolābi fil māli wal ahli wal waladi.",
                     translate:
                         "Dengan menyebut nama Allah Yang Maha Pemurah lagi Maha Penyayang, Allah Maha Besar Allah Maha Besar, Allah Maha Besar, Maha Suci Allah yang telah menggerakkan untuk kami kendaraan ini padahal kami tiada kuasa menggerakkannya. Dan sesungguhnya kami pasti kepada Tuhan, kami pasti akan kembali. Ya Allah kami memohon kepada-Mu dalam perjalanan kami ini kebaikan dan taqwa serta amal perbuatan yang Kau ridhai. Ya Allah, mudahkanlah perjalanan kami ini dan dekatkan jauhnya. Ya Allah, Engkau yang menyertai dalam berpergian dan berlindung terhadap keluarga yang ditinggalkan. Ya Allah kami berlindung kepada-Mu dari kesukaran dalam berpergian, penglihatan yang buruk, kepulangan yang menyusahkan dalam hubungan dengan harta benda, keluarga dan anak.",
@@ -168,6 +176,7 @@ export const activities: TextContent[] = [
                 arab: {
                     title: "Sampai di tajug gede membaca do'a:",
                     arab: "اَللّٰهُمَّ إِنِّىْ أَسْأَلُكَ خَيْرَهَا وَخَيْرَ أَهْلِهَا وَخَيْرَ مَا فِيْهَا، وَأَعُوْذُ بِكَ مِنْ شَرِّهَا وَشَرِّ أَهْلِهَا وَشَرِّ مَا فِيْهَا.",
+                    audio: "",
                     latin: "Allâhumma innî as’aluka khairahâ wa khaira ahlihâ wa khaira mā fīhā, wa a‘ûdzubika min syarrihâ wa syarri ahlihâ wa syarri mâ fīhā.",
                     translate:
                         "Ya Allah, saya mohon pada-Mu kebaikan negeri ini dan kebaikan penduduknya serta kebaikan yang ada di dalamnya. Dan saya berlindung pada-Mu dari kejahatan negeri ini dan kejahatan penduduknya serta kejahatan yang ada di dalamnya.",
@@ -243,6 +252,7 @@ export const activities: TextContent[] = [
                 arab: {
                     title: "Niat mandi sunat untuk ihram:",
                     arab: "نَوَيْتُ غُسْلَ الِإحْرَامِ سُنَّةً لِلّٰهِ تَعَالَى",
+                    audio: "",
                     latin: "Nawaitu ghuslal ihrāmi sunnatan lilāhi ta‘ālā.",
                     translate: "Saya niat mandi ihram sunnah karena Allah Swt.",
                 },
@@ -251,6 +261,7 @@ export const activities: TextContent[] = [
                 arab: {
                     title: "Niat salat sunnat ihram:",
                     arab: "أُصَلِّى سُنَّةَ الْإِحْرَامِ رَكْعَتَيْنِ لِلّٰهِ تَعَالَى",
+                    audio: "",
                     latin: "Ushollī sunnatal Ihrāmi rak’ataini lillāhi ta’āla.",
                     translate:
                         "Aku niat salat sunnat ihram dua rakaat karena Allah",
@@ -332,6 +343,7 @@ export const activities: TextContent[] = [
             {
                 arab: {
                     arab: "نَوَيْتُ العُمْرَةَ وَأَحْرَمْتُ بِهَا لِلّٰهِ تَعَالَى",
+                    audio: "",
                     latin: "Nawaitul ‘umrata wa ahramtu biha lillāhi ta‘ālā",
                     translate:
                         "Aku niat ibadah umrah dan aku ihram umrah karena Allah ta‘ala.",
@@ -340,6 +352,7 @@ export const activities: TextContent[] = [
             {
                 arab: {
                     arab: "لَبَّيْكَ اللّٰهُمَّ عُمْرَةً",
+                    audio: "",
                     latin: "Labbaikallâhumma umratan.",
                     translate:
                         "Aku penuhi panggilan-Mu, Ya Allah, dengan mengerjakan ibadah umrah.",
@@ -350,6 +363,7 @@ export const activities: TextContent[] = [
                 text: "Bacalah do’a setelah selesai ihram:",
                 arab: {
                     arab: "اَللّٰهُمَّ أُحَرِّمُ شَعْرِيْ وَبَشَرِيْ وَجَسَدِيْ وَجَمِيْعَ جَوَارِحِيْ مِنْ كُلِّ شَيْءٍ حَرَّمْتَهُ عَلَى الْمُحْرِمِ اَبْتَغِيْ بِذَلِكَ وَجْهَكَ الْكَرِيْمَ يَا رَبَّ العَالَمِيْنَ.",
+                    audio: "",
                     latin: "Allāhumma uharrimu sya’rī wabasyarī wajasadī wajamī’a jawārihī min kulli syai’in harramtahu ‘alal muhrimi, abtaghī bidzālika wajhakal karīma yā rabbal ‘ālamiin.",
                     translate:
                         "Ya Allah aku haramkan rambut, kulit, tubuh dan seluruh anggota tubuhku dari semua yang Kau haramkan bagi seorang yang sedang berihram, demi mengharapkan diri-Mu semata, wahai Tuhan pemelihara alam semesta.",
@@ -360,6 +374,7 @@ export const activities: TextContent[] = [
                 text: "Setelah itu bacalah talbiyyah sebanyak-banyaknya:",
                 arab: {
                     arab: "لَبَّيْكَ اللّٰهُمَّ لَبَّيْكَ، لَبَّيْكَ لَا شَرِيْكَ لَكَ لَبَّيْكَ، إِنَّ الْحَمْدَ وَالنِّعْمَةَ لَكَ وَالْمُلْكَ لاَ شَرِيْكَ لَكَ ",
+                    audio: "",
                     latin: "Labbaika-llâhumma labbaîk, labbaika lâ syarîka laka labbaîk. Innal ḫamda wan ni‘mata laka wal mulk. Lâ syarîka lak(a).",
                     translate:
                         "Aku datang memenuhi panggilan-Mu ya Allah. Aku datang memenuhi panggilan-Mu. Aku datang memenuhi panggilan-Mu. Tiada sekutu bagi-Mu. Aku datang memenuhi panggilan-Mu. Sungguh, segala puji, nikmat, dan segala kekuasaan adalah milik-Mu. Tiada sekutu bagi-Mu.",
@@ -370,6 +385,7 @@ export const activities: TextContent[] = [
                 text: "Disunatkan membaca solawat dan berdo’a setelah talbiyah:",
                 arab: {
                     arab: "اللّٰهُمَّ صَلِّ وَسَلِّمْ عَلٰى سَيِّدِنَا مُحَمَّدٍ وَعَلٰى اٰلِ سَيِّدِنَا مُحَمَّدٍ",
+                    audio: "",
                     latin: "Allāhumma shalli wa sallim ‘alā sayyidinā Muhammadin wa ‘alā āli sayyidinā Muhammadin.",
                     translate:
                         "Ya Allah berilah kesejahteraan dan keselamatan atas Junjungan kami Nabi Muhammad dan keluarganya.",
@@ -378,6 +394,7 @@ export const activities: TextContent[] = [
             {
                 arab: {
                     arab: "اَللّٰهُمَّ إِنَّا نَسْأَلُكَ رِضَاكَ وَالْجَنَّةَ وَ نَعُوْذُبِكَ مِنْ سَخَطِكَ وَالنَّارِ. رَبَّنَا اٰتِنَا فِى الدُّنْيَا حَسَنَةً وَفِى اْلٰاخِرَةِ حَسَنَةً وَقِنَا عَذَابَ النَّارِ.",
+                    audio: "",
                     latin: "Allāhumma innā nas`aluka ridhāka wal jannata, wa na’ūdzubika min sakhātika wannār. Rabbanā ātinā fiddunyā hasanah, wa fil ākhirati hasanah, waqinā ‘adzābannār.",
                     translate:
                         "Ya Allah sungguh kami memohon ridha dan surga-Mu. Kami berlindung kepada-Mu dari murka dan neraka-Mu. Wahai Tuhan kami, anugerahkanlah kami kebaikan di dunia dan kebaikan di akhirat. Lindungilah kami dari siksa neraka.",
@@ -431,6 +448,7 @@ export const activities: TextContent[] = [
                 text: "Masuk masjid mulai dengan kaki sebelah kanan berdoa:",
                 arab: {
                     arab: "اَللّٰهُمَّ أَنتَ السَّلَامُ، وَ مِنْكَ السَّلَامُ، وَإِلَيْكَ يَعُوْدُ السَّلَامُ، فَحَيِّنَا يَا رَبَّنَا بِالسَّلَامِ، وَأَدْخِلْنَا الْجَنَّةَ دَارَ السَّلَامِ، تَبَارَكْتَ رَبَّنَا وَ تَعَالَيْتَ يَا ذَاالْجَلَالِ وَالْإِكْرَامِ. اَللّٰهُمَّ افْتَحْ لِي أَبْوَابَ رَحْمَتِكَ. بِاسْمِ اللّٰهِ وَالحَمْدُ لِلّٰهِ وَالصَّلَاةُ وَالسَّلَامُ عَلَى رَسُوْلِ اللّٰهِ.",
+                    audio: "",
                     latin: "Allâhumma antassalam, waminkas-salām, wa ilaika ya’ūdusalâm, fahayyinâ yâ rabbanâ bissalâm wa adkhilnal jannata dâras-salâm, tabârakta robbanâ wata'âlaita yâ dzaljalâli wal ikram. Allâhumma-ftah lī abwâba rahmatika. Bismillâhi walhamdulillâhi wash-shalâtu wassalâmu 'alâ rasûlillâhi.",
                     translate:
                         "Ya Allah, Engkau sumber keselamatan, dari-Mulah datangnya keselamatan dan kepada-Mu kembalinya keselamatan. Maka hidupkanlah kami, wahai Tuhan kami, dengan selamat sejahtera dan masukkanlah kami ke dalam surga negeri keselamatan. Maha banyak anugerah-Mu dan Maha Tinggi Engkau Wahai Tuhan yang memiliki keagungan dan kehormatan. Ya Allah, bukakanlah untukku pintu-pintu rahmat-Mu. (aku masuk masjid ini) dengan nama Allah disertai dengan segala puji bagi Allah serta shalawat dan salam untuk Rasulullah.",
@@ -441,6 +459,7 @@ export const activities: TextContent[] = [
                 text: "Sampai di depan kabah berdoa melihat ka’bah:",
                 arab: {
                     arab: "اَللّٰهُمَّ زِدْ هَذَا البَيْتَ تَشْرِيْفًا وَتَعْظِيْمًا وَتَكْرِيمًا وَمَهَابَةً، وَزِدْ مَنْ شَرَّفَهُ وَعَظَّمَهُ وَكَرَّمَهُ مِمَّنْ حَجَّهُ أَوِاعْتَمَرَهُ تَشْرِيفًا وَتَعْظِيْمًا وَتَكْرِيْمًا وَبِرًّا.",
+                    audio: "",
                     latin: "Allâhumma zid hâdzal baita tasyrîfan wa ta’dhîman wa takrîman wa mahabatan, wa zid man syarafâhu, wa ‘adh-dhomahu wa karromahu mimman hajjahu awi’tamarahu, tasyrîfan wa ta’dhîman wa takrîman wa birran.",
                     translate:
                         "Ya Allah, tambahkanlah kemuliaan, keangungan, kehormatan dan wibawa pada Bait (Ka'bah) ini. Dan tambahklan pula pada orang-orang yang memuliakan, mengagungkan dan menghormatinya di antara mereka yang berhaji atau yang berumrah dengan kemuliaan, keagunggan, kehormatan, dan kebaikan.",
