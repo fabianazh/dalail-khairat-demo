@@ -238,7 +238,10 @@ export const pilgrimages: TextContent[] = [
                 index: "3",
                 text: "Saat ziarah bacalah do’a salam kepada Sayyidina Hamzah ra. dan Mus’ab bin Umair ra. di Uhud:",
                 arab: {
-                    arab: "اَلسَّلَامُ عَلَيْكَ يَا عَمَّ النَّبِيِّ سَيِّدَنَا حَمْزَةَ بْنِ عَبْدِ المُطَّلِبِ، اَلسَّلَامُ عَلَيْكَ يَا أَسَدَ اللّٰهِ وَأَسَدَ رَسُوْلِ اللّٰهِ، اَلسَّلَامُ عَلَيْكَ يَا سَيِّدَ الشُّهَدَاءِ.اَلسَّلَامُ عَلَيْكَ يَا مُصْعَبَ بْنِ عُمَيْرٍ، يَا قَاعِدَ الْمُخْتَارِ. يَا مَنْ أَثْبَتَ قَدَمَيْهِ عَلَى الرِّمَاهِ حَتَّى أَتَاهُ الْيَقِينُ.",
+                    arab: [
+                        "اَلسَّلَامُ عَلَيْكَ يَا عَمَّ النَّبِيِّ سَيِّدَنَا حَمْزَةَ بْنِ عَبْدِ المُطَّلِبِ، اَلسَّلَامُ عَلَيْكَ يَا أَسَدَ اللّٰهِ وَأَسَدَ رَسُوْلِ اللّٰهِ، اَلسَّلَامُ عَلَيْكَ يَا سَيِّدَ الشُّهَدَاءِ.",
+                        "اَلسَّلَامُ عَلَيْكَ يَا مُصْعَبَ بْنِ عُمَيْرٍ، يَا قَاعِدَ الْمُخْتَارِ. يَا مَنْ أَثْبَتَ قَدَمَيْهِ عَلَى الرِّمَاهِ حَتَّى أَتَاهُ الْيَقِينُ.",
+                    ],
                     audio: "",
                     latin: "Assalāmu ‘alaika yā ‘amman-Nabiyyi sayyidanā hamzatabna ‘abdil muththalibi, assalāmu ‘alaika yā asadallāhi wa asada rasūlillāhi, assalāmu ‘alaika yā sayyida-syuhadā’. <br/> Assalāmu ‘alaika yā mush’aba bin ‘umair yā qā’idal mukhtāri, yā man atsbata qadamaihi ‘alar-rimāhi hattā atāhul yaqīn.",
                     translate:

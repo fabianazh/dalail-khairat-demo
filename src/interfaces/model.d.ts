@@ -43,6 +43,7 @@ interface NavItem {
 
 interface TextData {
     title?: string;
+    author?: string;
     index?: string;
     text?: string;
     desc?: string;
@@ -51,7 +52,7 @@ interface TextData {
         text?: string;
         arab?: {
             title?: string;
-            arab?: string;
+            arab?: string | string[];
             latin?: string;
             translate?: string;
             source?: string;
@@ -60,7 +61,7 @@ interface TextData {
     }[];
     arab?: {
         title?: string;
-        arab?: string;
+        arab?: string | string[];
         latin?: string;
         translate?: string;
         source?: string;

@@ -5,6 +5,7 @@ import Title from "@/components/Typography/Title";
 import Translate from "@/components/Typography/Translate";
 import Note from "@/components/Typography/Note";
 import { roboto } from "@/app/fonts";
+import Author from "../Typography/Author";
 
 export default function TextContainer({
     className,
@@ -26,6 +27,9 @@ export default function TextContainer({
                                     {content.title}
                                 </Title>
                             )}
+                            {content.author && (
+                                <Author>{content.author}</Author>
+                            )}
                             {content.text && (
                                 <div className="w-full flex gap-1.5">
                                     {content.index && (
@@ -46,16 +50,33 @@ export default function TextContainer({
                                                 {content.arab.title}
                                             </Title>
                                         )}
-                                        <Arabic>{content.arab.arab}</Arabic>
-                                        <Latin>{content.arab.latin}</Latin>
-                                        <div className="w-full">
-                                            <Translate
-                                                className="inline-block"
-                                                source={content.arab.source}
-                                            >
-                                                {content.arab.translate}
-                                            </Translate>
-                                        </div>
+                                        {Array.isArray(content.arab.arab) ? (
+                                            content.arab.arab.map(
+                                                (
+                                                    arab: string,
+                                                    index: number
+                                                ) => (
+                                                    <Arabic key={index}>
+                                                        {arab}
+                                                    </Arabic>
+                                                )
+                                            )
+                                        ) : (
+                                            <Arabic>{content.arab.arab}</Arabic>
+                                        )}
+                                        {content.arab.latin && (
+                                            <Latin>{content.arab.latin}</Latin>
+                                        )}
+                                        {content.arab.translate && (
+                                            <div className="w-full">
+                                                <Translate
+                                                    className="inline-block"
+                                                    source={content.arab.source}
+                                                >
+                                                    {content.arab.translate}
+                                                </Translate>
+                                            </div>
+                                        )}
                                     </div>
                                 </>
                             )}
@@ -74,7 +95,9 @@ export default function TextContainer({
                                                     text?: string;
                                                     arab?: {
                                                         title?: string;
-                                                        arab?: string;
+                                                        arab?:
+                                                            | string
+                                                            | string[];
                                                         latin?: string;
                                                         translate?: string;
                                                     };

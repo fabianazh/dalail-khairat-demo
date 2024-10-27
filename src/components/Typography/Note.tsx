@@ -22,18 +22,12 @@ export default function Note({
                 }}
             >
                 {notes.length < 2 ? (
-                    <div>
+                    <span>
                         <span className="inline-block font-semibold">
                             Catatan:{" "}
                         </span>
-                        {notes.map((note: string, index: number) => (
-                            <Text
-                                key={index}
-                                text={`${note}`}
-                                className="inline-block"
-                            />
-                        ))}
-                    </div>
+                        {notes.map((note: string, index: number) => note)}
+                    </span>
                 ) : (
                     <ul className="w-full flex flex-col">
                         <span className="font-semibold">Catatan: </span>
