@@ -86,7 +86,7 @@ export default function Prohibition() {
                     <Title>LARANGAN-LARANGAN SAAT IHRAM DAN DAMNYA</Title>
                     <Note
                         className="block my-2"
-                        notes={[" LK = Laki-Laki ; PR = Perempuan"]}
+                        notes={["LK = Laki-Laki", "PR = Perempuan"]}
                     />
 
                     <TableContainer className="mb-4">

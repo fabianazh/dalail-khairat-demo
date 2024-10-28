@@ -32,7 +32,7 @@ export default function Note({
                     <ul className="w-full flex flex-col">
                         <span className="font-semibold">Catatan : </span>
                         {notes.map((note: string, index: number) => (
-                            <li key={index} className="ml-5 flex gap-2">
+                            <li key={index} className="flex gap-2">
                                 <Text
                                     text={`•`}
                                     className="font-semibold inline-block"
