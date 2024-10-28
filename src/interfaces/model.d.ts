@@ -84,3 +84,32 @@ interface TabContent {
         data: TextData[];
     }[];
 }
+
+interface Essentials {
+    id: string;
+    title: string;
+    content: {
+        title?: string;
+        data:
+            | {
+                  desc: string;
+                  total: string;
+              }[]
+            | string;
+    }[];
+}
+
+interface Prohibition {
+    prohibition: string;
+    male: string;
+    female: string;
+    desc: string;
+    dam: string;
+}
+
+interface Diff {
+    index?: string;
+    status: string;
+    type: string;
+    consequences: string;
+}

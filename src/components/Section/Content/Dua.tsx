@@ -12,7 +12,7 @@ export default function Dua({ doaId }: { doaId: string }) {
             <section className="w-full py-4 text-center h-fit">
                 <Title>{dua?.title}</Title>
             </section>
-            <section>
+            <section className="px-4 pb-6 lg:px-32">
                 <TabContainer contents={dua?.tab ?? []} />
             </section>
         </>

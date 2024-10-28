@@ -1,8 +1,8 @@
-'use client';
+"use client";
 
-import { AnimatePresence, motion } from 'framer-motion';
-import Divider from '@/components/Other/Divider';
-import { useSettings } from '@/context/SettingsContext';
+import { AnimatePresence, motion } from "framer-motion";
+import Divider from "@/components/Other/Divider";
+import { useSettings } from "@/context/SettingsContext";
 
 export default function NavModal({
     isOpen,
@@ -31,22 +31,22 @@ export default function NavModal({
                 variants={{
                     open: {
                         opacity: 1,
-                        y: 'var(--nav-y-open, 0px)',
+                        y: "var(--nav-y-open, 0px)",
                         transition: {
-                            y: { duration: 0.3, ease: 'easeOut' },
+                            y: { duration: 0.3, ease: "easeOut" },
                             opacity: { duration: 0.4 },
                         },
                     },
                     closed: {
                         opacity: 0,
-                        y: 'var(--nav-y-closed)',
+                        y: "var(--nav-y-closed)",
                         transition: {
-                            y: { duration: 0.2, ease: 'easeOut' },
+                            y: { duration: 0.2, ease: "easeOut" },
                             opacity: { duration: 0.4 },
                         },
                     },
                 }}
-                animate={isOpen ? 'open' : 'closed'}
+                animate={isOpen ? "open" : "closed"}
                 initial="closed"
                 exit="closed"
                 className={`fixed bottom-0 lg:bottom-auto flex justify-center lg:top-5 lg:right-5 z-50 h-fit w-full lg:w-auto [--nav-y-closed:60px] [--nav-y-open:0px] lg:[--nav-y-closed:0px]`}

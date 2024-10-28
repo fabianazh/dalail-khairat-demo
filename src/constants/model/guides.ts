@@ -769,73 +769,115 @@ export const guides: TextContent[] = [
             },
             {
                 title: "SOLAWAT QOD DŌQOT",
-                // arab: {
-                //     arab: "الصَّلَاةُ وَ السَّلامُ عَلَيْكَ يَا سَيِّدِي يَا رَسُوْلَ اللهِ خُذْ بِيَدِي قَلَّتْ حِيْلَتِي أَدْرِكْني",
-                //     audio: "",
-                //     latin: "Qod dhooqot hiyalatii adrikhnii yaa rasuulallah.",
-                //     translate:
-                //         "Sungguh, telah sempit segala upayaku, tolonglah aku wahai Rasulullah.",
-                // },
+                arab: {
+                    arab: "اللَّهُمَّ صَلِّ وَسَلّمْ عَلَى سَيِّدِنَا مُحَمَّد قَدْ ضَاقَتْ حَيْلَتَى أَدْرِكْنى يَارَسُوْلَ الله",
+                    audio: "",
+                    latin: "Allahumma shalli wasallim 'alâ sayyidinâ Muhammadin qod dhâqot hilatî adriknî yâ rasûlallâhi.",
+                    translate:
+                        "Ya Allah, bershalawatlah untuk junjungan kami Muhammad, sungguh terasa sempit usahaku, maka rangkullah aku, wahai Rasulullah.",
+                },
             },
             {
                 title: "SOLAWAT ADRIKNI",
-                // arab: {
-                //     arab: "أَدْرِكْنِي يَا رَسُوْلَ اللهِ أَدْرِكْنِي يَا حَبِيْبَ اللهِ",
-                //     audio: "",
-                //     latin: "Adriknii yaa rasuulallah, adriknii yaa habiiballah.",
-                //     translate:
-                //         "Tolonglah aku wahai Rasulullah, tolonglah aku wahai kekasih Allah.",
-                // },
+                arab: {
+                    arab: "الصَّلَاةُ وَ السَّلامُ عَلَيْكَ يَا سَيِّدِي يَا رَسُوْلَ اللهِ خُذْ بِيَدِي قَلَّتْ حِيْلَتِي أَدْرِكْني",
+                    audio: "",
+                    latin: "Ashsholaatu was salaamu 'alaika yaa sayyidii yaa rosuulalloh khudz biyadii qollat hiilatii adriknii.",
+                    translate:
+                        "Rahmat dan sejahtera semoga melimpah kepadamu, wahai junjunganku Rasulullah, peganglah tanganku, sedikit sekali upayaku, maka temukanlah aku.",
+                },
             },
             {
                 title: "SOLAWAT BUSYRO",
-                // arab: {
-                //     arab: "بُشْرَى لَنَا مَعْشَرَ الإِسْلاَمِ إِنَّ لَنَا * مُنَ الْعِنَايَةِ رُكْنَاً غَيْرَ مُنْهَدِمِلَمَّا دَعَا اللهُ دَاعِيْنَا لِطَاعَتِهِ * بِأَكْرَمِ الرُّسْلِ كُنَّا أَكْرَمَ الأُمَمِ",
-                //     audio: "",
-                //     latin: "Busyro lanaa ma’syaral islaami inna lanaa, minal ‘inaayati ruknan ghairo munhadimi. Lammaa da’allaha daa’iinaa li thoo’atihi, bi akramir rusli kunnaa akramal umami.",
-                //     translate:
-                //         "Kabar gembira bagi kita, umat Islam, bahwa kita memiliki tiang perlindungan yang kokoh tak tergoyahkan. Ketika Allah memanggil kita untuk menaati-Nya, melalui rasul yang paling mulia, kita pun menjadi umat yang paling mulia.",
-                // },
+                arab: {
+                    arab: "اَللّهُمَّ صَلِّى وَ سَلِّمْ عَلى سَيِّدِنَا مُحَمَّدٍ صَاحِبِ اْلبُشْرَى صَلاَةً تُبَشِّرُنَابِهَا وَأَهْلَنَا وَأَوْلَادَنَا وَجَمِيْعِ مَشَايِخِنَا وَمُعَلِّمِيْنَا وَطَلَبَتَنَا وَطَالِبَاتِنَا مِنْ يَوْمِ هَذَا اِلى يَوْمِ اْلآخِرَةِ",
+                    audio: "",
+                    latin: "Allahumma Sholli wa sallim ala sayyidina muhammadin sohibil busyro sholatan tubassiruna bihaa wa ahlana wa awlaadanaa wa jamii’a masya’khinaa wa muallimiinaa wa tholabatanaa wa tholibatinaa min waumina hadza ilaa yaumil akhiroh.",
+                    translate:
+                        "Ya Allah berikanlah sholawat dan salam kepada Nabi Kita Muhammad sosok Pembawa Kabar gembira, dengan sholawat yang memberikan kami kabar gembira untuk kami keluarga kami, anak anak kami, dan seluruh masyayikh kami, guru guru kami, murid murid / santri kami, santriwati kami, dari hari ini hingga hari akhir.",
+                },
             },
             {
                 title: "SOLAWAT THOBIBIYAH",
-                // arab: {
-                //     arab: "يَا أَيُّهَا الطَّبِيْبُ وَجْهَكَ الطَّلْقُ الْمُنِيْرِ * قَدْ جِئْتُكَ مُسْتَجِيْرًا فَاقْبَلْنِي يَا بَشِيْرِ",
-                //     audio: "",
-                //     latin: "Yaa ayyuhat thobiibu wajhaka ath-tholqul muniir, qod ji'tuka mustajiiron faqbalnii yaa bashiir.",
-                //     translate:
-                //         "Wahai Sang Penyembuh, wajahmu yang bercahaya penuh ketulusan, aku datang memohon perlindungan, terimalah aku wahai yang membawa kabar gembira.",
-                // },
+                arab: {
+                    arab: "ﺍَﻟﻠَّﻬُﻢَّ ﺻَﻞِّ ﻭَﺳَﻠِّﻢْ ﻋَﻠﻰَ، ﺳَﻴِّﺪِﻱْ ﻭَﺣَﺒِﻴْﺒِﻲْ، ﻭَﻃَﺒِﻴْﺐِ ﻗَـﻠْﺒِﻲْ ﻭَﺟَﺴَﺪِﻱْ ﻭَﺭُﻭْﺣِﻲْ، ﺳَﻴِّﺪِﻱْ ﺭَﺳُﻮْﻝِ ﺍﻟﻠﻪِ، ﻣُﺤَﻤَّﺪِ ﺍِﺑْﻦِ ﻋَﺒْﺪِ ﺍﻟﻠﻪِ، ﺍﻟﺼَّﺎﺩِﻕِ ﺍﻟْﺂﻣِﻴْﻦَ ﻭَﻋَﻠَﻰ ﺁﻟِﻪ ﻭَﺻَﺤْﺒِﻪ ﺃَﺟْﻤَﻌِﻴْﻦَ",
+                    audio: "",
+                    latin: "Allaahumma shalli wa sallim ‘alaa, sayyidii wa habiibii, wa thobiibi qolbii wa jasadii wa ruuhii, sayyidii rasuulillaah, Muhammad ibni ‘Abdillaah, as-Shoodiqil aamiin, wa ‘alaa aalihii wa shohbihii ajma’iin.",
+                    translate:
+                        "Ya Allah, limpahkan shalawat dan salam kepada Junjunganku, Kekasihku, Pengobat hati, jiwa dan ragaku, yaitu Junjunganku Sang Utusan Allah, Muhammad bin ‘Abdillah, seorang yang benar dan jujur, juga kepada keluarga dan para sahabatnya.",
+                },
             },
             {
                 title: "SOLAWAT DO’A RAJAB",
-                // arab: {
-                //     arab: "اَللّهُمَّ بَارِكْ لَنَا فِي رَجَبَ وَشَعْبَانَ، وَبَلِّغْنَا رَمَضَانَ",
-                //     audio: "",
-                //     latin: "Allahumma baarik lanaa fii Rajaba wa Sya'baana wa ballighnaa Romadhoona.",
-                //     translate:
-                //         "Ya Allah, berkahilah kami di bulan Rajab dan Sya’ban, dan sampaikanlah kami ke bulan Ramadan.",
-                // },
+                arab: {
+                    arab: [
+                        "صَلَّى اللهُ وَسَلَّمَ عَلَى النَّبِيِّ سَيِّدِنَا مُحَمَّدٍ وَآلِهِ وَصَحْبِهِ أَجْمَعِيْنَ،",
+                        "اللَّهُمَّ بَارِكْ لَنَا فِي رَجَبَ وَشَعْبَانَ وَبَلَّغْنَا رَمَضَانَ",
+                    ],
+                    audio: "",
+                    latin: "Shallallahu wa sallama ‘alan nabiyyi sayyidinaa Muhammadin wa aalihi wa shohbihi ajma’iin. Allahumma baarik lanaa fii Rajaba wa Sya’baana wa ballighnaa Romadhoona, wahassil maqoshidanaa.",
+                    translate:
+                        "Semoga Allah memberikan shalawat dan salam kepada Nabi kami, junjungan kami Nabi Muhammad, beserta keluarga dan seluruh sahabatnya. Ya Allah, berkahilah kami di bulan Rajab dan Sya’ban, sampaikanlah kami ke bulan Ramadan, dan wujudkanlah tujuan-tujuan kami.",
+                },
             },
             {
                 title: "SAYYIDUL ISTIGHFAR",
-                // arab: {
-                //     arab: "اَللّٰهُمَّ أَنْتَ رَبِّيْ، لاَ إِلٰهَ إِلاَّ أَنْتَ، خَلَقْتَنِيْ وَأَنَا عَبْدُكَ، وَأَنَا عَلَىٰ عَهْدِكَ وَوَعْدِكَ مَا اسْتَطَعْتُ، أَعُوْذُ بِكَ مِنْ شَرِّ مَا صَنَعْتُ، أَبُوْءُ لَكَ بِنِعْمَتِكَ عَلَيَّ، وَأَبُوْءُ بِذَنْبِيْ، فَاغْفِرْ لِيْ فَإِنَّهُ لاَ يَغْفِرُ الذُّنُوْبَ إِلاَّ أَنْتَ",
-                //     audio: "",
-                //     latin: "Allahumma anta robbii, laa ilaaha illaa anta, kholaqtanii wa anaa ‘abduka, wa anaa ‘alaa ‘ahdika wa wa’dika mastatho’tu, a’uudzubika min syarri maa shona’tu, abuu’u laka bini’matika ‘alayya, wa abuu’u bidzanbii, faghfirlii fa innahu laa yaghfirudz dzunuuba illaa anta.",
-                //     translate:
-                //         "Ya Allah, Engkau adalah Tuhanku, tiada Tuhan selain Engkau. Engkau telah menciptakan aku, dan aku adalah hamba-Mu. Aku berada dalam perjanjian dan janji-Mu semampuku. Aku berlindung kepada-Mu dari kejahatan perbuatanku. Aku mengakui semua nikmat yang Engkau berikan kepadaku dan aku mengakui dosa-dosaku, maka ampunilah aku. Sesungguhnya, tiada yang dapat mengampuni dosa kecuali Engkau.",
-                // },
+                arab: {
+                    arab: "اللَّهُمَّ أَنْتَ رَبِّي لَا إِلَهَ إِلَّا أَنْتَ خَلَقْتَنِي وَأَنَا عَبْدُكَ وَأَنَا عَلَى عَهْدِكَ وَوَعْدِكَ مَا اسْتَطَعْتُ أَعُوْذُ بِكَ مِنْ شَرِّ مَا صَنَعْتُ أَبُوءُ لَكَ بِنِعْمَتِكَ عَلَيَّ وَأَبُوءُ لَكَ بِذَنْبِي فَاغْفِرْ لِي فَإِنَّهُ لَا يَغْفِرُ الذُّنُوبَ إِلَّا أَنْتَ",
+                    audio: "",
+                    latin: "Allahumma anta rabbi laa ilaaha illa anta khalaqtanii wa anaa 'abduka wa anaa 'alaa 'ahdika wa wa'dika mastatha'tu a'uudzubika min syarri maa shana'tu abuu-u laka bini'matika 'alayya wa abuu-u bi dzanbi faghfir lii fa innahu laa yaghfirudz dzubuuba illa anta.",
+                    translate:
+                        "Ya Allah, Engkau Rabbku, tidak ada sembahan yang haq kecuali Engkau. Engkau menciptakanku dan aku hamba-Mu. Aku di atas perjanjian dan janji-Mu semampuku. Aku berlindung kepada-Mu dari keburukan apa yang aku lakukan, aku mengakui untuk-Mu nikmat-nikmat-Mu atasku, dan aku mengakui untuk-Mu dosa-dosaku, maka ampunilah aku, sungguh tidak ada yang mengampuni dosa-dosa selain Engkau.",
+                },
             },
             {
                 title: "MAULID BARZANJI",
-                // arab: {
-                //     arab: "أَدْرِكْنِي يَا رَسُوْلَ اللهِ أَدْرِكْنِي يَا حَبِيْبَ اللهِ",
-                //     audio: "",
-                //     latin: "Adriknii yaa rasuulallah, adriknii yaa habiiballah.",
-                //     translate:
-                //         "Tolonglah aku wahai Rasulullah, tolonglah aku wahai kekasih Allah.",
-                // },
+                arab: {
+                    arab: [
+                        "بِسْمِ اللهِ الرَّحْمَنِ الرَّحِيمِ",
+                        "يَا نَبِى سَلَامْ عَلَيْكَ ۞ يَا رَسُوْلْ سَلَامْ عَلَيْكَ",
+                        "يَا حَبِيْبْ سَلَامْ عَلَيْكَ ۞ صَلَوَاتُ اللهْ عَلَيْكَ",
+                        "اَشْرَقَ الْبَدْرُ عَلَيْنَا ۞ فَاخْتَفَتْ مِنْهُ الْبُدُوْرُ .",
+                        "مِثْلَ حُسْنِكْ مَا رَأَيْنَا ۞ قَطُّ يَا وَجْهَ السُّرُوْرِ",
+                        "اَنْتَ شَمْسٌ اَنْتَ بَدْرٌ ۞ اَنْتَ نُوْرٌ فَوْقَ نُوْرِ",
+                        "اَنْتَ اِكْسِيْرٌ وَّغَالِى ۞ اَنْتَ مِصْبَاحُ الصُّدُوْرِ",
+                        "يَاحَبِيْبِيْ يَامُحَمَّدْ ۞ يَا عَرُوْسَ الخَافِقَيْنِ",
+                        "يَا مُؤَيَّدْ يَا مُمَجَّدْ ۞ يَا اِمَامَ القِبْلَتَيْنِ",
+                        "مَنْ رَآى وَجْهَكَ يَسْعَدْ ۞ يَا كَرِيْمَ الوَالِدَيْ نِ",
+                        "حَوْضُكَ الصَّافِى الْمُبَرَّدْ ۞ وِرْدُنَا يَوْمَ النُّشُوْرِ",
+                        "مَا رَأَيْنَا الْعِيْسَ حَنَّتْ ۞ بِالسُّرَى اِلَّا اِلَيْكَ",
+                        "وَاْلَغَمَامَةْ قَدْ اَظَلَّتْ ۞ وَالْمَلَا صَلُّوْا عَلَيْكَ",
+                        "ﻭَﺃَﺗَﺎﻙَ ﺍﻟﻌُﻮﺩُ ﻳَﺒْﮑِﻲ ۞ ﻭَﺗَﺬَﻟَّﻞْ ﺑَﻴْﻦَ ﻳَﺪَﻳْﻚَ",
+                        "ﻭَﺍﺳْﺘَﺠَﺎﺭَﺕْ ﻳَﺎﺣَﺒِﻴْﺒِﻲ ۞ ﻋِﻨْﺪَﻙَ ﺍﻟﻈَّﺒْﻲُ ﺍﻟﻨُّﻔُﻮْﺭُ",
+                        "ﻋِﻨْﺪَﻣَﺎ ﺷَﺪُّﻭْﺍ ﺍﻟﻤَﺤَﺎﻣِﻞ ۞ ﻭَﺗَﻨَﺎﺩَﻭﺍ ﻟِﻠﺮَّﺣِﻴْﻞِ",
+                        "ﺟِﺌْﺘُﻬُﻢْ ﻭَﺍﻟﺪَّﻣْﻊُ ﺳﺂﺋِﻞْ ۞ ﻗُﻠْﺖُ ﻗِﻒْ ﻟِﯽ ﻳَﺎ ﺩَﻟِﻴْﻞُ",
+                        "ﻭَﺗَﺤَﻤَّﻞْ ﻟِﻲ ﺭَﺳﺂﺋِﻞْ ۞ ﺃَﻳُّﻬَﺎ ﺍﻟﺸَّﻮْﻕُ ﺍﻟﺠَﺰِﻳْﻞُ",
+                        "ﻧَﺤْﻮَﻫَﺎﺗِﻴْﻚَ ﺍﻟﻤَﻨَﺎﺯِﻝِ ۞ ﻓِﯽ ﺍﻟﻌَﺸِﻲِّ ﻭَﺍﻟﺒُﮑُﻮْﺭِ",
+                        "ﮐُﻞُّ ﻣَﻦْ ﻓِﯽ ﺍﻟﮕﻮْﻥِ ﻫَﺎﻣُﻮﺍ ۞ ﻓِﻴْﻚَ ﻳَﺎ ﺑَﺎﻫِﻲ ﺍﻟﺠَﺒِﻴْﻦِ",
+                        "ﻭَﻟَﻬُﻢْ ﻓِﻴْﻚَ ﻏَﺮَﺍﻡُ ۞ ﻭَﺍﺷْﺘِﻴَﺎﻕُ ﻭَﺣَﻨِﻴْﻦُ",
+                        "ﻓِﻲ ﻣَﻌَﺎﻧِﻴْﻚَ ﺍﻷَﻧَﺎﻡُ ۞ ﻗَﺪْ ﺗَﺒَﺪَّﺕْ ﺣﺂﺋِﺮِﻳْﻦَ",
+                        "وَصَلَاةُ اللَّهِ تَغْشَا ۞ عَدَّ تَحْرِيْرِ السُّطُوْرِ",
+                        "أَحْمَدَ الهَادِی مُحَمَّدْ ۞ صَاحِبَ الوَجْهِ المُنِيرِ",
+                        "اَنْتَ لِلرُّسُلِ خِتَامُ ۞ اَنْتَ لِلْمَوْلٰى شَكُوْرُ",
+                        "عَبْدُكَ المِسْكِينُ يَرْجُو ۞ فَضْلَكَ الجَمَّ الغَفِيْرَ",
+                        "فِيْكَ قَدْ اَحْسَنْتُ ظَنِّي ۞ يَابَشِيْرُ يَانَذِيْرُ",
+                        "فَاَغِثْنِي وَاَجِرْنِي ۞ يَا مُجِيْرُ مِنَ السَّعِيْرِ",
+                        "يَاغَيَاثِي يَامَلَاذِي ۞ فِي مُهِمَّاتِ الاُمُوْرِ",
+                        "سَعِدَ عَبْدٌ قَدْ تَمَلّٰى ۞ وَانْجَلٰى عَنْهُ الحَزِيْنُ",
+                        "فِيْكَ يَا بَدْرٌ تَجَلّٰي ۞ فَلَكَ الوَصْفُ الحَسِيْنُ",
+                        "لَيْسَ اَزْكٰى مِنْكَ اَصْلًا ۞ قَطُّ يَا جَدَّ الحُسَيْنِ",
+                        "فَعَلَيْكَ اللّهُ صَلّٰى ۞ دَآئِمًا طُوْلَ الدُّهُوْرِ",
+                        "يَا وَلِيَّ الحَسَنَاتِ ۞ يَا رَفِيْعَ الدَّرَجَاتِ",
+                        "كَفِّرْ عَنِّيَ الذُّنُوبَ ۞ وَاغْفِرْ عَنِّي السَّيِّئَاتِ",
+                        "اَنْتَ غَفَّارُ الخَطَيَا ۞ وَالذُّنُوْبِ المُوْبِقَاتِ",
+                        "اَنْتَ سَتَّارُ المَسَاوِي ۞ وَمُقِيْلُ العَثَرَاتِ",
+                        "عَالِمُ السِّرِّ وَاَخْفٰى ۞ مُسْتَجِيْبُ الدَّعَوَاتِ",
+                        "رَبِّ فَارْحَمْنَا جَمِيْعًا ۞ بِجَمِيْعِ الصَّالِحَاتِ",
+                        "وَصَلَاةُ اللهِ تَغْشَى ۞ عَدَّ تَحْرِيرِ السُّطُوْرِ",
+                        "أَحْمَدَ الْهَادِي مُحَمَّدٍ ۞ صَاحِبَ الْوَجْهِ الْمُنِيْرِ",
+                    ],
+                    audio: "",
+                },
             },
         ],
     },
