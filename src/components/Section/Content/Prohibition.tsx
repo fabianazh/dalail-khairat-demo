@@ -84,7 +84,10 @@ export default function Prohibition() {
             <section className="w-full flex flex-col gap-8">
                 <div className="w-full h-fit flex flex-col gap-2">
                     <Title>LARANGAN-LARANGAN SAAT IHRAM DAN DAMNYA</Title>
-                    <Note notes={[" LK = Laki-Laki ; PR = Perempuan"]} />
+                    <Note
+                        className="block my-2"
+                        notes={[" LK = Laki-Laki ; PR = Perempuan"]}
+                    />
 
                     <TableContainer className="mb-4">
                         <TableContainer.THead>

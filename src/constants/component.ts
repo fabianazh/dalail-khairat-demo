@@ -119,7 +119,7 @@ export const navItems = [
         title: "Kepulangan",
         subtitle:
             "Dari Hotel Madinah ke Bandara Muhammad BIN Abdul Aziz Madinah",
-        link: "/perjalanan/dari-hotel-madinah-ke-bandara-muhammad-bin-abdul-aziz-madinah",
+        link: "/perjalanan/kepulangan-dari-hotel-madinah-ke-bandara-muhammad-bin-abdul-aziz-madinah",
     },
     {
         title: "Panduan",
