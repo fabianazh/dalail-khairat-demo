@@ -24,13 +24,13 @@ export default function Note({
                 {notes.length < 2 ? (
                     <span>
                         <span className="inline-block font-semibold">
-                            Catatan:{" "}
+                            Catatan :{" "}
                         </span>
-                        {notes.map((note: string, index: number) => note)}
+                        <span> {notes.map((note: string) => note)}</span>
                     </span>
                 ) : (
                     <ul className="w-full flex flex-col">
-                        <span className="font-semibold">Catatan: </span>
+                        <span className="font-semibold">Catatan : </span>
                         {notes.map((note: string, index: number) => (
                             <li key={index} className="ml-5 flex gap-2">
                                 <Text

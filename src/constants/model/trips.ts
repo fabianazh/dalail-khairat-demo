@@ -379,27 +379,27 @@ export const trips: TextContent[] = [
             },
             {
                 index: "1",
-                title: "Jamaah turun dengan tertib dari Bus perioritaskan jamaah.",
+                text: "Jamaah turun dengan tertib dari Bus perioritaskan jamaah.",
             },
             {
                 index: "2",
-                title: "Jamaah membawa koper tenteng masing-masing bagi jamaah lansia koper tentengnya dibantu oleh jamaah yang kuat.",
+                text: "Jamaah membawa koper tenteng masing-masing bagi jamaah lansia koper tentengnya dibantu oleh jamaah yang kuat.",
             },
             {
                 index: "3",
-                title: "Semua jamaah masuk ke Bandara Madinah dengan tertib dan satu persatu barang bawaannya ditimbang dan memasuki pemeriksaan.",
+                text: "Semua jamaah masuk ke Bandara Madinah dengan tertib dan satu persatu barang bawaannya ditimbang dan memasuki pemeriksaan.",
             },
             {
                 index: "4",
-                title: "Dipastikan benda logam seperti sabuk, id card dan benda logam lainnya di lepas dan disimpan dibaqi supaya melewati pemeriksaan.",
+                text: "Dipastikan benda logam seperti sabuk, id card dan benda logam lainnya di lepas dan disimpan dibaqi supaya melewati pemeriksaan.",
             },
             {
                 index: "5",
-                title: "Setelah melewati pemeriksaan jamaah menunggu di gate bandara yang sudah ditentukan untuk naik pesawat.",
+                text: "Setelah melewati pemeriksaan jamaah menunggu di gate bandara yang sudah ditentukan untuk naik pesawat.",
             },
             {
                 index: "6",
-                title: "Jamaah satu persatu memasuki pesawat dengan tertib perioritaskan jamaah lansia untuk masuk pesawat lebih.",
+                text: "Jamaah satu persatu memasuki pesawat dengan tertib perioritaskan jamaah lansia untuk masuk pesawat lebih.",
             },
             {
                 arab: {
