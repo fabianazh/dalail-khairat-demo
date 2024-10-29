@@ -87,7 +87,7 @@ export default function NavModal({
                                                     }
                                                 />
                                                 <div className="block h-6 rounded-full bg-gray-200 w-10"></div>
-                                                <div className="absolute w-4 h-4 transition bg-stone-400 rounded-full dot left-1 top-1 peer-checked:translate-x-full peer-checked:bg-green-500"></div>
+                                                <div className="absolute w-4 h-4 transition bg-stone-400 rounded-full dot left-1 top-1 peer-checked:translate-x-full peer-checked:bg-green-600"></div>
                                             </div>
                                         </label>
                                         {/* End Toggle Switch */}
@@ -115,7 +115,7 @@ export default function NavModal({
                                                     }
                                                 />
                                                 <div className="block h-6 rounded-full bg-gray-200 w-10"></div>
-                                                <div className="absolute w-4 h-4 transition bg-stone-400 rounded-full dot left-1 top-1 peer-checked:translate-x-full peer-checked:bg-green-500"></div>
+                                                <div className="absolute w-4 h-4 transition bg-stone-400 rounded-full dot left-1 top-1 peer-checked:translate-x-full peer-checked:bg-green-600"></div>
                                             </div>
                                         </label>
                                         {/* End Toggle Switch */}
@@ -202,7 +202,7 @@ export default function NavModal({
                                         setIsOpen(false);
                                         saveSettings();
                                     }}
-                                    className="grid place-items-center py-2 rounded-md shadow-sm cursor-pointer bg-green-500"
+                                    className="grid place-items-center py-2 rounded-md shadow-sm cursor-pointer bg-green-600"
                                 >
                                     <span className="text-sm font-medium text-white">
                                         Simpan

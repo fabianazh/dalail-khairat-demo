@@ -5,12 +5,12 @@ import Image from "next/image";
 import { usePathname } from "next/navigation";
 import { BiX } from "react-icons/bi";
 
-export default function Modal({
+export default function RotateModal({
     isOpen,
     setIsOpen,
 }: {
     isOpen: boolean;
-    setIsOpen: (condition: boolean) => void;
+    setIsOpen: (value: boolean) => void;
 }) {
     const pathname = usePathname();
 
@@ -47,7 +47,10 @@ export default function Modal({
                 onClick={closeModal}
             >
                 <div className="relative w-full h-fit py-8 px-4 bg-white rounded-md flex flex-col">
-                    <div className="absolute right-3 top-3 text-4xl">
+                    <div
+                        onClick={closeModal}
+                        className="inline-block w-fit h-fit absolute right-3 top-3 text-4xl"
+                    >
                         <BiX />
                     </div>
                     <div className="w-full flex flex-col items-center">

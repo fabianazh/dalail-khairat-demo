@@ -8,19 +8,6 @@ import {
     ReactNode,
 } from "react";
 
-interface SettingsContextType {
-    arabFontSize: number;
-    setArabFontSize: (value: number) => void;
-    latinFontSize: number;
-    setLatinFontSize: (value: number) => void;
-    showLatin: boolean;
-    setShowLatin: (value: boolean) => void;
-    showTranslation: boolean;
-    setShowTranslation: (value: boolean) => void;
-    saveSettings: () => void;
-    resetSettings: () => void;
-}
-
 const defaultSettings = {
     arabFontSize: 29,
     latinFontSize: 17,

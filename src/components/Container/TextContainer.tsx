@@ -56,13 +56,20 @@ export default function TextContainer({
                                                     arab: string,
                                                     index: number
                                                 ) => (
-                                                    <Arabic key={index}>
+                                                    <Arabic
+                                                        key={index}
+                                                        audio={
+                                                            content.arab?.audio
+                                                        }
+                                                    >
                                                         {arab}
                                                     </Arabic>
                                                 )
                                             )
                                         ) : (
-                                            <Arabic>{content.arab.arab}</Arabic>
+                                            <Arabic audio={content.arab?.audio}>
+                                                {content.arab.arab}
+                                            </Arabic>
                                         )}
                                         {content.arab.latin && (
                                             <Latin>{content.arab.latin}</Latin>

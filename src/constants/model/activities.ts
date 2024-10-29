@@ -84,7 +84,7 @@ export const activities: TextContent[] = [
                 arab: {
                     title: "Ayat Kursi:",
                     arab: "اَللّٰهُ لَآ اِلٰهَ اِلَّا هُوَۚ اَلْحَيُّ الْقَيُّوْمُ ەۚ لَا تَأْخُذُهٗ سِنَةٌ وَّلَا نَوْمٌۗ لَهٗ مَا فِى السَّمٰوٰتِ وَمَا فِى الْاَرْضِۗ مَنْ ذَا الَّذِيْ يَشْفَعُ عِنْدَهٗٓ اِلَّا بِاِذْنِهٖۗ يَعْلَمُ مَا بَيْنَ اَيْدِيْهِمْ وَمَا خَلْفَهُمْۚ وَلَا يُحِيْطُوْنَ بِشَيْءٍ مِّنْ عِلْمِهٖٓ اِلَّا بِمَا شَاۤءَۚ وَسِعَ كُرْسِيُّهُ السَّمٰوٰتِ وَالْاَرْضَۚ وَلَا يَـُٔوْدُهٗ حِفْظُهُمَاۚ وَهُوَ الْعَلِيُّ الْعَظِيْمُ ٢٥٥",
-                    audio: "",
+                    audio: "/audio/doa/ayat-kursi.mp3",
                     latin: "Allāhu lā ilāha illā huw(a), al-ḥayyul-qayyūm(u), lā ta'khużuhū sinatuw wa lā naum(un), lahū mā fis-samāwāti wa mā fil-arḍ(i), man żal-lażī yasyfa'u 'indahū illā bi'iżnih(ī), ya'lamu mā baina aidīhim wa mā khalfahum, wa lā yuḥīṭūna bisyai'im min 'ilmihī illā bimā syā'(a), wasi'a kursiyyuhus-samāwāti wal-arḍ(a), wa lā ya'ūduhū ḥifẓuhumā, wa huwal-'aliyyul-'aẓīm(u).",
                     translate:
                         "Allah, tidak ada tuhan selain Dia, Yang Mahahidup lagi terus-menerus mengurus (makhluk-Nya). Dia tidak dilanda oleh kantuk dan tidak (pula) oleh tidur. Milik-Nyalah apa yang ada di langit dan apa yang ada di bumi. Tidak ada yang dapat memberi syafaat di sisi-Nya tanpa izin-Nya. Dia mengetahui apa yang ada di hadapan mereka dan apa yang ada di belakang mereka. Mereka tidak mengetahui sesuatu apa pun dari ilmu-Nya, kecuali apa yang Dia kehendaki. Kursi-Nya (ilmu dan kekuasaan-Nya) meliputi langit dan bumi. Dia tidak merasa berat memelihara keduanya. Dialah yang Mahatinggi lagi Mahaagung.",
@@ -94,7 +94,7 @@ export const activities: TextContent[] = [
                 arab: {
                     title: "Qs. Quraisy:",
                     arab: "لِاِيْلٰفِ قُرَيْشٍۙ ١ اٖلٰفِهِمْ رِحْلَةَ الشِّتَاۤءِ وَالصَّيْفِۚ ٢ فَلْيَعْبُدُوْا رَبَّ هٰذَا الْبَيْتِۙ ٣ الَّذِيْٓ اَطْعَمَهُمْ مِّنْ جُوْعٍ ەۙ وَّاٰمَنَهُمْ مِّنْ خَوْفٍ ࣖ ٤",
-                    audio: "",
+                    audio: "/audio/surat/qs-quraisy.mp3",
                     latin: "Li'īlāfi quraisy(in). ´lāfihim riḥlatasy-syitā'i waṣ-ṣaif(i). Falya‘budū rabba hāżal-bait(i). Allażī aṭ‘amahum min jū‘(in), wa āmanahum min khauf(in).",
                     translate:
                         "Disebabkan oleh kebiasaan orang-orang Quraisy, (yaitu) kebiasaan mereka bepergian pada musim dingin dan musim panas (sehingga mendapatkan banyak keuntungan), maka hendaklah mereka menyembah Tuhan (pemilik) rumah ini (Ka‘bah)  yang telah memberi mereka makanan untuk menghilangkan lapar dan mengamankan mereka dari rasa takut.",
@@ -109,7 +109,6 @@ export const activities: TextContent[] = [
                     latin: "Alhamdulillāhilladzī hadānī lil islām, wa arsyadanī ilā adāi manāsikī hājan bibaitihi wa mu’tamiran bimasyāri’ihī. Allāhumma shali ‘ala-n nabiyyi-l ummiyyi wa ‘alā ālihi wa ashābihī ajma’īn. Allāhumma ilaika tawajjahtu, wa bika’tashamtu. Allāhummakfinī mā hammanī wa mā lā ahtammu lahu. Allāhumma zawdnit taqwā waghfirlī dzanbī.",
                     translate:
                         "Segala puji bagi Allah yang telah memberi petunjuk kepadaku dengan Islam dan memberi bimbingan kepadaku untuk menunaikan manasik hajiku di rumah-Nya, dan mengerjakan umrah di tempat lambang-lambang keagungan-Nya (Masya'ir) Ya Allah berikanlah shalawat atas Nabi yang tidak bisa baca dan tulis (ummi) dan atas keluarga dan para sahabatnya sekalian. Ya Allah kepada-Mu aku menghadap dan denganmu aku berpegang teguh. Ya Allah lindungilah aku dari sesuatu yang menyusahkan dan sesuatu yang tidak saya perlukan. Ya Allah bekalilah aku dengan taqwa dan ampunilah dosaku.",
-                    source: "Quraisy/106:1-4",
                 },
             },
             {
