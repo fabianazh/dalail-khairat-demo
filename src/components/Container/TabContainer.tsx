@@ -11,6 +11,7 @@ export default function TabContainer({
 }: {
     contents: {
         label: string;
+        audio?: string;
         data: TextData[];
     }[];
 }) {
@@ -73,7 +74,10 @@ export default function TabContainer({
                     contents.length < 2 ? "pt-12" : "pt-24"
                 }`}
             >
-                <TextContainer contents={contents[activeTab].data} />
+                <TextContainer
+                    audio={contents[activeTab].audio}
+                    contents={contents[activeTab].data}
+                />
             </motion.div>
             {/* End Tab Content */}
         </div>

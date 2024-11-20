@@ -7,6 +7,8 @@ interface SettingsContextType {
     setShowLatin: (value: boolean) => void;
     showTranslation: boolean;
     setShowTranslation: (value: boolean) => void;
+    showAudio: boolean;
+    setShowAudio: (value: boolean) => void;
     saveSettings: () => void;
     resetSettings: () => void;
 }
@@ -14,8 +16,6 @@ interface SettingsContextType {
 interface AudioContextType {
     audioUrl: string;
     setAudioUrl: (value: string) => void;
-    isModalOpen: boolean;
-    setIsModalOpen: (value: boolean) => void;
     stopAudio: () => void;
     playAudio: (value: string) => void;
 }

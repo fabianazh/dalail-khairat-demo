@@ -122,6 +122,11 @@ export const navItems = [
         link: "/perjalanan/kepulangan-dari-hotel-madinah-ke-bandara-muhammad-bin-abdul-aziz-madinah",
     },
     {
+        title: "Do'a Haji",
+        subtitle: "Do'a Do'a Haji Imam Ghazali",
+        link: "/doa/doa-doa-haji-imam-ghazali",
+    },
+    {
         title: "Panduan",
         subtitle: "Panduan Qasar dan Jamak Shalat",
         link: "/panduan/panduan-qasar-dan-jamak-shalat",
@@ -150,11 +155,6 @@ export const navItems = [
         title: "Teks Bacaan",
         subtitle: "Teks Bacaan Shalawat",
         link: "/panduan/teks-bacaan-shalawat",
-    },
-    {
-        title: "Do'a Umrah",
-        subtitle: "Do'a Umrah Imam Ghazali",
-        link: "/doa/doa-umrah-imam-ghazali",
     },
     {
         title: "Pelaksanaan Singkat",

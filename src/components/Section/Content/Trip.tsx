@@ -14,7 +14,10 @@ export default function Trip({ perjalananId }: { perjalananId: string }) {
                 <Title>{trip?.title}</Title>
             </section>
             <section>
-                <TextContainer contents={trip?.data ?? []} />
+                <TextContainer
+                    audio={trip?.audio}
+                    contents={trip?.data ?? []}
+                />
             </section>
         </>
     );

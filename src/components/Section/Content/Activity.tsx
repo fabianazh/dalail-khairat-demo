@@ -14,7 +14,10 @@ export default function Activity({ kegiatanId }: { kegiatanId: string }) {
                 <Title>{activity?.title}</Title>
             </section>
             <section>
-                <TextContainer contents={activity?.data ?? []} />
+                <TextContainer
+                    audio={activity?.audio}
+                    contents={activity?.data ?? []}
+                />
             </section>
         </>
     );

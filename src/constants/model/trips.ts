@@ -16,7 +16,7 @@ export const trips: TextContent[] = [
                 text: "Di perbatasan tanah haram ditandai dengan gapura al Quran maka bacalah do’a memasuki tanah haram Mekah:",
                 arab: {
                     arab: "اَللّٰهُمَّ هٰذَا حَرَمُكَ وأَمْنُكَ فَحَرِّم لَحْمِيْ وَدَمِيْ وشَعْرِي وَبَشَرِيْ عَلَى النَّارِ، وَأَمِّنِّي مِنْ عَذَابِكَ يَومَ تَبْعَثُ عِبَادَكَ، وَاجْعَلْنِي مِنْ أَولِيَائِكَ وَأَهْلِ طَاعَتِكَ.",
-                    audio: "",
+
                     latin: "Allāhumma hādzā haramuka wa amnuka, faharrim lahmi wa damā wa basyarī 'alan nāri, wa amminnī min 'adzābika yauma tab'atsu ibādaka, waj'alnī min auliyāika wa ahli thā'atika.",
                     translate:
                         "Ya Allah, kota ini adalah Tanah Haram-Mu dan tempat aman-Mu, maka hindarkanlah daging, darah, rambut, dan kulitku dari neraka. Dan selamatkanlah diriku dari siksa-Mu pada hari Engkau membangkitkan kembali hamba-Mu, dan jadikanlah aku termasuk orang-orang yang selalu dekat dan taat kepada-Mu.",
@@ -57,7 +57,7 @@ export const trips: TextContent[] = [
                 text: "Bakda subuh sudah bersih-bersih seperti memotong kuku, merapikan kumis menyisir jenggot dll, lalu mandi ihram dengan niat:",
                 arab: {
                     arab: "نَوَيْتُ غُسْلَ الِإحْرَامِ سُنَّةً لِلّٰهِ تَعَالَى",
-                    audio: "",
+
                     latin: "Nawaitu ghuslal ihrāmi sunnatan lilāhi ta‘ālā.",
                     translate:
                         "Saya niat mandi ihram sunnah karena Allah ta'âla.",
@@ -68,7 +68,7 @@ export const trips: TextContent[] = [
                 text: "Lalu berwudlu, memakai kain ihram, dan melaksanakan salat sunnat ihram dengan niat:",
                 arab: {
                     arab: "أُصَلِّى سُنَّةَ الْإِحْرَامِ رَكْعَتَيْنِ أَدَاءً لِلّٰهِ تَعَالَى",
-                    audio: "",
+
                     latin: "Usholli sunnatal ihrami rak’ataini ada’an lillahi ta’ala",
                     translate:
                         "Aku niat salat sunnat ihram dua rakaat karena Allah Ta'ala.",
@@ -84,7 +84,7 @@ export const trips: TextContent[] = [
                 text: "Pkl 08.00 (sesuai jadwal dari PPIH Arab Saudi) jamaah berkumpul depan hotel berniat haji, berikut niatnya:",
                 arab: {
                     arab: "نَوَيْتُ الْحَجَّ وَأَحْرَمْتُ بِهِ  لِلّٰهِ تَعَالَى",
-                    audio: "",
+
                     latin: "Nawaitul ḫajja wa aḫramtu bihî lillâhi ta‘âlâ.",
                     translate:
                         "Aku niat haji dengan berihram karena Allah Ta'al.a",
@@ -93,7 +93,7 @@ export const trips: TextContent[] = [
             {
                 arab: {
                     arab: "لَبَّيْكَ اللّٰهُمَّ حَجًّا",
-                    audio: "",
+
                     latin: "Labbaika-llâhumma hajjan",
                     translate: "Kupenuhi panggilan-Mu ya Allah untuk berhaji.",
                 },
@@ -107,7 +107,7 @@ export const trips: TextContent[] = [
                 text: "Bacalah do’a berangkat menuju ‘Arafah:",
                 arab: {
                     arab: "اَللّٰهُمَّ إِلَيْكَ تَوَجَّهْتُ وَلِوَجْهِكَ الْكَرِيْمِ أَرَدْتُ فَاجْعَلْ ذَنْبِيْ مَغْفُورًا، وَحَجِّي مَبْرُوْرًا، وَارْحَمْنِي، وَلَا تُخَيِّبْنِي، إنَّكَ عَلَى كُلِّ شَيْءٍ قَدِيْرٌ.",
-                    audio: "",
+
                     latin: "Allāhumma ilayka tawajjahtu, wa li wajhikal karīmi aradtu, faj‘al dzanbī maghfūran, wa hajjī mabrūran. Warhamnī, wa lā tukhayyibnī, innaka ‘alā kulli syay’in qadīr.",
                     translate:
                         "Ya Tuhanku, hanya kepada-Mu aku menghadap, hanya ke wajah-Mu aku menatap, jadikanlah dosaku terampuni dan hajiku termabrurkan. Berikanlah rahmat-Mu padaku. Jangan Engkau menyia-nyiakanku. Sungguh, Engkau maha kuasa atas segala sesuatu.",
@@ -122,7 +122,7 @@ export const trips: TextContent[] = [
                 text: "Sesampainya di Arafah berdoa masuk arafah:",
                 arab: {
                     arab: "اَللّٰهُمَّ إِلَيْكَ تَوَجَّهْتُ، وَبِكَ اعْتَصَمْتُ، وَعَلَيْكَ تَوَكَّلْتُ، اَللّٰهُمَّ اجْعَلْنِيْ مِمَّنْ تُبَاهِيْ بِهِ الْيَوْمَ مَلَائِكَتَكَ، إِنَّكَ عَلَى كُلِّ شَيْءٍ قَدِيْرُ.",
-                    audio: "",
+
                     latin: "Allâhumma ilaika tawajjahtu, wabika‘tashamtu, wa’alaika tawakkaltu. Allâhummaj’alnî mim-man tubaahî bihil yauma malâ-ikataka, innaka ‘alâ kulli syai-in qadîrun.",
                     translate:
                         "Ya Allah, hanya kepada-Mulah aku menghadap, dengan-Mulah aku berpegang teguh, pada-Mulah aku berserah diri. Ya Allah, jadikanlah aku menjadi bagian dari orang yang hari ini Engkau banggakan di hadapan Malaikat-Mu. Sesungguhnya Engkau Mahakuasa atas segala sesuatu.",
@@ -133,7 +133,7 @@ export const trips: TextContent[] = [
                 text: "Saat melihat Jabal Rohmah bacalah doa:",
                 arab: {
                     arab: "اَللّٰهُمَّ اغْفِرْ لِيْ وَتُبْ عَلَيَّ، وَأَعْطِنِيْ سُؤْلِيْ، وَوَجِّهْ لِيَ الْخَيْرَ أَيْنَمَا تَوَجَّهْتُ، سُبْحَانَ اللّٰهِ وَالحَمْدُ لِلّٰهِ وَلَا إِلٰهَ إِلَّا اللّٰهُ وَاللّٰهُ أَكْبَرُ.",
-                    audio: "",
+
                     latin: "Allāhummaghfir lī wa-tub ‘alayya wa-a’thinī su’lī wawajjih liyal khaira ainamā tawajjahtu. Subhānallāhu walhamdu lillāhi walhamdu lillāhi walā ilāha illallāhu wallāhu akbar.",
                     translate:
                         "Ya Allah, ampunilah aku, terimalah taubatku, penuhilah segala permintaanku dan hadapkanlah kebaikan kepadaku dimanapun aku menghadapkan diri. Maha Suci Allah, segala puji hanya bagi Allah dan tidak ada Tuhan selain Allah. Dan Allah itu Maha Agung.",
@@ -158,7 +158,7 @@ export const trips: TextContent[] = [
                 text: "Telah sampai Muzdalifah lalu berdoa:",
                 arab: {
                     arab: "اَللّٰهُمَّ إِنَّ هَذِهِ مُزْدَلِفَةُ جُمِعَتْ فِيْهَا أَلْسِنَةٌ مُخْتَلِفَةٌ، أَسْأَلُكَ حَوَائِجَ مُتَنَوِّعَةً فَاجْعَلْنِيْ مِمَّنْ دَعَاكَ فَاسْتَجَبْتَ لَهُ وَتَوَكَّلَ عَلَيْكَ فَكَفَّيْتَهُ يَا أَرْحَمَ الرَّاحِمِيْنَ.",
-                    audio: "",
+
                     latin: "Allâhumma inna hâdzihi muzdalifatu jumi‘at fîhâ alsinatun mukhtalifatun, tas’aluka hawâija mutanawwi‘atan faj’alnî mimman da‘âka fastajabta lahu wa tawakkala ‘alaika fakaffaitahu yâ arḫamar râḫimîn.",
                     translate:
                         "Ya Allah, sesungguhnya di Muzdalifah ini telah berkumpul bermacam-macam bahasa yang memohon kepada-Mu berbagai hajat yang beraneka ragam. Maka, masukkanlah aku ke dalam golongan orang yang berdoa lalu Engkau kabulkan, golongan orang yang berserah diri pada-Mu lalu Engkau lindungi dia, wahai Tuhan yang Maha Pengasih dari segala yang pengasih.",
@@ -187,7 +187,7 @@ export const trips: TextContent[] = [
                 arab: {
                     title: "Setelah sampai Mina berdoa:",
                     arab: "اَللّٰهُمَّ هَذَا مِنَى فَامْنُنْ عَلَيَّ بِمَا مَنَنْتَ بِهِ عَلَى أَوْلِيَائِكَ وَأَهْلِ طَاعَتِكَ.",
-                    audio: "",
+
                     latin: "Allâhumma hadzâ minâ famnun ‘alayya bimâ mananta bihi ‘alâ awliyâika wa ahli thâ‘atika.",
                     translate:
                         "Ya Allah, tempat ini adalah di Mina, anugerahkanlah kepadaku apa yang Engkau telah anugerahkan kepada orang-orang yang selalu dekat dan taat kepada-Mu.",
@@ -210,7 +210,7 @@ export const trips: TextContent[] = [
                 arab: {
                     title: "Setiap kali lemparan batu, bacalah do’a:",
                     arab: "بِسْمِ اللّٰهِ، اَللّٰهُ أَكْبَرُ رَجْمًا لِلشَّيَاطِيْنِ وَرِضًا لِلرَّحْمَنِ.",
-                    audio: "",
+
                     latin: "Bismillâhi wallâhu akbar, rajman lisysyayâthîni wa ridhan lirraḫmâni.",
                     translate:
                         "Dengan menyebut nama Allah, Allah Mahabesar. Laknat bagi setan dan keridhaan bagi Allah yang Maha Pengasih.",
@@ -221,7 +221,7 @@ export const trips: TextContent[] = [
                 arab: {
                     title: "Setelah selesai melempar jumrah lalu berdoa:",
                     arab: "اَللّٰهُمَّ اجْعَلْ حَجًّا مَبْرُوْرًا وَسَعْيًا مَشْكُوْرًا.",
-                    audio: "",
+
                     latin: "Allâhumma-j‘al hajjan mabrûran wa sa‘yan masykûran",
                     translate:
                         "Ya Allah, jadikanlah hajiku ini diterima dan usahaku dibalas pahala.",
@@ -232,7 +232,7 @@ export const trips: TextContent[] = [
                 arab: {
                     title: "Sesudah itu gunting rambut minimal tiga helai dengan berdo’a:",
                     arab: "اَللّٰهُ أَكْبَرُ، اَللّٰهُ أَكْبَرُ، اَللّٰهُ أَكْبَرُ كَبِيْرًا، وَالْحَمْدُ لِلّٰهِ عَلَى مَا هَدَانَا، وَالْحَمْدُ لِلّٰهِ عَلَى مَا أَنْعَمَنَا بِهِ عَلَيْنَا. اَللّٰهُمَّ هَذِهِ نَاصِيَتِيْ فَتَقَبَّلْ مِنِّيْ وَاغْفِرْ ذُنُوْبِيْ. اَللّٰهُمَّ اغْفِرْ لِلْمُحَلِّقِيْنَ وَالمُقَصِّرِيْنَ يَا وَاسِعَ المَغْفِرَةِ. اَللّٰهُمَّ اثْبُتْ لِيْ بِكُلِّ شَعْرَةٍ حَسَنَةً وَامْحُ عَنِّيْ بِهَا سَيِّئَةً، وَارْفَعْ لِيْ بِهَا عِنْدَكَ دَرَجَةً.",
-                    audio: "",
+
                     latin: "Allāhu akbar, Allāhu akbar, Allāhu akbar. Wal hamdulillāhi ‘alā mā hadānā wal hamdulillāhi ‘alā mā an’amanā bihi ‘alainā. Allāhumma hādzihi nāshiyatī fataqabbal minnī, waghfir dzhunubī. Allāhummaghfir lil-muhalliqīna wal muqasshirīna yā wāsi’al maghfirah. Allāhummatsbut lī bikulli sya’ratin hasanatan wamhu ‘annī bihā sayyi’atan, warfa’lī bihā ‘indaka darajatan.",
                     translate:
                         "Allah Maha Besar, Allah Maha Besar, Allah Maha Besar. Segala puji bagi Allah yang telah memberi petunjuk kepada kita dan segala puji Bagi Allah tentang apa-apa yang telah Allah karuniakan kepada kami. Ya Allah ini ubun-ubunku, maka terimalah dariku (amal perbuatanku) dan ampunilah dosa-dosaku. Ya Allah ampunilah orang-orang yang mencukur dan memendekkan rambutnya wahai Tuhan yang Maha Luas ampunan-Nya. Ya Allah tetapkanlah untuk diriku setiap helai rambut kebajikan dan hapuskanlah untukku dengan setiap helai rambut kejelekan. Dan angkatlah derajatku disisimu.",
@@ -305,7 +305,7 @@ export const trips: TextContent[] = [
                 arab: {
                     title: "Saat memasuki batas kota Madinah, bacalah do’a:",
                     arab: "اَللّٰهُمَّ هٰذَا حَرَمُ رَسُوْلِكَ فَاجْعَلْهُ وِقَايَةً لِيْ مِنَ النَّارِ وَأَمَانًا مِنَ الْعَذَابِ وَسُوْءِ الْحِسَابِ. وَافْتَحْ لِي أَبْوَابَ رَحْمَتِكَ، وَارْزُقْنِي فِي زِيَارَةِ نَبِيِّكَ مَا رَزَقْتَهُ أَوْلِيَاءَكَ وَأَهْلَ طَاعَتِكَ، وَاغْفِرْ لِي وَارْحَمْنِي يَا خَيْرَ مَسْؤُوْلٍ",
-                    audio: "",
+
                     latin: "Allāhumma hādzā haramu nabiyyika, faj‘alhu lī wiqāyatan Mina n nāri, wa amānan Mina l ‘adzābi wa sū’il hisābi, waftah lī abwāba rahmatika, warzuqnī fī ziyārati nabiyyika mā razaqtahū awliyā’aka wa ahla thā‘atika, waghfir lī, warhamnī, yā khayra mas’ūl.",
                     translate:
                         "Ya Allah, negri ini adalah tanah haram Rasul-Mu Muhammad saw., maka jadikanlah penjaga bagiku dari neraka, aman dari siksa dan buruknya hisab. bukakan bagiku pintu rahmat-Mu, karuniakan aku dalam menziarahi nabi-Mu anugerah yang Kauberikan kepada para wali-Mu dan hamba-Mu yang taat, ampunilah aku, berikan rahmat-Mu padaku, wahai sebaik-baik zat yang diminta.",
@@ -368,7 +368,7 @@ export const trips: TextContent[] = [
                 arab: {
                     title: "Saat meninggalkan kota Madinah, bacalah do’a:",
                     arab: "اَللّٰهُمَّ لَا تَجْعَلْ هَذَا آخِرَ العَهْدِ بِحَرَمِ رَسُوْلِكَ وَيَسِّرْ لِيَ العَوْدَ إِلَى الحَرَمَيْنِ سَبِيْلًا سَهْلَةً بِمَنِّكَ وَفَضْلِكَ وَارْزُقْنِيَ العَفْوَ وَالعَافِيَةَ فِي الدُّنْيَا وَالآخِرَةِ وَرُدَّنَا سَالِمِيْنَ غَانِمِيْنَ إِلَى أَوْطَانِنَا آمِنِيْنَ",
-                    audio: "",
+
                     latin: "Allāhumma lā taj‘al ākhiral ‘ahdi bi harami rasūlika. Wa yassir liyal ‘awda ill haramayni sabīlan sahlatan bi mannika wa fadhlika. Warzuqniyal ‘afwa wal ‘āfiyata fid duniya wal ākhirah. Wa ruddanā sālimīna ghānimīn ilā awthāninā āminīn.",
                     translate:
                         "Ya Allah, jangan jadikan ini akhir kesempatan pertemuanku dengan tanah haram rasul-Mu. Mudahkanlah aku untuk kembali ke dua tanah suci ini [Makkah dan Madinah] dengan mudah dan ringan dengan anugerah dan kemurahan-Mu. Anugerahkanlah aku ampunan dan afiat di dunia dan akhirat. Dan kembalikanlah kami ke tanah air kami dalam keadan selamat, meraih banyak pahala, dan aman,",
@@ -405,7 +405,7 @@ export const trips: TextContent[] = [
                 arab: {
                     title: "Saat akan tiba di tanah air, bacalah do’a berikut:",
                     arab: "اَللّٰهُمَّ اجْعَلْ لَنَا بِهَا قَرَارًا أَوْ رِزْقًا حَسَنًا، اَللّٰهُمَّ ارْزُقْنَا جَنَاهَا وَأَعِذْنَا مِنْ وَبَاهَا وَحَبِّبْنَا إِلَى أَهْلِهَا وَحَبِّبْ صَالِحِيْ أَهْلِهَا إِلَيْنَا",
-                    audio: "",
+
                     latin: "Allāhummaj‘al lanā bihā qarārā, aw rizqan hasanā.  Allāhummarzuqnā janāhā, wa a‘idznā min wabāhā, wa habbibnā ilā ahlihā, wa habbib shālihī ahlihā ilaynā.",
                     translate:
                         "Ya Allah, jadikanlah Tanah Air ini sebagai tempat tinggal atau rezeki yang baik bagi kami. Ya Allah, karuniakanlah kepada kami hasil tanaman negeri ini; lindungi kami dari wabahnya; tanamkan rasa cinta di hati kami terhadap penduduknya; dan tanamkan rasa cinta di hati penduduknya yang saleh terhadap kami.",

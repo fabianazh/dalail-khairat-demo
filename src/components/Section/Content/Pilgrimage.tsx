@@ -14,7 +14,10 @@ export default function Pilgrimage({ ziarahId }: { ziarahId: string }) {
                 <Title>{pilgrimage?.title}</Title>
             </section>
             <section>
-                <TextContainer contents={pilgrimage?.data ?? []} />
+                <TextContainer
+                    audio={pilgrimage?.audio}
+                    contents={pilgrimage?.data ?? []}
+                />
             </section>
         </>
     );

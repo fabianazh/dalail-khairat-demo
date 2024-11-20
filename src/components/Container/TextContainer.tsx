@@ -1,3 +1,5 @@
+"use client";
+
 import Arabic from "@/components/Typography/Arabic";
 import Latin from "@/components/Typography/Latin";
 import Text from "@/components/Typography/Text";
@@ -5,17 +7,21 @@ import Title from "@/components/Typography/Title";
 import Translate from "@/components/Typography/Translate";
 import Note from "@/components/Typography/Note";
 import { roboto } from "@/app/fonts";
-import Author from "../Typography/Author";
+import Author from "@/components/Typography/Author";
+import AudioModal from "@/components/Modal/AudioModal";
 
 export default function TextContainer({
     className,
     contents,
+    audio,
 }: {
     className?: string;
+    audio?: string;
     contents: TextData[];
 }) {
     return (
         <>
+            {audio && <AudioModal audioUrl={audio ?? ""} />}
             <ul
                 className={`flex flex-col w-fit h-fit gap-1 ${roboto.className} ${className}`}
             >
@@ -56,20 +62,13 @@ export default function TextContainer({
                                                     arab: string,
                                                     index: number
                                                 ) => (
-                                                    <Arabic
-                                                        key={index}
-                                                        audio={
-                                                            content.arab?.audio
-                                                        }
-                                                    >
+                                                    <Arabic key={index}>
                                                         {arab}
                                                     </Arabic>
                                                 )
                                             )
                                         ) : (
-                                            <Arabic audio={content.arab?.audio}>
-                                                {content.arab.arab}
-                                            </Arabic>
+                                            <Arabic>{content.arab.arab}</Arabic>
                                         )}
                                         {content.arab.latin && (
                                             <Latin>{content.arab.latin}</Latin>

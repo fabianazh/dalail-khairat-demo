@@ -13,6 +13,7 @@ const defaultSettings = {
     latinFontSize: 17,
     showLatin: true,
     showTranslation: false,
+    showAudio: true,
 };
 
 const SettingsContext = createContext<SettingsContextType | undefined>(
@@ -40,18 +41,23 @@ export function SettingsProvider({ children }: { children: ReactNode }) {
     const [showTranslation, setShowTranslation] = useState<boolean>(
         defaultSettings.showTranslation
     );
+    const [showAudio, setShowAudio] = useState<boolean>(
+        defaultSettings.showAudio
+    );
 
     useEffect(() => {
         const storedArabFontSize = localStorage.getItem("arabFontSize");
         const storedLatinFontSize = localStorage.getItem("latinFontSize");
         const storedShowLatin = localStorage.getItem("showLatin");
         const storedShowTranslation = localStorage.getItem("showTranslation");
+        const storedShowAudio = localStorage.getItem("showAudio");
 
         if (storedArabFontSize) setArabFontSize(Number(storedArabFontSize));
         if (storedLatinFontSize) setLatinFontSize(Number(storedLatinFontSize));
         if (storedShowLatin !== null) setShowLatin(storedShowLatin === "true");
         if (storedShowTranslation !== null)
             setShowTranslation(storedShowTranslation === "true");
+        if (storedShowAudio !== null) setShowAudio(storedShowAudio === "true");
     }, []);
 
     const saveSettings = () => {
@@ -59,6 +65,7 @@ export function SettingsProvider({ children }: { children: ReactNode }) {
         localStorage.setItem("latinFontSize", latinFontSize.toString());
         localStorage.setItem("showLatin", showLatin.toString());
         localStorage.setItem("showTranslation", showTranslation.toString());
+        localStorage.setItem("showAudio", showAudio.toString());
     };
 
     const resetSettings = () => {
@@ -66,6 +73,7 @@ export function SettingsProvider({ children }: { children: ReactNode }) {
         setLatinFontSize(defaultSettings.latinFontSize);
         setShowLatin(defaultSettings.showLatin);
         setShowTranslation(defaultSettings.showTranslation);
+        setShowAudio(defaultSettings.showAudio);
         localStorage.setItem(
             "arabFontSize",
             defaultSettings.arabFontSize.toString()
@@ -79,6 +87,7 @@ export function SettingsProvider({ children }: { children: ReactNode }) {
             "showTranslation",
             defaultSettings.showTranslation.toString()
         );
+        localStorage.setItem("showAudio", defaultSettings.showAudio.toString());
     };
 
     return (
@@ -92,6 +101,8 @@ export function SettingsProvider({ children }: { children: ReactNode }) {
                 setShowLatin,
                 showTranslation,
                 setShowTranslation,
+                showAudio,
+                setShowAudio,
                 saveSettings,
                 resetSettings,
             }}

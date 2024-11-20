@@ -20,6 +20,8 @@ export default function NavModal({
         setShowLatin,
         showTranslation,
         setShowTranslation,
+        showAudio,
+        setShowAudio,
         saveSettings,
         resetSettings,
     } = useSettings();
@@ -112,6 +114,32 @@ export default function NavModal({
                                                         setShowTranslation(
                                                             !showTranslation
                                                         )
+                                                    }
+                                                />
+                                                <div className="block h-6 rounded-full bg-gray-200 w-10"></div>
+                                                <div className="absolute w-4 h-4 transition bg-stone-400 rounded-full dot left-1 top-1 peer-checked:translate-x-full peer-checked:bg-green-600"></div>
+                                            </div>
+                                        </label>
+                                        {/* End Toggle Switch */}
+                                    </div>
+                                    <Divider />
+                                    <div className="w-full flex justify-between items-center py-3">
+                                        <span className="font-medium text-sm lg:text-sm">
+                                            Audio
+                                        </span>
+                                        {/* Toggle Switch */}
+                                        <label
+                                            htmlFor="audioText"
+                                            className="w-auto flex items-center cursor-pointer select-none text-black dark:text-white"
+                                        >
+                                            <div className="relative">
+                                                <input
+                                                    type="checkbox"
+                                                    id="audioText"
+                                                    className="peer sr-only"
+                                                    checked={showAudio}
+                                                    onChange={() =>
+                                                        setShowAudio(!showAudio)
                                                     }
                                                 />
                                                 <div className="block h-6 rounded-full bg-gray-200 w-10"></div>

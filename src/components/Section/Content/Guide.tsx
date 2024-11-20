@@ -14,7 +14,10 @@ export default function Guide({ panduanId }: { panduanId: string }) {
                 <Title>{guide?.title}</Title>
             </section>
             <section>
-                <TextContainer contents={guide?.data ?? []} />
+                <TextContainer
+                    audio={guide?.audio}
+                    contents={guide?.data ?? []}
+                />
             </section>
         </>
     );
