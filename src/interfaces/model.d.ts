@@ -16,17 +16,17 @@ interface TextData {
         arab?: {
             title?: string;
             arab?: string | string[];
-            latin?: string;
-            translate?: string;
-            source?: string;
+            latin?: string | string[];
+            translate?: string | string[];
+            source?: string | string[];
         };
     }[];
     arab?: {
         title?: string;
         arab?: string | string[];
-        latin?: string;
-        translate?: string;
-        source?: string;
+        latin?: string | string[];
+        translate?: string | string[];
+        source?: string | string[];
     };
     notes?: string[];
 }
@@ -46,6 +46,7 @@ interface TabContent {
         audio?: string;
         data: TextData[];
     }[];
+    tabLayout?: boolean;
 }
 
 interface Essentials {

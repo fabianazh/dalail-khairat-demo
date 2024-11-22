@@ -2,6 +2,7 @@ export const duas: TabContent[] = [
     {
         id: "doa-thawaf",
         title: "Do'a Thawaf",
+        tabLayout: true,
         tab: [
             {
                 label: "<span>Puta</span><span>ran 1</span>",
@@ -304,6 +305,7 @@ export const duas: TabContent[] = [
     {
         id: "doa-sai",
         title: "Do'a Sa'i",
+        tabLayout: true,
         tab: [
             {
                 label: "<span>Jal</span><span>an 1</span>",
@@ -595,6 +597,7 @@ export const duas: TabContent[] = [
     {
         id: "doa-mencukur-rambut",
         title: "Do'a Mencukur Rambut",
+        tabLayout: false,
         tab: [
             {
                 label: "Do'a Mencukur Rambut",
@@ -633,6 +636,37 @@ export const duas: TabContent[] = [
                     },
                     {
                         desc: "Setelah resmi tahallul dari ihram umrah, maka kita menunggu untuk pelaksanaan ihram haji.",
+                    },
+                ],
+            },
+        ],
+    },
+    {
+        id: "doa-doa-haji-imam-ghazali",
+        title: "Do'a Do'a Haji Imam Ghazali",
+        tabLayout: false,
+        tab: [
+            {
+                label: "Bagian pertama",
+                data: [
+                    {
+                        title: "RANGKAIAN DO’A KEBERANGKATAN HAJI/UMROH",
+                    },
+                    {
+                        title: "Do’a Perpisahan Dengan Keluarga",
+                        arab: {
+                            arab: "أَسْتَوْدِعُ اللّٰهَ دِيْنَكَ وَأَمَانَتَكَ وَخَوَاتِيْمَ عَمَلِكَ",
+                            translate:
+                                "Aku titipkan kepada Allah agamamu, amanatmu dan akhir amal perbuatanmu",
+                        },
+                    },
+                    {
+                        title: "Untuk Mendoakan Orang Yang Berangkat Umroh",
+                        arab: {
+                            arab: "فِي حِفْظِ اللّٰهِ وَكَنَفِهِ، زَوَّدَكَ اللّٰهُ التَّقْوَى وَغَفَرَ ذَنْبَكَ وَوَجَّهَكَ لِلْخَيْرِ أَيْنَمَا كُنْتَ ",
+                            translate:
+                                "Semoga kamu ada dalam penjagaan dan perlindungan Allah SWT. Semoga Allah membekalimu dengan ketakwaan, mengampuni dosamu, dan mengarahkanmu kepada kebaikan dimanapun kamu berada",
+                        },
                     },
                 ],
             },

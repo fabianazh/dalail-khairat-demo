@@ -23,11 +23,11 @@ export default function TextContainer({
         <>
             {audio && <AudioModal audioUrl={audio ?? ""} />}
             <ul
-                className={`flex flex-col w-fit h-fit gap-1 ${roboto.className} ${className}`}
+                className={`w-full flex flex-col h-fit gap-1 ${roboto.className} ${className}`}
             >
-                {contents.map((content: TextData) => (
+                {contents.map((content: TextData, index: number) => (
                     <>
-                        <li key={content.index} className="flex flex-col gap-1">
+                        <li key={index} className="flex flex-col gap-1">
                             {content.title && (
                                 <Title placeItem="center" size="sm">
                                     {content.title}
@@ -70,18 +70,59 @@ export default function TextContainer({
                                         ) : (
                                             <Arabic>{content.arab.arab}</Arabic>
                                         )}
-                                        {content.arab.latin && (
+                                        {Array.isArray(content.arab.latin) ? (
+                                            content.arab.latin.map(
+                                                (
+                                                    latin: string,
+                                                    index: number
+                                                ) => (
+                                                    <Latin key={index}>
+                                                        {latin}
+                                                    </Latin>
+                                                )
+                                            )
+                                        ) : (
                                             <Latin>{content.arab.latin}</Latin>
                                         )}
-                                        {content.arab.translate && (
-                                            <div className="w-full">
-                                                <Translate
-                                                    className="inline-block"
-                                                    source={content.arab.source}
-                                                >
-                                                    {content.arab.translate}
-                                                </Translate>
-                                            </div>
+                                        {Array.isArray(
+                                            content.arab.translate
+                                        ) ? (
+                                            content.arab.translate.map(
+                                                (
+                                                    translate: string,
+                                                    index: number
+                                                ) => (
+                                                    <Translate
+                                                        key={index}
+                                                        className="inline-block"
+                                                        source={
+                                                            Array.isArray(
+                                                                content.arab
+                                                                    ?.source
+                                                            )
+                                                                ? content.arab
+                                                                      .source[0]
+                                                                : content.arab
+                                                                      ?.source
+                                                        }
+                                                    >
+                                                        {translate}
+                                                    </Translate>
+                                                )
+                                            )
+                                        ) : (
+                                            <Translate
+                                                className="inline-block"
+                                                source={
+                                                    Array.isArray(
+                                                        content.arab.source
+                                                    )
+                                                        ? content.arab.source[0]
+                                                        : content.arab.source
+                                                }
+                                            >
+                                                {content.arab.translate}
+                                            </Translate>
                                         )}
                                     </div>
                                 </>
@@ -104,8 +145,12 @@ export default function TextContainer({
                                                         arab?:
                                                             | string
                                                             | string[];
-                                                        latin?: string;
-                                                        translate?: string;
+                                                        latin?:
+                                                            | string
+                                                            | string[];
+                                                        translate?:
+                                                            | string
+                                                            | string[];
                                                     };
                                                 },
                                                 index: number

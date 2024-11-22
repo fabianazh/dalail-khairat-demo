@@ -1,7 +1,6 @@
 "use client";
 
 import { useState } from "react";
-import { motion } from "framer-motion";
 import { useSwipeable } from "react-swipeable";
 import TextContainer from "@/components/Container/TextContainer";
 import { roboto } from "@/app/fonts";
@@ -42,9 +41,7 @@ export default function TabContainer({
         <div {...swipeHandlers} className="w-full overflow-x-hidden">
             {/* Tab Label */}
             <div
-                className={`w-full h-fit justify-center fixed top-14 left-0 bg-green-600 text-white ${
-                    contents.length < 2 ? "hidden" : "grid grid-cols-7"
-                }`}
+                className={`w-full h-fit justify-center fixed top-14 left-0 bg-green-600 text-white grid grid-cols-7`}
             >
                 {contents.map((tab, index) => (
                     <div
@@ -69,16 +66,13 @@ export default function TabContainer({
             {/* End Tab Label */}
 
             {/* Tab Content */}
-            <motion.div
-                className={`w-full min-h-screen ${
-                    contents.length < 2 ? "pt-12" : "pt-24"
-                }`}
-            >
+            <div className={`w-full min-h-screen pt-24`}>
                 <TextContainer
                     audio={contents[activeTab].audio}
                     contents={contents[activeTab].data}
                 />
-            </motion.div>
+            </div>
+
             {/* End Tab Content */}
         </div>
     );
