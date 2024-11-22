@@ -1218,6 +1218,205 @@ export const duas: TabContent[] = [
                 ],
             },
             {
+                label: "Bagian ketiga belas",
+                data: [
+                    { title: "RANGKAIAN DO’A THAWAF WADA " },
+                    {
+                        title: "Do’a Masuk Masjidil Haram ",
+                        arab: {
+                            arab: [
+                                "أَعُوْذُ بِاللّٰهِ الْعَظِيْمِ وَبِوَجْهِهِ الْكَرِيْمِ وَسُلْطَانِهِ الْقَدِيْمِ مِنَ الشَّيْطَانِ الرَّجِيْمِ، الْحَمْدُ لِلّٰهِ ",
+                                "اللّٰهُمَّ صَلِّ وَسَلِّمْ عَلَى مُحَمَّدٍ وَعَلَى آلِ مُحَمَّدٍ ",
+                                " اللّٰهُمَّ اغْفِرْ لِيْ ذُنُوْبِيْ وَافْتَحْ لِيْ أَبْوَابَ رَحْمَتِكَ، بِسْمِ اللّٰهِ وَبِاللّٰهِ وَمِنَ اللّٰهِ وَإِلَى اللّٰهِ وَفِي سَبِيْلِ اللّٰهِ وَعَلَى مِلَّةِ رَسُولِ اللّٰهِ ",
+                            ],
+                            translate: [
+                                "Aku berlindung kepada Allah Yang Maha Agung, dengan Zat-Nya Yang Mulia dan kekuasaan-Nya yang abadi, dari setan yang terkutuk. Segala puja dan puji milik Allah. Semoga shalawat dan salam tercurahkan kepada baginda Muhammad juga kepada keluarganya.",
+                                "Ya Allah, ampunilah dosa-dosa ku dan bukakanlah pintu-pintu rahmatMu untukku. Dengan menyebut nama Allah, dengan Allah, dari Allah, kepada Allah, di jalan Allah, dan berdasarkan ajaran Allah.",
+                            ],
+                        },
+                    },
+                    {
+                        title: "Do’a Melihat Ka’bah Dari Dekat ",
+                        arab: {
+                            arab: [
+                                "الْحَمْدُ لِلّٰهِ وَسَلَامٌ عَلَى عِبَادِهِ الَّذِيْنَ اصْطَفَى، اللّٰهُمَّ اغْفِرْ لِيْ ذُنُوْبِيْ وَافْتَحْ لِيْ أَبْوَابَ رَحْمَتِكَ، بِسْمِ اللّٰهِ وَبِاللّٰهِ وَمِنَ اللّٰهِ وَإِلَى اللّٰهِ وَفِي سَبِيْلِ اللّٰهِ وَعَلَى مِلَّةِ رَسُولِ اللّٰهِ ",
+                                "صَلِّ عَلَى مُحَمَّدٍ عًبْدِكَ وَرَسُوْلِكَ وَعَلَى إِبْرَاهِيْمَ خَلِيْلِكَ وَعَلَى جَمِيْعِ أَنْبِيَائِكَ وَرُسُلِكَ ",
+                                "اللّٰهُمَّ إِنِّيْ أَسْأَلُكَ فِي مَقَامِيْ هَذَا فِي أَوَّلِ مَنَاسِكِيْ أَنْ تَقْبَلَ تَوْبَتِيْ وَأَنْ تَتَجَاوَزَ عَنْ خَطِيْئَتِي وَتَضَعَ عَنِّيْ وِزْرِيْ الحَمْدُ لِلّٰهِ الَّذِيْ بَلَّغَنِيْ بَيْتَهُ الحَرَامَ الَّذِيْ جَعَلَهُ مَثَابَةً لِلنَّاسِ وَأَمْنًا وَجَعَلَهُ مُبَارَكاً وَهُدًى لِلْعَالَمِيْنَ ",
+                                "اللّٰهُمَّ إِنِّيْ عَبْدُكَ وَالبَلَدُ بَلَدُكَ وَالْحَرَمُ حَرَمُكَ وَالْبَيْتُ بَـيْتُكَ جِئْتُكَ أَطْلُبُ رَحْمَتَكَ وَأَسْأَلُكَ مَسْأَلَةَ الْمُضْطَرِّ الخَائِفِ مِنْ عُقُوْبَتِكَ الرَّاجِي لِرَحْمَتِكَ الطَّاِلبُ مَرْضَاتَكَ ",
+                            ],
+                            translate: [
+                                "Segala puji bagi Allah dan kesejahteraan semoga tercurahkan kepada hamba-hambanya yang terpilih. Ya Allah, semoga shalawat tercurahkan kepada baginda Muhammad yaitu hamba-Mu, utusan-Mu dan juga kepada Nabi Ibrahim yaitu kekasih-Mu dan kepada seluruh Nabi-Nabi-Mu dan Rasul-Rasul-Mu",
+                                "Ya Allah, sesungguhnya aku meminta kepada-Mu di tempat ku ini yaitu awal ibadah umroh ku ini agar Engkau menerima taubatku dan mengampuni kesalahan-kesalahan ku dan melepaskan aku dari bebanku. Segala puji bagi Allah yang telah menyampaikan aku kepada Bait al-Haram yang Ia jadikan sebagai tempat berziarah yang aman bagi manusia dan ia jadikan sebagai tempat yang diberkahi sebagai petunjuk bagi seluruh alam semesta",
+                                "Ya Allah sesungguhnya aku ini adalah hamba-Mu, dan kota ini adalah kota-Mu, dan tanah Haram ini adalah tanah Haram-Mu, dan Baitullah ini adalah rumah-Mu, aku mendatangi-Mu dengan memohon kasih sayang-Mu dan aku memohon kepada-Mu sebagaimana permohonan orang yang sangat butuh kepada-Mu dan takut akan siksa mu seraya mengharapkan kasih sayang-Mu dan memohon ridlo-Mu.",
+                            ],
+                        },
+                    },
+                    {
+                        title: "Do’a Mencium Hajar Aswad ",
+                        arab: {
+                            arab: "اللّٰهُمَّ أَمَانَتِيْ أَدَّيْتُهَا وَمِيْثَاقِيْ تَعَاهَدْتُهُ لِتَشْهَدَ لي بِالْمُوَافَاةِ ",
+                            translate:
+                                "Ya Allah, amanahku telah aku penuhi, janji ku pun telah aku tepati, agar Engkau menyaksikan untukku balasannya pahalanya.",
+                        },
+                    },
+                    {
+                        title: "Do’a Sebelum Thowaf Searah Hajar Aswad (Dibaca Juga Pada Setiap Putaran)",
+                        arab: {
+                            arab: "بِسْمِ اللّٰهِ وَاللّٰهُ أَكْبَرُ. اللّٰهُمَّ إِيْمَانًا بِكَ وَتَصْدِيْقًا بِكِتَابِكَ وَوَفَاءً بِعَهْدِكَ وَاتِّبَاعًا لِسُنَّةِ نَبِيِّكَ مُحَمَّدٍ صَلَّى اللّٰهُ عَلَيْهِ وَسَلَّمَ ",
+                            translate:
+                                "Dengan menyebut nama Allah, Allah Maha Besar, ya Allah kami lakukan umrah dan thawaf ini karena beriman kepada-Mu dan sangat mempercayai Kitab-Mu (al-Quran), janji-Mu dan sangat mengikuti sunnah Rasul-Mu baginda Muhammad Saw",
+                        },
+                    },
+                    { title: "Do’a Thawaf Putaran 1 Sampai 7 " },
+                    {
+                        index: "a",
+                        text: "Do’a Dari Hajar Aswad Sampai Pintu Ka’bah ",
+                        arab: {
+                            arab: [
+                                "اللّٰهُمَّ هَذَا البَيْتُ بَيْتُكَ وَهَذَا الحَرَمُ حَرَمُكَ وَهَذَا الأَمْنُ أَمْنُكَ وَهَذَا مَقَامُ العَائِذِ بِكَ مِنَ النَّارِ ",
+                                "اللّٰهُمَّ اغْفِرْ لِي بِرَحْمَتِكَ أَعُوْذُ بِرَبِّ هَذَا الحَجَرِ مِنَ الدَّيْنِ وَالفَقْرِ وَضَيْقِ الصَدْرِ وَعَذَابِ القَبْرِ ",
+                            ],
+                            translate:
+                                "Ya Allah, Baitullah ini adalah rumah-Mu tanah  haram ini adalah Tanah Haram-Mu dan ini adalah keamanan-Mu dan tempat ini adalah tempat orang yang memohon perlindungan kepada-mu dari siksa Neraka.",
+                        },
+                    },
+                    {
+                        index: "b",
+                        text: "Do’a Melewati Maqom Ibrahim ",
+                        arab: {
+                            arab: "اللّٰهُمَّ إِنَّ بَيْتَكَ عَظِيْمٌ وَوَجْهَكَ كَرِيْمٌ وَأَنْتَ أَرْحَمُ الرَّاحِمِيْنَ فَأَعِذْنِي مِنَ النَّارِ وَمِنَ الشَّيْطَانِ الرَّجِيْمِ وَحَرِّمْ لَحْمِي وَدَمِيْ عَلىَ النَّارِ وَآمِنِّيْ مِنْ أَهْوَالِ يَوْمِ القِيَامَةِ وَاكْفِنِيْ مَؤُوْنَةَ الدُّنْيَا وَالْآخِرَةِ سُبْحَانَ اللهِ وَبِحَمْدِهِ سُبْحَانَ اللهِ العَظِيْمِ",
+                            translate:
+                                "Ya Allah, sesungguhnya rumah-Mu mulia, Zat-Mu mulia dan Engkau adalah Maha Penyayang, maka lindungilah aku dari Neraka dan dari Syaitan yang terkutuk, haramkanlah dagingku dan darahku dari api Neraka, lindungilah aku dari menakutkannya hari Kiamat, dan cukupkanlah aku dari kebutuhan dunia dan akhirat. Maha Suci Allah dengan segala pujiann-Nya, Maha Suci Allah yang Maha Mulia.",
+                        },
+                    },
+                    {
+                        index: "c",
+                        text: "Do’a Maqom Ibrahim Maulana Syaikh Abdis Salam Ali Syita ",
+                        arab: {
+                            arab: "وَاتَّخِذُوْا مِنْ مَّقَامِ اِبْرٰهٖمَ مُصَلًّىۗ  وَعَهِدْنَآ اِلٰٓى اِبْرٰهٖمَ وَاِسْمٰعِيْلَ اَنْ طَهِّرَا بَيْتِيَ لِلطَّاۤىِٕفِيْنَ وَالْعٰكِفِيْنَ وَالرُّكَّعِ السُّجُوْدِ ",
+                        },
+                    },
+                    {
+                        index: "d",
+                        text: "Do’a Di Rukun Iraqi ",
+                        arab: {
+                            arab: "اللّٰهُمَّ إِنِّيْ أَعُوْذُ بِكَ مِنَ الشِّرْكِ وَالشَّكِّ وَالكُفْرِ والنِّفَاقِ وَالشِقَاقِ وَسُوْءِ الأَخْلَاقِ وَسُوْءِ الْمَنْظَرِ فِي الأَهْلِ وَالْمَالِ وَالوَلَدِ ",
+                            translate:
+                                "Ya Allah, Aku berlindung kepada-Mu dari menyekutukan-Mu, ragu, kufur, munafiq, durhaka, budi pekerti yang buruk dan pandangan yang buruk pada keluarga, harta dan anak.",
+                        },
+                    },
+                    {
+                        index: "e",
+                        text: "Do’a Di Bawah/Arah Mizab ",
+                        arab: {
+                            arab: [
+                                "اللّٰهُمَّ أَظِلَّنَا تَحْتَ ظِلِّ عَرْشِكَ يَوْمَ لَا ظِلَّ إِلَّا ظِلُّكَ اللّٰهُمَّ اسْقِنِيْ بِكَأْسِ مُحَمَّدٍ شُرْبَةً لَا أَظْمَأُ بَعْدَهَا أَبَدًا.",
+                                "اللّٰهُمَّ قَنِّعْنِيْ بِمَا رَزَقْتَنِيْ وَبَارِكْ لِي فِيْهِ واخْلُفْ عَلَي كُلِّ غَائِبَةٍ لِي مِنْكَ بِخَيْرٍ ",
+                            ],
+                            translate: [
+                                "Ya Allah, naungilah kami di bawah singgasana-Mu pada hari yang tidak ada naungan selain naungan-Mu. Ya Allah, berilah aku secangkir munim Baginda Muhammad yaitu minuman yang setelahnya aku tidak akan pernah haus",
+                                "Ya Allah, puaskanlah aku dengan anugerah yang telah Engkau berikan, berkatilah untukku atas semua yang Engkau anugerahkan kepadaku dan gantilah apa-apa yang hilang dariku (tidak aku raih)  dengan kebaikan yang besar dari-Mu",
+                            ],
+                        },
+                    },
+                    {
+                        index: "f",
+                        text: "Do’a Di Rukun Syami ",
+                        arab: {
+                            arab: "اللّٰهُمَّ اجْعَلْهُ عُمْرَةً مَبْرُوْرَةً وَسَعْيًا مَشْكُوْرًا وَذَنْبًا مَغْفُوْرًا وَتِجَارَةً لَنْ تَبُوْرَ يَا عَزِيْزُ يَا غَفُوْرُ رَبِّ اغْفِرْ وَارْحَمْ وَتَجَاوَزْ عَمَّا تَعْلَمُ إِنَّكَ أَنْتَ الأَعَزُّ الأَكْرَمُ ",
+                            translate:
+                                "Ya Allah jadikanlah umroh ini sebagai umroh yang mabrur, sa’i yang diterima, dosa yang diampuni, amal saleh yang diterima, dan usaha yang tidak akan rugi. Ya Allah, Yang Maha Perkasa dan Yang Maha Pengampun. Ya Tuhan ku, ampunilah, kasihanilah dan maafkanlah apa-apa yang Engkau ketahui, sesungguhnya Engkau Maha Perkasa dan Maha Mulia",
+                        },
+                    },
+                    {
+                        index: "g",
+                        text: "Do’a Di Rukun Yamani ",
+                        arab: {
+                            arab: "اللّٰهُمَّ إِنِّيْ أَعُوْذُ بِكَ مِنَ الكُفْرِ وَأَعُوْذُ بِكَ مِن الفَقْرِ وَمِنْ عَذَابِ القَبْرِ وَمِنْ فِتْنَةِ الْمَحْيَا وَالْمَمَاتِ وَأَعُوْذُ بِكَ مِنَ الخِزْيِ فِي الدُّنْيَا وَالآخِرَةِ ",
+                            translate:
+                                "Ya Allah, aku berlindung kepada-Mu dari kekufuran, dan aku berlindung kepada-Mu dari kemiskinan, dari siksa kubur, dan dari cobaan hidup dan mati. Aku berlindung kepada-Mu dari kehinaan di dunia dan akhirat",
+                        },
+                    },
+                    {
+                        index: "h",
+                        text: "Do’a Antara Rukun Yamani Dan Hajar Aswad ",
+                        arab: {
+                            arab: "اللّٰهُمَّ آتِنَا فِي الدُّنْيَا حَسَنَةً وَفِي الْآخِرَةِ حَسَنَةً وَقِنَا بِرَحْمَتِكَ فِتْنَةَ القَبْرِ وَعَذَابَ النَّار ",
+                            translate:
+                                "Ya Allah, berilah kami kebaikan di dunia dan kebaikan di akhirat dengan rahmat-Mu hindarkanlah kami dari siksa neraka",
+                        },
+                    },
+                    {
+                        index: "i",
+                        text: "Do’a Saat Thawaf Maulana Syaikh Abdis Salam Ali Syita  ",
+                        arab: {
+                            arab: "اللّٰهُمَّ قَنِّعْنِيْ بِمَا رَزَقْتَنِيْ وَبَارِكْ لِي فِيْهِ وَاخْلُفْ عَلَيَّ كُلَّ غَائِبَةٍ بِخَيْرٍ ",
+                        },
+                    },
+                    {
+                        index: "j",
+                        text: "Do’a  Di Multazam Setelah Selesai Thawaf ",
+                        arab: {
+                            arab: [
+                                "اللّٰهُمَّ يَا رَبَّ الْبَيْتِ الْعَتِيْقِ أَعْتِقْ رَقَبَتِيْ مِنَ النَّارِ وَأَعِذْنِيْ مِنَ الشَّيْطَانِ الرَّجِيْمِ وَأَعِذْنِي مِنْ كُلِّ سُوْءٍ وَقَنِّعْنِيْ بِمَا رَزَقْتَنِيْ وَبَارِكْ لِي فِيْمَا آتَيْتَنِي ",
+                                "اللّٰهُمَّ إِنَّ هَذَا البَيْتَ بـَيْتُكَ وَالعَبْدَ عَبْدُكَ وَهَذَا مَقَامُ العَائِذِ بِكَ مِنَ النَّارِ، اللّٰهُمَّ اجْعَلْنِيْ مِنْ أَكْرَمِ وَفْدِكَ عَلَيْكَ ",
+                                "اللّٰهُمَّ لَكَ الْحَمْدُ حَمْدًا يُوَافِيْ نِعَمَكَ وَيُكافِىءُ مَزِيدَكَ، أَحْمَدُكَ بِجَمِيْعِ مَـحَامِدِكَ مَا عَلِـمْتُ مِنْهَا ومَا لَمْ أعْلَمْ عَلَى جَمِيْعِ نِعَمِكَ مَا عَلِمْتُ مِنْهَا ومَا لَمْ أَعْلَمْ وَعَلَى كُلِّ حَالٍ، اللّٰهُمَّ صَلِّ وَسَلِّمْ عَلَى مُحَمَّدٍ وعَلَى آلِ مُحَمَّدٍ ",
+                                "اللّٰهُمَّ أَعِذْنِيْ مِنَ الشَّيْطَانِ الرَّجِيْمِ وَأَعِذْنِيْ مِنْ كُلِّ سُوْءٍ وَقَنِّعْنِيْ بِمَا رَزَقْتَنِيْ وَبَارِكْ لِي فِـيْهِ ",
+                                "اللّٰهُمَّ اجْعَلْنِيْ مِنْ أَكْرَمِ وَفْدِكَ عَلَـيْكَ وَأَلْزِمْنِيْ سَبِيْلَ الاسْتِقَامَةِ حَتَّى أَلْقَاكَ يَا رَبَّ الْعَالَمِيْنَ ",
+                            ],
+                            translate: [
+                                "Ya Allah Tuhanku yang memelihara Ka’bah ini, merdekakanlah diriku dari siksa neraka, lindungilah aku dari Syaitan yang terkutuk, lindungilah aku dari setiap kejelekan serta puaskanlah aku dengan anugerah yang telah Engkau berikan, berkatilah untukku atas semua yang Engkau anugerahkan kepadaku. Ya Allah, Baitullah ini adalah rumah-Mu, hamba-Mu ini adalah hamba-Mu, dan tempat ini adalah tempat berlindung kepada-mu dari siksa Neraka. Ya Allah, jadikanlah aku hamba yang mulia di sisi-Mu",
+                                "Ya Allah, segala puji bagi-Mu dengan pujian yang sebanding dengan nikmat-nikmat dan kebaikan-Mu, aku memuji-Mu dengan semua pujian kepada-Mu yaitu yang aku ketahui dan yang tidak aku ketahui, aku memuji-Mu atas segala keni’matan-Mu baik yang aku ketahui dan yang tidak aku ketahui dan dalam setiap keadaan. Ya Allah limpahkanlah shalawat dan salam kepada Nabi Muhammad besera keluarganya.",
+                                "Ya Allah lindungilah aku dari setan-setan yang terkutuk dan lindungilah aku dari segala keburuhan dan jadikanlah aku qana’ah menerima apa yang Engkau berikan dan berkahilah di dalamnya untukku",
+                                "Ya Allah jadikanlah aku termasuk orang yang mulai bagi-Mu dan tetapkanlah aku berada dalam keistiqomahan sampai aku bertemu dengan-Mu Wahai Tuhan Pemilik Seluruh Alam",
+                            ],
+                        },
+                    },
+                    {
+                        title: "Do’a Setelah Shalat Sunat Thawaf ",
+                        desc: [
+                            "Kemudian Shalat 2 Rakaat :",
+                            "Raka’at 1: membaca surat al-Kafirun ",
+                            "Raka’at 2: membaca surat al-Ikhlash ",
+                        ],
+                        arab: {
+                            arab: [
+                                "اللّٰهُمَّ يَسِّرْنِيْ لِلْيُسْرَى وَجَنِّبْنِيْ الْعُسْرَى وَاغْفِرْ لِي فِي الآخِرَةِ وَالأُوْلَى  وَاعْصِمْنِيْ بِأَلْطَافِكَ حَتَّى لَا أَعْصِيَكَ وَأَعِنِّيْ عَلَى طَاعَتِكَ بِتَوْفِيْقِكَ وَجَنِّبْنِيْ مَعَاصِيَكَ وَاجْعَلْنِيْ مِمَّنْ يُحِبُّكِ ويُحِبُ مَلَائِكَتَكَ وَرُسُلَكَ وَيُحِبُّ عِبَادَكَ الصَّالِحِيْنَ ",
+                                "اللّٰهُمَّ حَبِّبْنِيْ إِلَى مَلَائِكَتِكَ وَرُسُلِكَ وَإلَى عِبَادِكَ الصَّالِحِيْنَ ",
+                                "اللّٰهُمَّ فَكَمَا هَدَيْتَنِيْ إِلَى الْإِسْلَامِ فَثَبِّتْنِيْ عَلَيْهِ بِأَلْطَافِكَ وَوِلَايَتِكَ وَاسْتَعْمِلْنِيْ لِطَاعَتِكَ وَطَاعَةِ رَسُولِكَ وَأَجِرْنِيْ مِنْ مُضِلَّاتِ الفِتَنِ ",
+                            ],
+                            translate: [
+                                "Ya Allah, mudahkan bagi ku urusan ku dan jauhkanlah aku dari perkara yang sulit serta ampunilah aku di dunia dan di akhirat, lindungilah aku dengan kebaikan-Mu, bantulah aku untuk mematuhi-Mu dengan taufik-Mu, hindarkanlah aku dari membangkang kepada-Mu, jadikanlah aku termasuk orang-orang yang mencintai-Mu, mencintai malaikat-Mu, utusan-Mu dan mencintai hamba-hamba-Mu yang saleh.",
+                                "Ya Allah, tumbuhkanlah rasa cinta ku kepada Malaikat-Malaikat-Mu dan Rasul-Rasul-Mu serta hamba-hamba-Mu yang saleh. Ya Allah, sebagaimana Engkau telah membimbingku ke dalam Islam Islam, maka kuatkanlah aku atasnya dengan kebaikan dan penjagaan-Mu, pergunakanlah aku untuk ta’at dan patuh kepada-Mu dan kepada Rasul-Mu, lindungilah aku dari cobaan-cobaan yang menyesatkan",
+                            ],
+                        },
+                    },
+                    {
+                        title: "Do’a Di Dalam Hijir Ismail ",
+                        arab: {
+                            arab: "يَا رَبِّ أَتَيْتُكَ مِنْ شُقَّةٍ بَعِيْدَةٍ مُؤْمِلاً مَعْرُوْفَكَ فَأَنِلْنِيْ مَعْرُوْفـًا مِنْ مَعْرُوفِكَ تُغْنِيْنِيْ بِهِ عَنْ مَعْرُوفِ مَنْ سِوَاكَ يَا مَعْرُوْفاً بِالْمَعْرُوفِ ",
+                            translate:
+                                "Wahai Tuhanku, Aku mendatangi-Mu dari negeri yang jauh, mengharapkan kebaikan-Mu, maka berikanlah kepadaku kebaikan-kebaikan-Mu yang mencukupi aku dari kebaikan selain-Mu, Wahai Zat Pemberi Kebaikan",
+                        },
+                    },
+                    {
+                        title: "Do’a Setelah Thawaf Wada’",
+                        arab: {
+                            arab: [
+                                "اللّٰهُمَّ إِنَّ الْبَيْتَ بَيْتُكَ وَالْعَبْدَ عَبْدُكَ وَابْنُ عَبْدِكَ وَابْنُ أَمَتِكَ حَمَلْتَنِيْ عَلَى مَا سَخَّرْتَ لِيْ مِنْ خَلْقِكَ حَتَّى سَيَّرْتَنِيْ فِيْ بِلَادِكَ وَبَلَّغْتَنِيْ بِنِعْمَتِكَ حَتَّى أَعَنْتَنِيْ عَلَى قَضَاءِ مَنَاسِكِكَ، فَإِنْ كُنْتَ رَضِيْتَ عَنِّيْ فَازْدَدْ عَنِّيْ رِضًا وَإِلَّا فَمُنَّ الْآنَ قَبْلَ تَبَاعُدِيْ عَنْ بَيْتِكَ هَذَا أَوَانُ انْصِرَافِيْ إِنْ أَذِنْتَ لِيْ غَيْرَ مُسْتَبْدِلٍ بِكَ وَلَا بِبَـيْتِكَ وَلَا رَاغِبٍ عَنْكَ وَلَا عَنْ بَيْتِكَ ",
+                                "اللّٰهُمَّ أَصْحِبْنِيَ الْعَافِيَةَ فِيْ بَدَنِيْ وَالْعِصْمَةَ فِيْ دِيْنِيْ وَأَحْسِنْ مُنْقَلَبِيْ وَارْزُقْنِيْ طَاعَتَكَ أَبَدًا مَا أَبْقَيْتَنِيْ وَاجْمَعْ لِيْ خَيْرَ الدُّنْيَا وَالْآخِرَةَ إِنَّكَ عَلَى كُلِّ شَيْءٍ قَدِيْرٌ. ",
+                                "اللّٰهُمَّ لَا تَجْعَلْ هَذَا آخِرَ عَهْدِيْ بِبَيْتِكَ الْحَرَامِ وَإِنْ جَعَلْتَهُ آخِرَ عَهْدِيْ فَعَوِّضْنِيْ عَنْهُ الْجَنَّةَ ",
+                            ],
+                            translate: [
+                                "Ya Allah, baitullah (rumah) ini adalah rumah-Mu, dan hamba ini adalah hamba-Mu, anak hamba laki-laki-Mu, dan anak hamba perempuan-Mu.“Engkau telah membawaku melalui apa yang telah Engkau tundukkan kepadaku dari kalangan makhluk-Mu sehingga Engkau menyampaikan diriku ke negeri-Mu serta memberiku bekal dengan nikmat-Mu hingga Engkau membantuku untuk menunaikan ibadah-ibadah kepada-Mu. Jika Engkau ridla kepadaku, maka tambahkanlah keridaan-Mu kepadaku dan jika tidak, maka sejak sekarang (ridailah diriku) sebelum aku menjauh dari rumah-Mu. Sekarang adalah waktu keberangkatan pulangku jika Engkau mengizinkanku, bukan karena aku ingin melupakan-Mu dan rumah-Mu, serta bukan karena rasa benci kepada-Mu dan rumah-Mu.",
+                                "Ya Allah, sertakanlah selalu kesentosaan pada badanku dan penjagaan pada agamaku. Baguskanlah tempat kembaliku, dan berilah aku rezeki ketaatan kepada-Mu selama Engkau menghidupkanku, dan himpunlah bagiku kebaikan di akhirat dan di dunia, sesungguhnya Engkau Maha Kuasa atas segala sesuatu.",
+                                "Ya Allah, janganlah Engkau menjadikan ini perjumpaan terakhir aku dengan Rumah Suci-Mu, dan jika Engkau menjadikannya yang terakhir dari perjumpaanku, maka gantikan  untukku  dengan surga.",
+                            ],
+                        },
+                    },
+                ],
+            },
+            {
                 label: "Bagian Kelima Belas",
                 data: [
                     { title: "RANGKAIAN DO’A SETELAH MELAKSANAKAN HAJI/UMRAH" },
