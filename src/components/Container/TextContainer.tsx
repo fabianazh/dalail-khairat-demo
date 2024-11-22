@@ -29,7 +29,11 @@ export default function TextContainer({
                     <>
                         <li key={index} className="flex flex-col gap-1">
                             {content.title && (
-                                <Title placeItem="center" size="sm">
+                                <Title
+                                    placeItem="center"
+                                    size="sm"
+                                    className="mt-4"
+                                >
                                     {content.title}
                                 </Title>
                             )}
@@ -47,7 +51,19 @@ export default function TextContainer({
                                     <Text text={`${content.text}`} />
                                 </div>
                             )}
-                            {content.desc && <Text text={`${content.desc}`} />}
+                            {content.desc &&
+                                (Array.isArray(content.desc) ? (
+                                    content.desc.map(
+                                        (desc: string, index: number) => (
+                                            <Text
+                                                key={index}
+                                                text={`${desc}`}
+                                            />
+                                        )
+                                    )
+                                ) : (
+                                    <Text text={`${content.desc}`} />
+                                ))}
                             {content.arab && (
                                 <>
                                     <div className="w-full flex flex-col gap-3 py-1.5">
@@ -84,45 +100,14 @@ export default function TextContainer({
                                         ) : (
                                             <Latin>{content.arab.latin}</Latin>
                                         )}
-                                        {Array.isArray(
-                                            content.arab.translate
-                                        ) ? (
-                                            content.arab.translate.map(
-                                                (
-                                                    translate: string,
-                                                    index: number
-                                                ) => (
-                                                    <Translate
-                                                        key={index}
-                                                        className="inline-block"
-                                                        source={
-                                                            Array.isArray(
-                                                                content.arab
-                                                                    ?.source
-                                                            )
-                                                                ? content.arab
-                                                                      .source[0]
-                                                                : content.arab
-                                                                      ?.source
-                                                        }
-                                                    >
-                                                        {translate}
-                                                    </Translate>
-                                                )
-                                            )
-                                        ) : (
+                                        {content.arab.translate && (
                                             <Translate
                                                 className="inline-block"
-                                                source={
-                                                    Array.isArray(
-                                                        content.arab.source
-                                                    )
-                                                        ? content.arab.source[0]
-                                                        : content.arab.source
+                                                source={content.arab.source}
+                                                translate={
+                                                    content.arab?.translate
                                                 }
-                                            >
-                                                {content.arab.translate}
-                                            </Translate>
+                                            />
                                         )}
                                     </div>
                                 </>

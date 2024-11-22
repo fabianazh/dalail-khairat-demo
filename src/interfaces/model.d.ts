@@ -9,7 +9,7 @@ interface TextData {
     author?: string;
     index?: string;
     text?: string;
-    desc?: string;
+    desc?: string | string[];
     content?: {
         index?: string;
         text?: string;

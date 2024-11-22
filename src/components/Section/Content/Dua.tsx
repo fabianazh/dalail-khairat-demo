@@ -29,7 +29,7 @@ export default function Dua({ doaId }: { doaId: string }) {
                             ) => (
                                 <div
                                     key={index}
-                                    className="w-full flex flex-col gap-2"
+                                    className="w-full flex flex-col gap-2 mt-6"
                                 >
                                     <h1 className="text-center font-bold text-xl lg:text-2xl uppercase">
                                         {item.label}
