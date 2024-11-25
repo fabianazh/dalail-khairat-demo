@@ -6,7 +6,7 @@ export const duas: TabContent[] = [
         tab: [
             {
                 label: "<span>Puta</span><span>ran 1</span>",
-                audio: "/audio/doa/Doa Thowaf Putaran ke 1.MP3",
+                audio: "/audio/doa/Doa Thowaf Putaran Ke 1.MP3",
                 data: [
                     {
                         index: "1",
@@ -59,7 +59,7 @@ export const duas: TabContent[] = [
             },
             {
                 label: "<span>Puta</span><span>ran 2</span>",
-                audio: "/audio/doa/Doa Thowaf Putaran ke 2.MP3",
+                audio: "/audio/doa/Doa Thowaf Putaran Ke 2.MP3",
                 data: [
                     {
                         title: "PUTARAN 2",
@@ -94,7 +94,7 @@ export const duas: TabContent[] = [
             },
             {
                 label: "<span>Puta</span><span>ran 3</span>",
-                audio: "/audio/doa/Doa Thowaf Putaran ke 3.MP3",
+                audio: "/audio/doa/Doa Thowaf Putaran Ke 3.MP3",
                 data: [
                     {
                         title: "PUTARAN 3",
@@ -129,7 +129,7 @@ export const duas: TabContent[] = [
             },
             {
                 label: "<span>Puta</span><span>ran 4</span>",
-                audio: "/audio/doa/Doa Thowaf Putaran ke 4.MP3",
+                audio: "/audio/doa/Doa Thowaf Putaran Ke 4.MP3",
                 data: [
                     {
                         title: "PUTARAN 4",
@@ -164,7 +164,7 @@ export const duas: TabContent[] = [
             },
             {
                 label: "<span>Puta</span><span>ran 5</span>",
-                audio: "/audio/doa/Doa Thowaf Putaran ke 5.MP3",
+                audio: "/audio/doa/Doa Thowaf Putaran Ke 5.MP3",
                 data: [
                     {
                         title: "PUTARAN 5",
@@ -199,7 +199,7 @@ export const duas: TabContent[] = [
             },
             {
                 label: "<span>Puta</span><span>ran 6</span>",
-                audio: "/audio/doa/Doa Thowaf Putaran ke 6.MP3",
+                audio: "/audio/doa/Doa Thowaf Putaran Ke 6.MP3",
                 data: [
                     {
                         title: "PUTARAN 6",
@@ -234,7 +234,7 @@ export const duas: TabContent[] = [
             },
             {
                 label: "<span>Puta</span><span>ran 7</span>",
-                audio: "/audio/doa/Doa Thowaf Putaran ke 7.MP3",
+                audio: "/audio/doa/Doa Thowaf Putaran Ke 7.MP3",
                 data: [
                     {
                         title: "PUTARAN 7",
