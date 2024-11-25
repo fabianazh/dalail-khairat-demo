@@ -511,7 +511,7 @@ export const duas: TabContent[] = [
             },
             {
                 label: "<span>Jal</span><span>an 6</span>",
-                audio: "/audio/doa/Doa Sai ke 6.MP3",
+                audio: "/audio/doa/Doa Sai Ke 6.MP3",
                 data: [
                     {
                         title: "PERJALANAN KE 6 (MARWAH-SHOFA)",
@@ -547,7 +547,7 @@ export const duas: TabContent[] = [
             },
             {
                 label: "<span>Jal</span><span>an 7</span>",
-                audio: "/audio/doa/Doa Sai ke 7.MP3",
+                audio: "/audio/doa/Doa Sai Ke 7.MP3",
                 data: [
                     {
                         title: "PERJALANAN KE 7 (SHOFA-MARWAH)",
