@@ -1,6 +1,6 @@
 "use client";
 
-import { useState } from "react";
+import { useEffect, useState } from "react";
 import { useSwipeable } from "react-swipeable";
 import TextContainer from "@/components/Container/TextContainer";
 import { roboto } from "@/app/fonts";
@@ -36,6 +36,10 @@ export default function TabContainer({
         onSwipedLeft: () => handleSwipe(-1),
         onSwipedRight: () => handleSwipe(1),
     });
+
+    useEffect(() => {
+        window.scrollTo(0, 0);
+    }, [activeTab]);
 
     return (
         <div {...swipeHandlers} className="w-full overflow-x-hidden">
